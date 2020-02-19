@@ -5,6 +5,8 @@ import './author.scss'
 
 class Authors extends Component {
     render () {
+        console.log('ddd')
+
         const authors = this.props.authors.map(item => (
             <li key={item.id}>
                     <span>
