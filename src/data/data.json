@@ -9,9 +9,9 @@
       "yearsOfLife": [
         "1904 - 1980"
       ],
-      "image": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
-      "biography": [
-        [
+      "photo": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
+      "biography": {
+        "by" : [
           {
             "date": "1904",
             "event": "Нарадзілася ў Мінску"
@@ -37,7 +37,7 @@
             "event": "Галоўны рэжысёр Беларускага тэатра оперы і балета."
           }
         ],
-        [
+        "ru": [
           {
             "date": "1904",
             "event": "Родилась в Минске"
@@ -63,7 +63,7 @@
             "event": "Главный режисер белорусского театра оперы и балета."
           }
         ],
-        [
+        "en": [
           {
             "date": "1904",
             "event": "Born in Minsk."
@@ -89,9 +89,9 @@
             "event": "Main Director of the Belarusian Opera and Ballet Theater."
           }
         ]
-      ],
-      "workList": [
-        [
+      },
+      "workList": {
+        "by": [
           {
             "date": "1951",
             "event": "\"Запарожац за Дунаем\" С. Гулак-Арцямоўскага"
@@ -129,7 +129,7 @@
             "event": "\"Пікавая дама\" П. Чайкоўскага"
           }
         ],
-        [
+        "ru": [
           {
             "date": "1951",
             "event": "\"Запорожец за дунаем\" С. С. Гулак-Артемовского"
@@ -167,7 +167,7 @@
             "event": "\"Пиковая дама\" П. Чайковского"
           }
         ],
-        [
+        "en": [
           {
             "date": "1951",
             "event": "\"Zaporozhets beyond the Danube\" S. Gulak-Artemovsky"
@@ -205,7 +205,13 @@
             "event": "\"The Queen of Spades\" P. Chaykovsky"
           }
         ]
+      },
+      "images": [
+        "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
+        "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
+        "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg"
       ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
       "map": "53.909919, 27.561049"
     },
     {
@@ -217,9 +223,9 @@
       "yearsOfLife": [
         "1861 - 1917"
       ],
-      "image": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ihnat_Bujnicki.jpg",
-      "biography": [
-        [
+      "photo": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ihnat_Bujnicki.jpg",
+      "biography": {
+        "by": [
           {
             "date": "1861",
             "event": "Нарадзіўся ў фальварку Палівачы, Празароцкая воласць (цяпер Глыбоцкі раён)"
@@ -241,7 +247,7 @@
             "event": "З-за матэрыяльных цяжкасцей і ўціску царскіх уладаў дзейнасць трупы была спыненая"
           }
         ],
-        [
+        "ru": [
           {
             "date": "1861",
             "event": "Родился в усадьбе Поливачи, Прозорокской волости (теперь Глубокский район)"
@@ -263,7 +269,7 @@
             "event": "Из-за материальных проблем и давлении царских властей деятельность трупы была остановлена."
           }
         ],
-        [
+        "en": [
           {
             "date": "1861",
             "event": "Born in the estate of Polivachi, Prozorok volost (now Glubokoe district)"
@@ -285,9 +291,9 @@
             "event": "Due to material problems and the requirements of the tsarist government, activity was stopped."
           }
         ]
-      ],
-      "workList": [
-        [
+      },
+      "workList": {
+        "by": [
           {
             "date": "1907-1913",
             "event": "Танцы \"\"Лявоніха\", \"Юрка\", \"Верабей\", \"Мяцеліца\", \"Гняваш\", \"Мельнік\", \"Антошка\", \"Чобат\", \"Качан\", \"Чабор\", \"Полька\""
@@ -301,7 +307,7 @@
             "event": "Пьесы \"Па рэвізіі\" і \"Пашыліся ў дурні\" М. Крапіўніцкага, \"Хам\" і \"У зімовы вечар\" паводле Э. Ажэшкі, \"Модны шляхцюк\" К. Каганца"
           }
         ],
-        [
+        "ru": [
           {
             "date": "1907-1913",
             "event": "Танцы \"Лявониха\", \"Юрка\", \"Воробей\", \"Метелица\", \"Мельник\", \"Антошка\", \"Кочан\", \"Черёмуха\", \"Полька\""
@@ -315,7 +321,7 @@
             "event": "Пьесы М. Крапивницкого \"По ревизии\" и \"Пошились в дурни\", Э. Ожешко \"Хам\" и \"В зимний вечер\", К. Каганца \"Модный шляхтич\" "
           }
         ],
-        [
+        "en": [
           {
             "date": "1907-1913",
             "event": "Dancing \" Lyavonikha\", \" Yurka\", \" Sparrow\", \" Snowstorm\", \" Miller\", \" Antoshka\", \" Kochan\", \"Bird cherry\", \"Polka\""
@@ -329,7 +335,8 @@
             "event": "M. Krapivnitsky’s plays \"According to the revision\" and \"Sewed in fools\", E. Orzeszko \"Ham\" and \"In the winter evening\", K. Kaganets\" Fashionable gentry\""
           }
         ]
-      ],
+      },
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
       "map": "55.282466, 28.222641"
     }
   ]
