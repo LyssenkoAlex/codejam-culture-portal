@@ -1,7 +1,7 @@
 import {
     SHOW_AUTHOR
 } from "../actions/actions";
-import authorData from '../../data/data';
+import authorData from '../../data/data_old';
 
 
 const initialState = {
