@@ -1,0 +1,43 @@
+{
+  "authors": [
+    {
+      "id": "1",
+      "name": {
+        "ru": "1Author_ru",
+        "en": "1Author_en",
+        "by": "1Author_by"
+      },
+      "dates": {
+        "death_date": "1985",
+        "birth_dates": "1965"
+      },
+      "place_of_birth": "Minsk"
+    },
+    {
+      "id": "2",
+      "name": {
+        "ru": "2Author_ru",
+        "en": "2Author_en",
+        "by": "2Author_by"
+      },
+      "dates": {
+        "death_date": "1985",
+        "birth_dates": "1965"
+      },
+      "place_of_birth": "Kiev"
+    },
+    {
+      "id": "3",
+      "name": {
+        "ru": "3Author_ru",
+        "en": "3Author_en",
+        "by": "3Author_by"
+      },
+      "dates": {
+        "death_date": "1985",
+        "birth_dates": "1965"
+      },
+      "place_of_birth": "Almaty"
+    }
+  ]
+}
