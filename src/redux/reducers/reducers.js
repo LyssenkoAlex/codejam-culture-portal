@@ -1,29 +1,29 @@
 import {
-    SHOW_AUTHOR
+    SHOW_DIRECTOR
 } from "../actions/actions";
-import authorData from '../../data/data_old';
+import directorsData from '../../data/data';
 
 
 const initialState = {
-    authors:authorData.authors,
-    authorOfTheDay:0,
-    selectedAuthor:5
+    directors:directorsData.directors,
+    directorsOfTheDay:0,
+    selectedDirector:5
 };
 
 
 
-function authorsRootReducer(state = initialState, action) {
-    console.log('state.authors', state.authors);
+function directorsRootReducer(state = initialState, action) {
+    console.log('state.Directors', state.authors);
     switch (action.type) {
-        case SHOW_AUTHOR:
+        case SHOW_DIRECTOR:
             return {
-                authors:state.authors,
-                authorOfTheDay:state.authorOfTheDay,
-                selectedAuthor:state.selectedAuthor
+                directors:state.directors,
+                directorsOfTheDay:state.directorsOfTheDay,
+                selectedDirector:state.selectedDirector
             };
         default:
             return state;
     }
 }
 
-export default authorsRootReducer;
+export default directorsRootReducer;

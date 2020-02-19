@@ -1,12 +1,12 @@
 import React from 'react';
-import Authors from "./components/authors/Authors.jsx";
+import Directors from "./components/Directors/Directors.jsx";
 
 
 
 function App() {
   return (
     <React.Fragment>
-    <Authors/>
+    <Directors />
     </React.Fragment>
   );
 }

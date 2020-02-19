@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import './author.scss'
+import './Directors.scss'
 
-class Authors extends Component {
+class Directors extends Component {
     render () {
         console.log('ddd')
 
-        const authors = this.props.authors.map(item => (
+        const authors = this.props.directors.map(item => (
             <li key={item.id}>
                     <span>
                         {item.name.ru}
@@ -26,11 +26,11 @@ class Authors extends Component {
 }
 
 const mapStateToProps = state => ({
-    authors: state.authors,
+    directors: state.directors,
 });
-export default connect(mapStateToProps)(Authors);
+export default connect(mapStateToProps)(Directors);
 
-Authors.propTypes = {
-    authors: PropTypes.arrayOf(PropTypes.any).isRequired,
+Directors.propTypes = {
+    directors: PropTypes.arrayOf(PropTypes.any).isRequired,
 };
 

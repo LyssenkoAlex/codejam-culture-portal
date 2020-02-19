@@ -1,119 +1,336 @@
 {
-    "directors" : [
-        {
-            "name" : ["Ларыса Пампееўна Александроўская", "Лариса Помпеевна Александровская", "Larysa Alexandrovskaya"],
-            "yearsOfLife" : ["1904 - 1980"],
-            "image": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
-            "biography": [
-                [
-                    {"date": "1904", "event": "Нарадзілася ў Мінску"},
-                    {"date": "1928", "event": "Скончыла Беларускі музычны тэхнікум, клас спеваў В. А. Цвяткова"},
-                    {"date": "1933", "event": "Скончыла студыю оперы і балета ў Мінску, вучаніца А. П. Баначыча."},
-                    {"date": "З 1933 года", "event": "Артыстка Беларускага тэатра оперы і балета."},
-                    {"date": "1919-1924", "event": "Удзельніца арганізаванай ёю самадзейнай трупы пры Палітаддзеле Заходняга фронту"},
-                    {"date": "1951—1960", "event": "Галоўны рэжысёр Беларускага тэатра оперы і балета."}
-                ],
-                [
-                    {"date": "1904", "event": "Родилась в Минске"},
-                    {"date": "1928", "event": "Окончила Белорусский музыкальный техникум, класс пения В. А. Цветкова"},
-                    {"date": "1933", "event": "Окончила студию оперы и балета в Минске, ученица А. П. Баначича."},
-                    {"date": "С 1933 года", "event": "Артистка Белорусского театра оперы и балета."},
-                    {"date": "1919-1924", "event": "Участница организованой ею трупы при Политотделе Западного фронта"},
-                    {"date": "1951—1960", "event": "Главный режисер белорусского театра оперы и балета."}
-                ],
-                [
-                    {"date": "1904", "event": "Born in Minsk."},
-                    {"date": "1928", "event": "Graduated Belarus musical College, V. A. Tsvetkov singing class."},
-                    {"date": "1933", "event": "Graduated the opera and ballet studio in Minsk, a student of A. Banachycha."},
-                    {"date": "Since 1933", "event": "Actress of the Belarusian Opera and Ballet Theater."},
-                    {"date": "1919-1924", "event": "A participant in the corpses she organized at the Political Department of the Western Front"},
-                    {"date": "1951—1960", "event": "Main Director of the Belarusian Opera and Ballet Theater."}
-                ]
-            ],
-            "workList": [
-                [   
-                    {"date": "1951", "event": "\"Запарожац за Дунаем\" С. Гулак-Арцямоўскага"},
-                    {"date": "1951", "event": "\"Ціхі Дон\" І. І. Дзяржынскага"},
-                    {"date": "1952", "event": "\"Страшны двор\" С. Манюшкі"},
-                    {"date": "1953", "event": "\"Аіда\" Джузэпэ Вердзі"},
-                    {"date": "1954", "event": "\"Барыс Гадуноў\" М. Мусаргскага"},
-                    {"date": "1954", "event": "\"Травіята\"  Джузэпэ Вердзі"},
-                    {"date": "1955", "event": "\"Трубадур\"  Джузэпэ Вердзі"},
-                    {"date": "1957", "event": "\"Міхась Падгорны\" Я. Цікоцкага"},
-                    {"date": "1960", "event": "\"Пікавая дама\" П. Чайкоўскага"}
-                ],
-                [   
-                    {"date": "1951", "event": "\"Запорожец за дунаем\" С. С. Гулак-Артемовского"},
-                    {"date": "1951", "event": "\"Тихий Дон\" И. И. Дзержинского"},
-                    {"date": "1952", "event": "\"Страшный двор\" С. Манюшки"},
-                    {"date": "1953", "event": "\"Аида\" Джузепе Верди"},
-                    {"date": "1954", "event": "\"Борис Годунов\" М. Мусоргского"},
-                    {"date": "1954", "event": "\"Травиата\"  Джузепе Верди"},
-                    {"date": "1955", "event": "\"Трубадур\"  Джузепе Верди"},
-                    {"date": "1957", "event": "\"Михась Подгорный\" Я. Цикотского"},
-                    {"date": "1960", "event": "\"Пиковая дама\" П. Чайковского"}
-                ],
-                [   
-                    {"date": "1951", "event": "\"Zaporozhets beyond the Danube\" S. Gulak-Artemovsky"},
-                    {"date": "1951", "event": "\" Tsіkhі Don\" І. І. Dzyarzhynsky"},
-                    {"date": "1952", "event": "\"The yard is terrible\" S. Manyushko"},
-                    {"date": "1953", "event": "\"Aіda\" Giuseppe Verdi"},
-                    {"date": "1954", "event": "\"Barys Gadunov\" M. Musorgsky"},
-                    {"date": "1954", "event": "\"Herbs\" Giuseppe Verdi"},
-                    {"date": "1955", "event": "\"Troubadour\" Giuseppe Verdi"},
-                    {"date": "1957", "event": "\"Mikhas Padgorny\" Y. Tsikotsky"},
-                    {"date": "1960", "event": "\"The Queen of Spades\" P. Chaykovsky"}
-
-                ]
-            ],
-            "map": "53.909919, 27.561049"
+  "directors": [
+    {
+      "name": {
+        "by": "Ларыса Пампееўна Александроўская",
+        "ru": "Лариса Помпеевна Александровская",
+        "en": "Larysa Alexandrovskaya"
+      },
+      "yearsOfLife": [
+        "1904 - 1980"
+      ],
+      "image": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
+      "biography": [
+        [
+          {
+            "date": "1904",
+            "event": "Нарадзілася ў Мінску"
+          },
+          {
+            "date": "1928",
+            "event": "Скончыла Беларускі музычны тэхнікум, клас спеваў В. А. Цвяткова"
+          },
+          {
+            "date": "1933",
+            "event": "Скончыла студыю оперы і балета ў Мінску, вучаніца А. П. Баначыча."
+          },
+          {
+            "date": "З 1933 года",
+            "event": "Артыстка Беларускага тэатра оперы і балета."
+          },
+          {
+            "date": "1919-1924",
+            "event": "Удзельніца арганізаванай ёю самадзейнай трупы пры Палітаддзеле Заходняга фронту"
+          },
+          {
+            "date": "1951—1960",
+            "event": "Галоўны рэжысёр Беларускага тэатра оперы і балета."
+          }
+        ],
+        [
+          {
+            "date": "1904",
+            "event": "Родилась в Минске"
+          },
+          {
+            "date": "1928",
+            "event": "Окончила Белорусский музыкальный техникум, класс пения В. А. Цветкова"
+          },
+          {
+            "date": "1933",
+            "event": "Окончила студию оперы и балета в Минске, ученица А. П. Баначича."
+          },
+          {
+            "date": "С 1933 года",
+            "event": "Артистка Белорусского театра оперы и балета."
+          },
+          {
+            "date": "1919-1924",
+            "event": "Участница организованой ею трупы при Политотделе Западного фронта"
+          },
+          {
+            "date": "1951—1960",
+            "event": "Главный режисер белорусского театра оперы и балета."
+          }
+        ],
+        [
+          {
+            "date": "1904",
+            "event": "Born in Minsk."
+          },
+          {
+            "date": "1928",
+            "event": "Graduated Belarus musical College, V. A. Tsvetkov singing class."
+          },
+          {
+            "date": "1933",
+            "event": "Graduated the opera and ballet studio in Minsk, a student of A. Banachycha."
+          },
+          {
+            "date": "Since 1933",
+            "event": "Actress of the Belarusian Opera and Ballet Theater."
+          },
+          {
+            "date": "1919-1924",
+            "event": "A participant in the corpses she organized at the Political Department of the Western Front"
+          },
+          {
+            "date": "1951—1960",
+            "event": "Main Director of the Belarusian Opera and Ballet Theater."
+          }
+        ]
+      ],
+      "workList": [
+        [
+          {
+            "date": "1951",
+            "event": "\"Запарожац за Дунаем\" С. Гулак-Арцямоўскага"
+          },
+          {
+            "date": "1951",
+            "event": "\"Ціхі Дон\" І. І. Дзяржынскага"
+          },
+          {
+            "date": "1952",
+            "event": "\"Страшны двор\" С. Манюшкі"
+          },
+          {
+            "date": "1953",
+            "event": "\"Аіда\" Джузэпэ Вердзі"
+          },
+          {
+            "date": "1954",
+            "event": "\"Барыс Гадуноў\" М. Мусаргскага"
+          },
+          {
+            "date": "1954",
+            "event": "\"Травіята\"  Джузэпэ Вердзі"
+          },
+          {
+            "date": "1955",
+            "event": "\"Трубадур\"  Джузэпэ Вердзі"
+          },
+          {
+            "date": "1957",
+            "event": "\"Міхась Падгорны\" Я. Цікоцкага"
+          },
+          {
+            "date": "1960",
+            "event": "\"Пікавая дама\" П. Чайкоўскага"
+          }
+        ],
+        [
+          {
+            "date": "1951",
+            "event": "\"Запорожец за дунаем\" С. С. Гулак-Артемовского"
+          },
+          {
+            "date": "1951",
+            "event": "\"Тихий Дон\" И. И. Дзержинского"
+          },
+          {
+            "date": "1952",
+            "event": "\"Страшный двор\" С. Манюшки"
+          },
+          {
+            "date": "1953",
+            "event": "\"Аида\" Джузепе Верди"
+          },
+          {
+            "date": "1954",
+            "event": "\"Борис Годунов\" М. Мусоргского"
+          },
+          {
+            "date": "1954",
+            "event": "\"Травиата\"  Джузепе Верди"
+          },
+          {
+            "date": "1955",
+            "event": "\"Трубадур\"  Джузепе Верди"
+          },
+          {
+            "date": "1957",
+            "event": "\"Михась Подгорный\" Я. Цикотского"
+          },
+          {
+            "date": "1960",
+            "event": "\"Пиковая дама\" П. Чайковского"
+          }
+        ],
+        [
+          {
+            "date": "1951",
+            "event": "\"Zaporozhets beyond the Danube\" S. Gulak-Artemovsky"
+          },
+          {
+            "date": "1951",
+            "event": "\" Tsіkhі Don\" І. І. Dzyarzhynsky"
+          },
+          {
+            "date": "1952",
+            "event": "\"The yard is terrible\" S. Manyushko"
+          },
+          {
+            "date": "1953",
+            "event": "\"Aіda\" Giuseppe Verdi"
+          },
+          {
+            "date": "1954",
+            "event": "\"Barys Gadunov\" M. Musorgsky"
+          },
+          {
+            "date": "1954",
+            "event": "\"Herbs\" Giuseppe Verdi"
+          },
+          {
+            "date": "1955",
+            "event": "\"Troubadour\" Giuseppe Verdi"
+          },
+          {
+            "date": "1957",
+            "event": "\"Mikhas Padgorny\" Y. Tsikotsky"
+          },
+          {
+            "date": "1960",
+            "event": "\"The Queen of Spades\" P. Chaykovsky"
+          }
+        ]
+      ],
+      "map": "53.909919, 27.561049"
+    },
+    {
+        "name": {
+            "by": "Ігнат Цярэнцьевіч Буйніцкі",
+            "ru": "Игнат Терентьевич Буйницкий",
+            "en": "Ignat Buinitsky"
         },
-
-        {
-            "name" : ["Ігнат Цярэнцьевіч Буйніцкі", "Игнат Терентьевич Буйницкий", "Ignat Buinitsky"],
-            "yearsOfLife" : ["1861 - 1917"],
-            "image": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ihnat_Bujnicki.jpg",
-            "biography": [
-                [
-                    {"date": "1861", "event": "Нарадзіўся ў фальварку Палівачы, Празароцкая воласць (цяпер Глыбоцкі раён)"},
-                    {"date": "1907", "event": "Заснаваў самадзейны тэатр"},
-                    {"date": "1910", "event": "Тэатр Буйніцкага прыняў удзел у прадстаўленні, якое ўвайшло ў гісторыю пад назвай \"Першая беларуская вечарынка ў Вільні\""},
-                    {"date": "1910—1913", "event": "Гастрoлi па Беларусі, Пецярбургу, Варшаве"},
-                    {"date": "1913", "event": "З-за матэрыяльных цяжкасцей і ўціску царскіх уладаў дзейнасць трупы была спыненая"}
-                ],
-                [
-                    {"date": "1861", "event": "Родился в усадьбе Поливачи, Прозорокской волости (теперь Глубокский район)"},
-                    {"date": "1907", "event": "Основал театр самодеятельности"},
-                    {"date": "1910", "event": "Театр Буйницкого принял участие в представлении, которое вошло в историю под названием \"Первая публичная белорусская вечеринка в Вильне\""},
-                    {"date": "1910—1913", "event": "Гастроли по Беларуси, Петербургу, Варшаве"},
-                    {"date": "1913", "event": "Из-за материальных проблем и давлении царских властей деятельность трупы была остановлена."}
-                ],
-                [
-                    {"date": "1861", "event": "Born in the estate of Polivachi, Prozorok volost (now Glubokoe district)"},
-                    {"date": "1907", "event": "Founded the amateur theater"},
-                    {"date": "1910", "event": "The Buynitsky Theater took part in a performance that went down in history under the name \"The first public Belarusian party in Vilna\""},
-                    {"date": "1910-1913", "event": "Tours in Belarus, St. Petersburg, Warsaw"},
-                    {"date": "1913", "event": "Due to material problems and the requirements of the tsarist government, activity was stopped."}
-                ]
-            ],
-            "workList": [
-                [   
-                    {"date": "1907-1913", "event": "Танцы \"\"Лявоніха\", \"Юрка\", \"Верабей\", \"Мяцеліца\", \"Гняваш\", \"Мельнік\", \"Антошка\", \"Чобат\", \"Качан\", \"Чабор\", \"Полька\""},
-                    {"date": "1907-1913", "event": "Песнi \"Дуда-весялуха\", \"Ах ты дзьмі\", \"Падушачка\", \"За гарамі, за лясамі\", \"Ох ты дуб\", \"Прыляцелі гусі\""},
-                    {"date": "1907-1913", "event": "Пьесы \"Па рэвізіі\" і \"Пашыліся ў дурні\" М. Крапіўніцкага, \"Хам\" і \"У зімовы вечар\" паводле Э. Ажэшкі, \"Модны шляхцюк\" К. Каганца"}
-                ],
-                [   
-                    {"date": "1907-1913", "event": "Танцы \"Лявониха\", \"Юрка\", \"Воробей\", \"Метелица\", \"Мельник\", \"Антошка\", \"Кочан\", \"Черёмуха\", \"Полька\""},
-                    {"date": "1907-1913", "event": "Песнi \"Дуда-веселуха\", \"Ах ты дуй\", \"Подушечка\", \"За горами, за лесами\", \"Ох ты дуб\", \"Прилетели гуси\". "},
-                    {"date": "1907-1913", "event": "Пьесы М. Крапивницкого \"По ревизии\" и \"Пошились в дурни\", Э. Ожешко \"Хам\" и \"В зимний вечер\", К. Каганца \"Модный шляхтич\" "}
-                ],
-                [   
-                    {"date": "1907-1913", "event": "Dancing \" Lyavonikha\", \" Yurka\", \" Sparrow\", \" Snowstorm\", \" Miller\", \" Antoshka\", \" Kochan\", \"Bird cherry\", \"Polka\""},
-                    {"date": "1907-1913", "event": "Songs \" Duda-merry\" , \" Ah you blow\" , \" Pillow\" , \" Over the mountains, behind the forests\" ,\" Oh, you oak\", \"Geese flew in\"."},
-                    {"date": "1907-1913", "event": "M. Krapivnitsky’s plays \"According to the revision\" and \"Sewed in fools\", E. Orzeszko \"Ham\" and \"In the winter evening\", K. Kaganets\" Fashionable gentry\""}
-                ]
-            ],
-            "map": "55.282466, 28.222641"
-        }
-    ]
+      "yearsOfLife": [
+        "1861 - 1917"
+      ],
+      "image": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ihnat_Bujnicki.jpg",
+      "biography": [
+        [
+          {
+            "date": "1861",
+            "event": "Нарадзіўся ў фальварку Палівачы, Празароцкая воласць (цяпер Глыбоцкі раён)"
+          },
+          {
+            "date": "1907",
+            "event": "Заснаваў самадзейны тэатр"
+          },
+          {
+            "date": "1910",
+            "event": "Тэатр Буйніцкага прыняў удзел у прадстаўленні, якое ўвайшло ў гісторыю пад назвай \"Першая беларуская вечарынка ў Вільні\""
+          },
+          {
+            "date": "1910—1913",
+            "event": "Гастрoлi па Беларусі, Пецярбургу, Варшаве"
+          },
+          {
+            "date": "1913",
+            "event": "З-за матэрыяльных цяжкасцей і ўціску царскіх уладаў дзейнасць трупы была спыненая"
+          }
+        ],
+        [
+          {
+            "date": "1861",
+            "event": "Родился в усадьбе Поливачи, Прозорокской волости (теперь Глубокский район)"
+          },
+          {
+            "date": "1907",
+            "event": "Основал театр самодеятельности"
+          },
+          {
+            "date": "1910",
+            "event": "Театр Буйницкого принял участие в представлении, которое вошло в историю под названием \"Первая публичная белорусская вечеринка в Вильне\""
+          },
+          {
+            "date": "1910—1913",
+            "event": "Гастроли по Беларуси, Петербургу, Варшаве"
+          },
+          {
+            "date": "1913",
+            "event": "Из-за материальных проблем и давлении царских властей деятельность трупы была остановлена."
+          }
+        ],
+        [
+          {
+            "date": "1861",
+            "event": "Born in the estate of Polivachi, Prozorok volost (now Glubokoe district)"
+          },
+          {
+            "date": "1907",
+            "event": "Founded the amateur theater"
+          },
+          {
+            "date": "1910",
+            "event": "The Buynitsky Theater took part in a performance that went down in history under the name \"The first public Belarusian party in Vilna\""
+          },
+          {
+            "date": "1910-1913",
+            "event": "Tours in Belarus, St. Petersburg, Warsaw"
+          },
+          {
+            "date": "1913",
+            "event": "Due to material problems and the requirements of the tsarist government, activity was stopped."
+          }
+        ]
+      ],
+      "workList": [
+        [
+          {
+            "date": "1907-1913",
+            "event": "Танцы \"\"Лявоніха\", \"Юрка\", \"Верабей\", \"Мяцеліца\", \"Гняваш\", \"Мельнік\", \"Антошка\", \"Чобат\", \"Качан\", \"Чабор\", \"Полька\""
+          },
+          {
+            "date": "1907-1913",
+            "event": "Песнi \"Дуда-весялуха\", \"Ах ты дзьмі\", \"Падушачка\", \"За гарамі, за лясамі\", \"Ох ты дуб\", \"Прыляцелі гусі\""
+          },
+          {
+            "date": "1907-1913",
+            "event": "Пьесы \"Па рэвізіі\" і \"Пашыліся ў дурні\" М. Крапіўніцкага, \"Хам\" і \"У зімовы вечар\" паводле Э. Ажэшкі, \"Модны шляхцюк\" К. Каганца"
+          }
+        ],
+        [
+          {
+            "date": "1907-1913",
+            "event": "Танцы \"Лявониха\", \"Юрка\", \"Воробей\", \"Метелица\", \"Мельник\", \"Антошка\", \"Кочан\", \"Черёмуха\", \"Полька\""
+          },
+          {
+            "date": "1907-1913",
+            "event": "Песнi \"Дуда-веселуха\", \"Ах ты дуй\", \"Подушечка\", \"За горами, за лесами\", \"Ох ты дуб\", \"Прилетели гуси\". "
+          },
+          {
+            "date": "1907-1913",
+            "event": "Пьесы М. Крапивницкого \"По ревизии\" и \"Пошились в дурни\", Э. Ожешко \"Хам\" и \"В зимний вечер\", К. Каганца \"Модный шляхтич\" "
+          }
+        ],
+        [
+          {
+            "date": "1907-1913",
+            "event": "Dancing \" Lyavonikha\", \" Yurka\", \" Sparrow\", \" Snowstorm\", \" Miller\", \" Antoshka\", \" Kochan\", \"Bird cherry\", \"Polka\""
+          },
+          {
+            "date": "1907-1913",
+            "event": "Songs \" Duda-merry\" , \" Ah you blow\" , \" Pillow\" , \" Over the mountains, behind the forests\" ,\" Oh, you oak\", \"Geese flew in\"."
+          },
+          {
+            "date": "1907-1913",
+            "event": "M. Krapivnitsky’s plays \"According to the revision\" and \"Sewed in fools\", E. Orzeszko \"Ham\" and \"In the winter evening\", K. Kaganets\" Fashionable gentry\""
+          }
+        ]
+      ],
+      "map": "55.282466, 28.222641"
+    }
+  ]
 }

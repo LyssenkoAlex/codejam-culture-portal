@@ -1,5 +1,5 @@
-export const SHOW_AUTHOR = 'SHOW_AUTHOR';
+export const SHOW_DIRECTOR = 'SHOW_DIRECTOR';
 
-export function showAuthor(id) {
-    return {type:SHOW_AUTHOR, id}
+export function showDirector(id) {
+    return {type:SHOW_DIRECTOR, id}
 }
