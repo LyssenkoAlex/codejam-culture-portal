@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Timeline, TimelineItem} from 'vertical-timeline-component-for-react';
+import Slider from './Slider';
 import './main.scss'
 
 class Author extends Component {
@@ -19,10 +20,8 @@ class Author extends Component {
     let main;
     if (data) {
       const lang = 'ru';
-      console.log(this.state.data)
       const { data:{ directors } } = this.state;
-      const {name, yearsOfLife, photo, biography, workList} = directors[0];
-      console.log('directors', directors)
+      const {name, yearsOfLife, photo, biography, workList, images, video} = directors[0];
       main = (
         <>
          <div className="author">
@@ -63,7 +62,18 @@ class Author extends Component {
             </ul>
          </div>
          <div className="gallery">
-
+            <Slider images={images}/>
+         </div>
+         <div className="video">
+            <iframe 
+              width="560" 
+              height="315" 
+              src={video} 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullscreen
+              title={name}
+            ></iframe>
          </div>
          <div>map</div>
         </>
