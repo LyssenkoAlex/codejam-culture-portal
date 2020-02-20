@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './main.scss'
 
 class Author extends Component {
   state = {
@@ -19,12 +20,14 @@ class Author extends Component {
       const {name, lifeYears, photo, biography, works, map} = this.state.data;
       main = (
         <>
-         <h1>{name}</h1>
-         <img src={photo} alt={name} width="100"/>
-         <p>{lifeYears}</p>
-         <div>
-           <h2>Biography</h2>
-           <p style={{textAlign: 'left'}}>{biography}</p>
+         <div className="author">
+          <h2 className="author__header">{name}</h2>
+          <img className="author__img" src={photo} alt={name} width="120"/>
+          <p className="author__years">{lifeYears}</p>
+         </div>
+         <div className="biography">
+           <h3 className="biography__header">Biography</h3>
+           <p className="biography__text" >{biography}</p>
          </div>
          <ul style={{textAlign: 'left'}}>
           {works.map(work => <li key={work}>{work}</li>)}
@@ -33,11 +36,11 @@ class Author extends Component {
         </>
       )
     } else {
-      main = <h1>Loading . . .</h1>
+      main = <h2>Loading . . .</h2>
     }
     
     return(
-      <main style={{background: 'white', color: 'gray', textAlign: 'center'}}>
+      <main className="main">
         {main}
       </main>
     )
