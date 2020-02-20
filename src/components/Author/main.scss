@@ -1,10 +1,36 @@
+$fontColorMain: #fff;
+
 .main {
   margin: 20px 0;
-  padding: 20px;
+  padding: 60px 20px;
   text-align: center;
   box-shadow: 0 0 10px 1px white;
 }
-.biography__text {
+.author {
+  margin-bottom: 80px;
+  .author__header {
+    margin-bottom: 40px;
+  }
+  .author__img {
+    margin-bottom: 20px;
+    width: 200px;
+    box-shadow: 0 0 4px 1px $fontColorMain;
+  }
+  .author__years {
+    font-size: 22px;
+  }
+}
+.biography{
+  font-size: 20px;
+}
+
+.works__item {
+  margin-bottom: 10px;
+  font-size: 20px;
+  list-style: none;
   text-align: left;
-  text-indent: 20px;
+  border-bottom: 1px solid $fontColorMain;
+  .works__item-date {
+    margin-right: 30px;
+  }
 }

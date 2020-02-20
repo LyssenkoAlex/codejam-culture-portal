@@ -1,5 +1,5 @@
 import React from 'react';
-import Author from './components/Author/index';
+import Author from './components/Author/Author';
 import Directors from "./components/Directors/Directors.jsx";
 
 
