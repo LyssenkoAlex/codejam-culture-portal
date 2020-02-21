@@ -9,7 +9,7 @@
       "yearsOfLife": [
         "1904 - 1980"
       ],
-      "photo": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg/267px-%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
       "biography": {
         "by" : [
           {
@@ -82,7 +82,7 @@
           },
           {
             "date": "1919-1924",
-            "event": "A participant in the corpses she organized at the Political Department of the Western Front"
+            "event": "A participant in the troupe she organized at the Political Department of the Western Front"
           },
           {
             "date": "1951—1960",
@@ -94,122 +94,122 @@
         "by": [
           {
             "date": "1951",
-            "event": "\"Запарожац за Дунаем\" С. Гулак-Арцямоўскага"
+            "event": "\"Запарожац за Дунаем\"С. Гулак-Арцямоўскага"
           },
           {
             "date": "1951",
-            "event": "\"Ціхі Дон\" І. І. Дзяржынскага"
+            "event": "\"Ціхі Дон\"І. І. Дзяржынскага"
           },
           {
             "date": "1952",
-            "event": "\"Страшны двор\" С. Манюшкі"
+            "event": "\"Страшны двор\"С. Манюшкі"
           },
           {
             "date": "1953",
-            "event": "\"Аіда\" Джузэпэ Вердзі"
+            "event": "\"Аіда\"Джузэпэ Вердзі"
           },
           {
             "date": "1954",
-            "event": "\"Барыс Гадуноў\" М. Мусаргскага"
+            "event": "\"Барыс Гадуноў\"М. Мусаргскага"
           },
           {
             "date": "1954",
-            "event": "\"Травіята\"  Джузэпэ Вердзі"
+            "event": "\"Травіята\" Джузэпэ Вердзі"
           },
           {
             "date": "1955",
-            "event": "\"Трубадур\"  Джузэпэ Вердзі"
+            "event": "\"Трубадур\" Джузэпэ Вердзі"
           },
           {
             "date": "1957",
-            "event": "\"Міхась Падгорны\" Я. Цікоцкага"
+            "event": "\"Міхась Падгорны\"Я. Цікоцкага"
           },
           {
             "date": "1960",
-            "event": "\"Пікавая дама\" П. Чайкоўскага"
+            "event": "\"Пікавая дама\"П. Чайкоўскага"
           }
         ],
         "ru": [
           {
             "date": "1951",
-            "event": "\"Запорожец за дунаем\" С. С. Гулак-Артемовского"
+            "event": "\"Запорожец за дунаем\"С. С. Гулак-Артемовского"
           },
           {
             "date": "1951",
-            "event": "\"Тихий Дон\" И. И. Дзержинского"
+            "event": "\"Тихий Дон\"И. И. Дзержинского"
           },
           {
             "date": "1952",
-            "event": "\"Страшный двор\" С. Манюшки"
+            "event": "\"Страшный двор\"С. Манюшки"
           },
           {
             "date": "1953",
-            "event": "\"Аида\" Джузепе Верди"
+            "event": "\"Аида\"Джузепе Верди"
           },
           {
             "date": "1954",
-            "event": "\"Борис Годунов\" М. Мусоргского"
+            "event": "\"Борис Годунов\"М. Мусоргского"
           },
           {
             "date": "1954",
-            "event": "\"Травиата\"  Джузепе Верди"
+            "event": "\"Травиата\" Джузепе Верди"
           },
           {
             "date": "1955",
-            "event": "\"Трубадур\"  Джузепе Верди"
+            "event": "\"Трубадур\" Джузепе Верди"
           },
           {
             "date": "1957",
-            "event": "\"Михась Подгорный\" Я. Цикотского"
+            "event": "\"Михась Подгорный\"Я. Цикотского"
           },
           {
             "date": "1960",
-            "event": "\"Пиковая дама\" П. Чайковского"
+            "event": "\"Пиковая дама\"П. Чайковского"
           }
         ],
         "en": [
           {
             "date": "1951",
-            "event": "\"Zaporozhets beyond the Danube\" S. Gulak-Artemovsky"
+            "event": "\"Zaporozhets beyond the Danube\"S. Gulak-Artemovsky"
           },
           {
             "date": "1951",
-            "event": "\" Tsіkhі Don\" І. І. Dzyarzhynsky"
+            "event": "\"Tsіkhі Don\"І. І. Dzyarzhynsky"
           },
           {
             "date": "1952",
-            "event": "\"The yard is terrible\" S. Manyushko"
+            "event": "\"The yard is terrible\"S. Manyushko"
           },
           {
             "date": "1953",
-            "event": "\"Aіda\" Giuseppe Verdi"
+            "event": "\"Aіda\"Giuseppe Verdi"
           },
           {
             "date": "1954",
-            "event": "\"Barys Gadunov\" M. Musorgsky"
+            "event": "\"Barys Gadunov\"M. Musorgsky"
           },
           {
             "date": "1954",
-            "event": "\"Herbs\" Giuseppe Verdi"
+            "event": "\"Herbs\"Giuseppe Verdi"
           },
           {
             "date": "1955",
-            "event": "\"Troubadour\" Giuseppe Verdi"
+            "event": "\"Troubadour\"Giuseppe Verdi"
           },
           {
             "date": "1957",
-            "event": "\"Mikhas Padgorny\" Y. Tsikotsky"
+            "event": "\"Mikhas Padgorny\"Y. Tsikotsky"
           },
           {
             "date": "1960",
-            "event": "\"The Queen of Spades\" P. Chaykovsky"
+            "event": "\"The Queen of Spades\"P. Chaykovsky"
           }
         ]
       },
       "images": [
-        "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
-        "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg",
-        "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_(1937).jpg"
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg/267px-%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg/267px-%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg/267px-%C5%81arysa_Aleksandro%C5%ADskaja._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D0%B0%D1%8F_%281937%29.jpg"
       ],
       "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
       "map": "53.909919, 27.561049"
@@ -223,7 +223,7 @@
       "yearsOfLife": [
         "1861 - 1917"
       ],
-      "photo": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ihnat_Bujnicki.jpg",
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ihnat_Bujnicki.jpg/250px-Ihnat_Bujnicki.jpg",
       "biography": {
         "by": [
           {
@@ -304,7 +304,7 @@
           },
           {
             "date": "1907-1913",
-            "event": "Пьесы \"Па рэвізіі\" і \"Пашыліся ў дурні\" М. Крапіўніцкага, \"Хам\" і \"У зімовы вечар\" паводле Э. Ажэшкі, \"Модны шляхцюк\" К. Каганца"
+            "event": "Пьесы \"Па рэвізіі\"і \"Пашыліся ў дурні\"М. Крапіўніцкага, \"Хам\"і \"У зімовы вечар\"паводле Э. Ажэшкі, \"Модны шляхцюк\"К. Каганца"
           }
         ],
         "ru": [
@@ -314,30 +314,1463 @@
           },
           {
             "date": "1907-1913",
-            "event": "Песнi \"Дуда-веселуха\", \"Ах ты дуй\", \"Подушечка\", \"За горами, за лесами\", \"Ох ты дуб\", \"Прилетели гуси\". "
+            "event": "Песнi \"Дуда-веселуха\", \"Ах ты дуй\", \"Подушечка\", \"За горами, за лесами\", \"Ох ты дуб\", \"Прилетели гуси\""
           },
           {
             "date": "1907-1913",
-            "event": "Пьесы М. Крапивницкого \"По ревизии\" и \"Пошились в дурни\", Э. Ожешко \"Хам\" и \"В зимний вечер\", К. Каганца \"Модный шляхтич\" "
+            "event": "Пьесы М. Крапивницкого \"По ревизии\"и \"Пошились в дурни\", Э. Ожешко \"Хам\"и \"В зимний вечер\", К. Каганца \"Модный шляхтич\""
           }
         ],
         "en": [
           {
             "date": "1907-1913",
-            "event": "Dancing \" Lyavonikha\", \" Yurka\", \" Sparrow\", \" Snowstorm\", \" Miller\", \" Antoshka\", \" Kochan\", \"Bird cherry\", \"Polka\""
+            "event": "Dancing \"Lyavonikha\", \"Yurka\", \"Sparrow\", \"Snowstorm\", \"Miller\", \"Antoshka\", \"Kochan\", \"Bird cherry\", \"Polka\""
           },
           {
             "date": "1907-1913",
-            "event": "Songs \" Duda-merry\" , \" Ah you blow\" , \" Pillow\" , \" Over the mountains, behind the forests\" ,\" Oh, you oak\", \"Geese flew in\"."
+            "event": "Songs \"Duda-merry\", \"Ah you blow\", \"Pillow\", \"Over the mountains, behind the forests\",\"Oh, you oak\", \"Geese flew in\""
           },
           {
             "date": "1907-1913",
-            "event": "M. Krapivnitsky’s plays \"According to the revision\" and \"Sewed in fools\", E. Orzeszko \"Ham\" and \"In the winter evening\", K. Kaganets\" Fashionable gentry\""
+            "event": "M. Krapivnitsky’s plays \"According to the revision\"and \"Sewed in fools\", E. Orzeszko \"Ham\"and \"In the winter evening\", K. Kaganets\"Fashionable gentry\""
           }
         ]
       },
+      "images": [
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ihnat_Bujnicki.jpg/250px-Ihnat_Bujnicki.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ihnat_Bujnicki.jpg/250px-Ihnat_Bujnicki.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ihnat_Bujnicki.jpg/250px-Ihnat_Bujnicki.jpg"
+      ],
       "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
       "map": "55.282466, 28.222641"
+    },
+    {
+        "name": {
+            "by": "Уладзіслаў Іосіфавіч Галубок",
+            "ru": "Владислав Иосифович Голубок",
+            "en": "Vladislav Golubok"
+        },
+      "yearsOfLife": [
+        "1882 - 1937"
+      ],
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg",
+      "biography": {
+        "by": [
+          {
+            "date": "1882",
+            "event": "Нарадзіўся ў Ст. Лясная, Навагрудскі павет, Мінская губерня"
+          },
+          {
+            "date": "1906",
+            "event": "Публікацыя першых вершаў і апавяданняў"
+          },
+          {
+            "date": "1913",
+            "event": "У Пецярбургу выйшла першая кніжка Уладзіслава Галубка \"Апавяданні\""
+          },
+          {
+            "date": "1917",
+            "event": "Галубок уступае ў \"Першае беларускае таварыства драмы і камедыі\"разам з жонкай і дзецьмі і робіць першыя спробы ў драматургіі"
+          },
+          {
+            "date": "1920",
+            "event": "Уладзіслаў Галубок узначаліў Драматычную секцыю культурна-асветніцкай арганізацыі \"Папараць-кветка\"ў Слуцку. стварыў Трупу беларускіх артыстаў пры Беларускім рабочым клубе ў Мінску, з'яўляўся яе мастацкім кіраўніком"
+          },
+          {
+            "date": "1924",
+            "event": "Ператварэнне трупы Галубка ў Беларускую дзяржаўную трупу"
+          },
+          {
+            "date": "1928",
+            "event": "Уладзіславу Галубку было прысвоена званне народнага артыста рэспублікі. Галубок стаў першым беларускім народным артыстам"
+          },
+          {
+            "date": "1931",
+            "event": "Тэатр Галубка рэарганізуюць, яго называюць БДТ-3 (Беларускі трэці дзяржаўны тэатр)"
+          },
+          {
+            "date": "1937",
+            "event": "Галубок падвергнуўся рэпресіі, быў арыштаваны. Пра далейшы лёс Галубка яго сям'я так нічога і не даведалася"
+          }
+        ],
+        "ru": [
+          {
+            "date": "1882",
+            "event": "Родился в Ст. Лесная, Новогрудский уезд, Минская губерния"
+          },
+          {
+            "date": "1906",
+            "event": "Публикация первых стихов и рассказов"
+          },
+          {
+            "date": "1913",
+            "event": "В Петербурге вышла первая книжка Владислава Голубка \"Рассказы\""
+          },
+          {
+            "date": "1917",
+            "event": "Голубок вступает в \"Первое белорусское общество драмы и комедии\"вместе с женой и детьми и делает первые попытки в драматургии"
+          },
+          {
+            "date": "1920",
+            "event": "Владислав Голубок возглавил Драматическую секцию культурно-просветительской организации \"Цветок папоротника\"в Слуцке. создал трупп белорусских артистов при Белорусском рабочим клубе в Минске, являлся ее художественным руководителем"
+          },
+          {
+            "date": "1924",
+            "event": "Превращение трупы Голубка в Белорусскую государственную труппу"
+          },
+          {
+            "date": "1928",
+            "event": "Владиславу Голубку было присвоено звание народного артиста республики. Голубок стал первым белорусским народным артистом"
+          },
+          {
+            "date": "1931",
+            "event": "Театр Голубка реорганизуют, его называют БГТ-3 (Белорусский государственный театр)"
+          },
+          {
+            "date": "1937",
+            "event": "Голубок подвергся репресии, был арестован. О дальнейшей судьбе Голубка его семья так ничего и не узнала"
+          }
+        ],
+        "en": [
+          {
+            "date": "1882",
+            "event": "Born in Lesnaya, Novogrudok district, Minsk province"
+          },
+          {
+            "date": "1906",
+            "event": "The publication of the first poems and short stories"
+          },
+          {
+            "date": "1913",
+            "event": "In St. Petersburg, the first book of Vladislav Golubok \"Stories\""
+          },
+          {
+            "date": "1917",
+            "event": "Golubok joins \"The First Belarusian Drama and Comedy Society\" with his wife and children and makes his first attempts at dramaturgy"
+          },
+          {
+            "date": "1920",
+            "event": "Vladislav Golubok headed the Drama section of the cultural and educational organization \"Fern Flower\"in Slutsk. created a troupe of Belarusian artists at the Belarusian working club in Minsk, being its artistic director"
+          },
+          {
+            "date": "1924",
+            "event": "The transformation of the troupe of the Golubok into the Belarusian State Troupe"
+          },
+          {
+            "date": "1928",
+            "event": "Vladislav Golubok was awarded the title of People's Artist of the Republic. Golubok became the first Belarusian national artist"
+          },
+          {
+            "date": "1931",
+            "event": "The Theater is being reorganized, it is called BST-3 (Belarusian State Theater)"
+          },
+          {
+            "date": "1937",
+            "event": "Golubok subjected to repression, was arrested. Рis family still did not recognize about his future"
+          }
+        ]
+      },
+      "workList": {
+        "by": [
+          {
+            "date": "1917",
+            "event": "\"Апошняе спатканне\""
+          },
+          {
+            "date": "1918",
+            "event": "\"Бязьвінная кроў\""
+          },
+          {
+            "date": "1919",
+            "event": "\"Бязродны\""
+          },
+          {
+            "date": "1920",
+            "event": "\"Суд\""
+          },
+          {
+            "date": "1921",
+            "event": "\"Душагубы\""
+          },
+          {
+            "date": "1923",
+            "event": "\"Пан Сурынта\""
+          },
+          {
+            "date": "1927",
+            "event": "\"Пінская мадонна\""
+          },
+          {
+            "date": "1933",
+            "event": "\"Белая зброя\""
+          }
+        ],
+        "ru": [
+          {
+             "Date": "1917",
+             "Event": "\"Последнее свидание\""
+           },
+           {
+             "Date": "1918",
+             "Event": "\"Невинная кровь\""
+           },
+           {
+             "Date": "1919",
+             "Event": "\"Безродный\""
+           },
+           {
+             "Date": "1920",
+             "Event": "\"Суд\""
+           },
+           {
+             "Date": "1921",
+             "Event": "\"Душегубы\""
+           },
+           {
+             "Date": "1923",
+             "Event": "\"Пан Суринта\""
+           },
+           {
+             "Date": "1927",
+             "Event": "\"Пинская мадонна\""
+           },
+           {
+             "Date": "1933",
+             "Event": "\"Белое оружие\""
+           }
+        ],
+        "en": [
+          {
+            "Date": "1917",
+            "Event": "\"The last date\""
+            },
+            {
+            "Date": "1918",
+            "Event": "\"innocent blood\""
+            },
+            {
+            "Date": "1919",
+            "Event": "\"Bezrodnyi\""
+            },
+            {
+            "Date": "1920",
+            "Event": "\"The court\""
+            },
+            {
+            "Date": "1921",
+            "Event": "\"murderer\""
+            },
+            {
+            "Date": "1923",
+            "Event": "\"Ban Surinta\""
+            },
+            {
+            "Date": "1927",
+            "Event": "\"Pinsk Madonna\""
+            },
+            {
+            "Date": "1933",
+            "Event": "\"white weapons\""
+            }
+        ]
+      },
+      "images": [
+        "http://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/9/91/Vladislav_Golubok.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
+      "map": "52.982826, 25.767572"
+    },
+    {
+      "name": {
+          "by": "Фларыян Паўлавіч Ждановіч",
+          "ru": "Флориан Павлович Жданович",
+          "en": "Florian Zhdanovich"
+      },
+      "yearsOfLife": [
+        "1884 - 1937"
+      ],
+      "photo": "https://www.kino-teatr.ru/acter/foto/sov/45952.jpg",
+      "biography": {
+        "by": [
+          {
+            "date": "1902",
+            "event": "Скончыў Варшаўскую драматычную школу"
+          },
+          {
+            "date": "1913 ",
+            "event": "У Радашковічах паставіў \"Паўлінку\" Я. Купалы; падрыхтаваў мастацкую праграму \"Беларускі кірмаш\". Арганізаваў драматычны гурток, які пасля паказу ў Старым Сяле пад Мінскам спектакля \"Па рэвізіі\" М. Крапіўніцкага быў забаронены ўладамі"
+          },
+          {
+            "date": "1917",
+            "event": "Працаваў у Мінскай гарадской думе"
+          },
+          {
+            "date": "1917—1920",
+            "event": "Мастацкі кіраўнік і рэжысёр \"Першага таварыства драмы і камедыі\""
+          },
+          {
+            "date": "1919",
+            "event": "Некаторы час працаваў у Вільні"
+          },
+          {
+            "date": "1920",
+            "event": "У Мінску адкрыўся Беларускі дзяржаўны тэатр (БДТ-1, цяпер Нацыянальны акадэмічны тэатр імя Я. Купалы), дзе ён быў першым мастацкім кіраўніком і акцёрам"
+          },
+          {
+            "date": "1931",
+            "event": "Асуджаны года калегіяй як \"член контр­рэвалюцыйнай арганізацыі\" да 5 гадоў (адбываў у Беламорска-Балтыйскім лагеры, пасля зняволення вяртанне ў Беларусь не было дазволена)"
+          },
+          {
+            "date": "1937—1938",
+            "event": "Арыштаваны паўторна і расстраляны"
+          }
+        ],
+        "ru": [
+          {
+            "date": "1902",
+            "event": "Окончил Варшавскую драматическую школу"
+          },
+          {
+            "date": "1913 ",
+            "event": "В Радошковичах поставил \"Павлинку\" Я. Купалы; подготовил художественную программу \"Белорусский рынок\". Организовал драматический кружок, который после показа в Старом Селе под Минском спектакля \"По ревизии\" М. Крапивницкий был запрещен властями"
+          },
+          {
+            "date": "1917",
+            "event": "Работал в Минской городской думе"
+          },
+          {
+            "date": "1917—1920",
+            "event": "Художественный руководитель и режиссер \"Первого товарищества драмы и комедии\""
+          },
+          {
+            "date": "1919",
+            "event": "Некоторое время работал в Вильнюсе"
+          },
+          {
+            "date": "1920",
+            "event": "В Минске открылся Белорусский государственный театр (БДТ-1; ныне Национальный академический театр имени Янки Купалы), где он был первым художественным руководителем и актером."
+          },
+          {
+            "date": "1931",
+            "event": "Осужденный года коллегией как \"член контрреволюционной организации\" до 5 лет (отбывал в Беломорско-Балтийском лагере, после заключения возвращение в Беларусь не было разрешено)"
+          },
+          {
+            "date": "1937—1938",
+            "event": "Арестован повторно и расстрелян"
+          }
+        ],
+        "en": [
+          {
+            "date": "1902",
+            "event": "He graduated from the Warsaw drama school"
+          },
+          {
+            "date": "1913",
+            "event": "In Radoshkovichi put \"Pavlinka\" Kupala, prepared the artistic program \"Belarusian market\". He organized a drama club, which after the show in the Staroe Selo, near Minsk, the play \"audit\" by M. Krapivnitskaya was banned by the authorities"
+          },
+          {
+            "date": "1917",
+            "event": "He worked in the Minsk City Council"
+          },
+          {
+            "date": "1917—1920",
+            "event": "Artistic director and director of \"First association of drama and comedy\""
+          },
+          {
+            "date": "1919",
+            "event": "For a while he worked in Vilnius"
+          },
+          {
+            "date": "1920",
+            "event": "Opened in Minsk Belarusian State Theater (BDT-1; now the Yanka Kupala National Academic Theater), where he was the first artistic director and actor."
+          },
+          {
+            "date": "1931",
+            "event": "The convict, the board as a \"member of the counterrevolutionary organization\" under 5 years old (served in the White Sea-Baltic camp, after the return of Belarus was not allowed)"
+            },
+          {
+            "date": "1937—1938",
+            "event": "Re-arrested and executed"
+          }
+        ]
+      },
+      "workList": {
+        "by": [
+          {
+            "date": "1917",
+            "event": "\"У зімовы вечар\" (акцёр)"
+          },
+          {
+            "date": "1917",
+            "event": "\"Раскіданае гняздо\" Я. Купалы (акцёр)"
+          },
+          {
+            "date": "1927",
+            "event": "\"Мяцеж\" (акцёр)"
+          },
+          {
+            "date": "1921",
+            "event": "\"Ганка\" (пастаноўка)"
+          },
+          {
+            "date": "1922",
+            "event": "\"Лес шуміць\" (пастаноўка)"
+          }
+        ],
+        "ru": [
+          {
+            "date": "1917",
+            "event": "\"В зимний вечер\" (актер)"
+          },
+          {
+            "date": "1917",
+            "event": "\"Разорённое гнездо\" Я. Купалы (актер)"
+          },
+          {
+            "date": "1927",
+            "event": "\"Мятеж\" (актер)"
+          },
+          {
+            "date": "1921",
+            "event": "\"Ганка\" (постановка)"
+          },
+          {
+            "date": "1922",
+            "event": "\"Лес шумит\" (постановка)"
+          }
+        ],
+        "en": [
+          {
+            "date": "1917",
+            "event": "\"In the winter evening\" (actor)"
+          },
+          {
+            "date": "1917",
+            "event": "\"Ruined Nest\" (actor)"
+          },
+          {
+            "date": "1927",
+            "event": "\"Rebellion\" (actor)"
+          },
+          {
+            "date": "1921",
+            "event": "\"Ganka\" (production)"
+          },
+          {
+            "date": "1922",
+            "event": "\"The forest is noisy\" (production)"
+          }
+        ]
+      },
+      "images": [
+        "https://www.kino-teatr.ru/acter/foto/sov/45952.jpg",
+        "https://www.kino-teatr.ru/acter/foto/sov/45952.jpg",
+        "https://www.kino-teatr.ru/acter/foto/sov/45952.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
+      "map": "53.902512, 27.561481"
+    },
+    {
+      "name": {
+          "by": "Яўген Анатолевіч Крыжаноўскі",
+          "ru": "Евгений Анатольевич Крыжановский",
+          "en": "Evgeny Kryzhanovsky"
+      },
+      "yearsOfLife": [
+        "1955 - "
+      ],
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kryzanowski.jpg/274px-Kryzanowski.jpg",
+      "biography": {
+        "by": [
+          {
+            "date": "1955",
+            "event": "Нарадзіўся ў Мікалаеве"
+          },
+          {
+            "date": "1972",
+            "event": "Скончыў школу ў Казельску (РСФСР)"
+          },
+          {
+            "date": "1973",
+            "event": "Паступіў у Беларускі тэатральна-мастацкі інстытут на акцёрскае аддзяленне."
+          },
+          {
+            "date": "1977",
+            "event": "Прыняты ў трупу Акадэмічнага тэатра імя Янкі Купалы"
+          },
+          {
+            "date": "1986",
+            "event": "Стварыў тэатр сатыры і гумару \"Хрыстафор\""
+          }
+        ],
+        "ru": [            
+          {
+            "date": "1955",
+            "event": "Родился в Николаеве"
+          },
+          {
+            "date": "1972",
+            "event": "Окончил школу в Козельске (РСФСР)"
+          },
+          {
+            "date": "1973",
+            "event": "Поступил в Белорусский театрально-художественный институт на актерское отделение."
+          },
+          {
+            "date": "1977",
+            "event": "Принят в труппу Академического театра имени Янки Купалы"
+          },
+          {
+            "date": "1986",
+            "event": "Создал театр сатиры и юмора \"Христофор\""
+          }
+        ],
+        "en": [          
+        {
+          "date": "1955",
+          "event": "Born in Nikolayev"
+        },
+        {
+          "date": "1972",
+          "event": "Graduated from high school in Kozelsk"
+        },
+        {
+          "date": "1973",
+          "event": "He entered the Belarusian Theater and Art Institute in the acting department."
+        },
+        {
+          "date": "1977",
+          "event": "Accepted into the troupe of the Academic Theater of Yanka Kupala"
+        },
+        {
+          "date": "1986",
+          "event": "I created a theater of satire and humor \"Christopher\""
+        }
+        ]
+      },
+      "workList": {
+        "by": [
+          {
+            "date": "1982",
+            "event": "Фільм \"Купальская ноч\" (акцёр)"
+          },
+          {
+            "date": "1985",
+            "event": "Фільм \"Ідзі і глядзі\" (акцёр)"
+          }
+        ],
+        "ru": [          
+        {
+          "date": "1982",
+          "event": "Фильм \"Купальская ночь\" (актер)"
+        },
+        {
+          "date": "1985",
+          "event": "Фильм \"Иди и смотри\" (актер)"
+        }
+        ],
+        "en": [                 
+          {
+            "date": "1982",
+            "event": "\"Midsummer Night\" (actor)"
+          },
+          {
+            "date": "1985",
+            "event": "\"Come and See\" (actor)"
+          }
+        ]
+      },
+      "images": [
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kryzanowski.jpg/274px-Kryzanowski.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kryzanowski.jpg/274px-Kryzanowski.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kryzanowski.jpg/274px-Kryzanowski.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
+      "map": "46.975033, 31.994577"
+    },
+    {
+      "name": {
+          "by": "Барыс Іванавіч Луцэнка",
+          "ru": "Борис Иванович Луценко",
+          "en": "Boris Lutsenko"
+      },
+      "yearsOfLife": [
+          "1937 - 2020"
+      ],
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg/200px-Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg",
+      "biography": {
+          "by": [          
+            {
+              "date": "1937",
+              "event": "Нарадзіўся ў Майкопе (Краснадарскі край), у сям'і служачага"
+            },
+            {
+              "date": "1967—1973",
+              "event": "Працуе ў Беларускім тэатры імя Я. Купалы"
+            },
+            {
+              "date": "1973—1981",
+              "event": "Галоўны рэжысёр Дзяржаўнага рускага драматычнага тэатра імя М. Горкага"
+            },
+            {
+              "date": "1981—1982",
+              "event": "Рэжысёр  Купалаўскага тэатра"
+            },
+            {
+              "date": "1982—1991",
+              "event": "Галоўны рэжысёр Тэатра-студыі кінаакцёра"
+            },
+            {
+              "date": "1991—2007",
+              "event": "Мастацкі кіраўнік Нацыянальнага акадэмічнага драматычнага тэатра імя М. Горкага"
+            },
+            {
+              "date": "2007",
+              "event": "Рэжысёр Нацыянальнага акадэмічнага драматычнага тэатра імя М. Горкага"
+            }
+          ],
+          "ru": [         
+            {
+              "date": "1937",
+              "event": "Родился в Майкопе (Краснодарский край), в семье служащего"
+            },
+            {
+              "date": "1967—1973",
+              "event": "Работает в Белорусском театре имени Я. Купалы"
+            },
+            {
+              "date": "1973—1981",
+              "event": "Главный режиссер Государственного русского драматического театра имени М. Горького"
+            },
+            {
+              "date": "1981—1982",
+              "event": "Режиссер Купаловского театра"
+            },
+            {
+              "date": "1982—1991",
+              "event": "Главный режиссер Театра-студии киноактера"
+            },
+            {
+              "date": "1991—2007",
+              "event": "Художественный руководитель Национального академического драматического театра имени М. Горького"
+            },
+            {
+              "date": "2007",
+              "event": "Режиссер Национального академического драматического театра имени М. Горького"
+            }
+          ],
+          "en": [            
+            {
+              "date": "1937",
+              "event": "He was born in Maikop (Krasnodar region), in the family of an employee"
+            },
+            {
+              "date": "1967—1973",
+              "event": "He is working at the Belarusian Theater of Yanka Kupala"
+            },
+            {
+              "date": "1973—1981",
+              "event": "The chief director of the State Russian Drama Theater named after M. Gorky"
+            },
+            {
+              "date": "1981—1982",
+              "event": "Director of Kupala Theater"
+            },
+            {
+              "date": "1982—1991",
+              "event": "The chief director of the studio theater actor"
+            },
+            {
+              "date": "1991—2007",
+              "event": "Artistic director of the National Academic Drama Theater named after M. Gorky"
+            },
+            {
+              "date": "2007",
+              "event": "The director of the National Academic Drama Theater named after M. Gorky"
+            }
+          ]
+      },
+      "workList": {
+          "by": [                       
+            {
+              "date": "1968",
+              "event": "\"Рудабельская рэспубліка\" (пастаноўка)"
+            },
+            {
+              "date": "1970",
+              "event": "\"Памяць сэрца\" (пастаноўка)"
+            },
+            {
+              "date": "1971",
+              "event": "\"Зацюканы апостал\" (пастаноўка)"
+            },
+            {
+              "date": "1972",
+              "event": "\"Раскіданае гняздо\" (пастаноўка)"
+            },
+            {
+              "date": "1974",
+              "event": "\"Макбет\" (пастаноўка)"
+            },
+            {
+              "date": "1976",
+              "event": "\"Трохграшовая опера\" (пастаноўка)"
+            },
+            {
+              "date": "1976",
+              "event": "\"Апошнія\" (пастаноўка)"
+            },
+            {
+              "date": "1983",
+              "event": "\"Глядзіце, хто прыйшоў\" (пастаноўка)"
+            },
+            {
+              "date": "1983",
+              "event": "\"Шчасце маё, або папяровы тэлефон\" (пастаноўка)"
+            },
+            {
+              "date": "1985",
+              "event": "\"Не баюся Вірджыніі Вульф\" (пастаноўка)"
+            },
+            {
+              "date": "1988",
+              "event": "\"Гамлет\" (пастаноўка)"
+            },
+            {
+              "date": "1990",
+              "event": "\"Генералы ў спадніцах\" (пастаноўка)"
+            },
+            {
+              "date": "2002",
+              "event": "\"Сон на кургане\" (пастаноўка)"
+            }
+          ],
+          "ru": [ 
+            {
+              "date": "1968",
+              "event": "\"Рудобельская республика\" (постановка)"
+            },
+            {
+              "date": "1970",
+              "event": "\"Память сердца\" (постановка)"
+            },
+            {
+              "date": "1971",
+              "event": "\"Зацюканы апостол\" (постановка)"
+            },
+            {
+              "date": "1972",
+              "event": "\"Раскиданное гнездо\" (постановка)"
+            },
+            {
+              "date": "1974",
+              "event": "\"Макбет\" (постановка)"
+            },
+            {
+              "date": "1976",
+              "event": "\"Трехгрошовая опера\" (постановка)"
+            },
+            {
+              "date": "1976",
+              "event": "\"Последние\" (постановка)"
+            },
+            {
+              "date": "1983",
+              "event": "\"Смотрите, кто пришел\" (постановка)"
+            },
+            {
+              "date": "1983",
+              "event": "\"Счастье мое, или бумажный телефон\" (постановка)"
+            },
+            {
+              "date": "1985",
+              "event": "\"Не боюсь Вирджинии Вульф\" (постановка)"
+            },
+            {
+              "date": "1988",
+              "event": "\"Гамлет\" (постановка)"
+            },
+            {
+              "date": "1990",
+              "event": "\"Генералы в юбках\" (постановка)"
+            },
+            {
+              "date": "2002",
+              "event": "\"Сон на кургане\" (постановка)"
+            }
+          ],
+          "en": [         
+            {
+              "date": "1968",
+              "event": "\"Rudobelskaya Republic\" (staging)"
+            },
+            {
+              "date": "1970",
+              "event": "\"Memory of the Heart\" (staging)"
+            },
+            {
+              "date": "1971",
+              "event": "\"Zatsyukany Apostle\" (staging)"
+            },
+            {
+              "date": "1972",
+              "event": "\"Scattered nest\" (staging)"
+            },
+            {
+              "date": "1974",
+              "event": "\"Macbeth\" (staging)"
+            },
+            {
+              "date": "1976",
+              "event": "\"he Threepenny Opera\" (staging)"
+            },
+            {
+              "date": "1976",
+              "event": "\"Recent\" (staging)"
+            },
+            {
+              "date": "1983",
+              "event": "\"Look who came\" (staging)"
+            },
+            {
+              "date": "1983",
+              "event": "\"My happiness, or paper phone\" (staging)"
+            },
+            {
+              "date": "1985",
+              "event": "\"I am not afraid of Virginia Woolf\" (staging)"
+            },
+            {
+              "date": "1988",
+              "event": "\"Hamlet\" (staging)"
+            },
+            {
+              "date": "1990",
+              "event": "\"The generals in skirts\" (staging)"
+            },
+            {
+              "date": "2002",
+              "event": "\"Sleeping on the mound\" (staging)"
+            }
+          ]
+      },
+      "images": [
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg/200px-Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg/200px-Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg/200px-Boris_Lutsenko_22.10.2014_National_Library_of_Belarus.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
+      "map": "52.982826, 25.767572"
+    },
+    {
+      "name": {
+          "by": "Еўсцігней Афінагенавіч Міровіч",
+          "ru": "Евстигней Афиногенович Мирович",
+          "en": "Evstigney Mirovich"
+      },
+      "yearsOfLife": [
+          "1878-1952"
+      ],
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mirovich_03.jpg/267px-Mirovich_03.jpg",
+      "biography": {
+          "by": [
+            {
+              "date": "1878",
+              "event": "Нарадзіўся ў сям’і чыгуначніка (Санкт-Пецярбург)"
+            },
+            {
+              "date": "1900 ",
+              "event": "Працаваў у пецярбургскіх тэатрах акцёрам, затым рэжысёрам"
+            },
+            {
+              "date": "1906 ",
+              "event": "Правадзейны член Санкт-Пецярбургскага саюза драматычных і музычных пісьменнікаў"
+            },
+            {
+              "date": "1921—1931",
+              "event": "Мастацкі кіраўнік Беларускага тэатра ім. Я. Купалы"
+            },
+            {
+              "date": "1932—1935",
+              "event": "Мастацкім кіраўніком Гомельскага тэатра рабочай моладзі"
+            },
+            {
+              "date": "1937—1940",
+              "event": "Мастацкі кіраўнік Беларускага тэатра юнага гледача імя Н. Крупскай"
+            },
+            {
+              "date": "1941—1945",
+              "event": "Рэжысёр Беларускага тэатра ім. Я. Купалы"
+            },
+            {
+              "date": "1945-1952",
+              "event": "Мастацкі кіраўнік і загадчык кафедры майстэрства акцёра Беларускага тэатральнага інстытута"
+            }
+          ],
+          "ru": [
+            {
+              "date": "1878",
+              "event": "Родился в семье железнодорожника (Санкт-Петербург)"
+            },
+            {
+              "date": "1900 ",
+              "event": "Работал в петербургских театрах актером, затем режиссером"
+            },
+            {
+              "date": "1906 ",
+              "event": "Действительный член Санкт-Петербургского союза драматических и музыкальных писателей"
+            },
+            {
+              "date": "1921—1931",
+              "event": "Художественный руководитель Белорусского театра им. Я. Купалы"
+            },
+            {
+              "date": "1932—1935",
+              "event": "Художественным руководителем Гомельского театра рабочей молодежи"
+            },
+            {
+              "date": "1937—1940",
+              "event": "Художественный руководитель Белорусского театра юного зрителя имени Н. Крупской"
+            },
+            {
+              "date": "1941—1945",
+              "event": "Режиссер Белорусского театра им. Я. Купалы"
+            },
+            {
+              "date": "1945-1952",
+              "event": "Художественный руководитель и заведующий кафедрой мастерства актера Белорусского театрального института"
+            }
+          ],
+          "en": [
+            {
+              "date": "1878",
+              "event": "Born in the family of a railwayman (Saint-Petersburg)"
+            },
+            {
+              "date": "1900 ",
+              "event": "He worked in the St. Petersburg theater actor, then director"
+            },
+            {
+              "date": "1906 ",
+              "event": "Full member of the St. Petersburg Union of drama and music writers"
+            },
+            {
+              "date": "1921—1931",
+              "event": "Artistic director of the Belarusian theater Y. Kupala"
+            },
+            {
+              "date": "1932—1935",
+              "event": "Artistic director of the Gomel Workers' Youth Theater"
+            },
+            {
+              "date": "1937—1940",
+              "event": "Belarusian theater artistic director of the young spectator named N. Krupskaya"
+            },
+            {
+              "date": "1941—1945",
+              "event": "The director of the Belarusian theater Y. Kupala"
+            },
+            {
+              "date": "1945-1952",
+              "event": "Artistic Director and Chair of the skill of the actor of the Belarusian Theater Institute"
+            }
+          ]
+      },
+      "workList": {
+          "by": [
+            {
+              "date": "1904",
+              "event": "Першая п’еса \"Опекуны\" была напісана, аднак цэнзура не дала дазволу на пастаноўку"
+            },
+            {
+              "date": "1909",
+              "event": "\"Мефистофель в интересном положении, или Женатый Мефистофель\""
+            },
+            {
+              "date": "1910",
+              "event": "\"Графиня Эльвира\""
+            },
+            {
+              "date": "1911",
+              "event": "\"Рыцарь дон Фернандо\" "
+            },
+            {
+              "date": "1912",
+              "event": "\"Фабрика талантов\""
+            },
+            {
+              "date": "1915",
+              "event": "\"Театр купца Епишкина\""
+            },
+            {
+              "date": "1915",
+              "event": "\"Вова приспособился\""
+            },
+            {
+              "date": "1923",
+              "event": "\"Машэка\" (на беларускай мове)"
+            },
+            {
+              "date": "1923",
+              "event": "\"Кастусь Каліноўскі\""
+            },
+            {
+              "date": "1925",
+              "event": "\"Каваль-ваявода\""
+            },
+            {
+              "date": "1925",
+              "event": "\"Кар’ера таварыша Брызгаліна\""
+            },
+            {
+              "date": "1926",
+              "event": "\"Перамога\" "
+            },
+            {
+              "date": "1928",
+              "event": "\"Запяюць верацёны\""
+            },
+            {
+              "date": "1932",
+              "event": "\"Лён\""
+            },
+            {
+              "date": "1934",
+              "event": "\"У вясновую ноч\""
+            }
+          ],
+          "ru": [                      
+            {
+              "date": "1904",
+              "event": "Первая пьеса \"Опекуны\" была написана, однако цензура не дала разрешения на постановку"
+            },
+            {
+              "date": "1909",
+              "event": "\"Мефистофель в интересном положении, или Женатый Мефистофель\""
+            },
+            {
+              "date": "1910",
+              "event": "\"Графиня Эльвира\""
+            },
+            {
+              "date": "1911",
+              "event": "\"Рыцарь дон Фернандо\""
+            },
+            {
+              "date": "1912",
+              "event": "\"Фабрика талантов\""
+            },
+            {
+              "date": "1915",
+              "event": "\"Театр купца Епишкина\""
+            },
+            {
+              "date": "1915",
+              "event": "\"Вова приспособился\""
+            },
+            {
+              "date": "1923",
+              "event": "\"Машека\" (на белорусском языке)"
+            },
+            {
+              "date": "1923",
+              "event": "\"Кастусь Калиновский\""
+            },
+            {
+              "date": "1925",
+              "event": "\"Кузнец-воевода\""
+            },
+            {
+              "date": "1925",
+              "event": "\"Карьера товарища Брызгалина\""
+            },
+            {
+              "date": "1926",
+              "event": "\"Победа\""
+            },
+            {
+              "date": "1928",
+              "event": "\"Запечь веретена\""
+            },
+            {
+              "date": "1932",
+              "event": "\"Лен\""
+            },
+            {
+              "date": "1934",
+              "event": "\"В весеннюю ночь\""
+            }
+          ],
+          "en": [
+            {
+              "date": "1904",
+              "event": "The first play, \"The Guardians\" was written, however, censorship is not given permission to stage"
+            },
+            {
+              "date": "1909",
+              "event": "\"Mephistopheles in an interesting position, or married Mephistopheles\""
+            },
+            {
+              "date": "1910",
+              "event": "\"Countess Elvira\""
+            },
+            {
+              "date": "1911",
+              "event": "\"Knight and Don Fernando\""
+            },
+            {
+              "date": "1912",
+              "event": "\"Factory of Talents\""
+            },
+            {
+              "date": "1915",
+              "event": "\"Theater merchant Epishkina\""
+            },
+            {
+              "date": "1915",
+              "event": "\"Vova adapted\""
+            },
+            {
+              "date": "1923",
+              "event": "\"Masheka (in Belarusian)\""
+            },
+            {
+              "date": "1923",
+              "event": "\"Kalinouski\""
+            },
+            {
+              "date": "1925",
+              "event": "\"Blacksmith Governor\""
+            },
+            {
+              "date": "1925",
+              "event": "\"Career friend Bryzgalina\""
+            },
+            {
+              "date": "1926",
+              "event": "\"Victory\""
+            },
+            {
+              "date": "1928",
+              "event": "\"Bake spindles\""
+            },
+            {
+              "date": "1932",
+              "event": "\"Len\""
+            },
+            {
+              "date": "1934",
+              "event": "\"In the spring night\""
+            }
+          ]
+      },
+      "images": [
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mirovich_03.jpg/267px-Mirovich_03.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mirovich_03.jpg/267px-Mirovich_03.jpg",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mirovich_03.jpg/267px-Mirovich_03.jpg"
+      ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
+      "map": "59.939095, 30.315868"
+    },
+    {
+      "name": {
+          "by": "Мікалай Мікалаевіч Пінігін",
+          "ru": "Николай Николаевич Пинигин",
+          "en": "Nilolai Pinigin"
+      },
+      "yearsOfLife": [
+          "1957-"
+      ],
+      "photo": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pinigin.JPG/200px-Pinigin.JPG",
+      "biography": {
+          "by": [                     
+            {
+              "date": "1957",
+              "event": "Нарадзіўся ў г. Ізюм Харкаўскай вобласці"
+            },
+            {
+              "date": "1979",
+              "event": "Скончыў режысёрскі факультэт Беларускі тэатральна-мастацкі інстыту"
+            },
+            {
+              "date": "1979—1980 ",
+              "event": "Працаваў рэжысёрам на беларускім тэлебачанні"
+            },
+            {
+              "date": "1980—1982",
+              "event": "Працаваў у Рускім драматычным тэатры ім. М. Горкага"
+            },
+            {
+              "date": "1985—1987",
+              "event": "Выкладчык кафедры «Майстэрства акцёра і рэжысуры» у Беларускай акадэміі мастацтваў"
+            },
+            {
+              "date": "1985-1998",
+              "event": "Рэжысёр Нацыянальнага акадэмічнага тэатра імя Я. Купалы"
+            },
+            {
+              "date": "1998-2009",
+              "event": "Рэжысёр Вялікага драматычнага тэатра ім. Г. А. Таўстаногава (Санкт-Пецярбург)"
+            },
+            {
+              "date": "2009-",
+              "event": "Рэжысёр Нацыянальнага акадэмічнага тэатра імя Я. Купалы"
+            }
+          ],
+          "ru": [                     
+            {
+              "date": "1957",
+              "event": "Родился в г. Изюм Харьковской области"
+            },
+            {
+              "date": "1979",
+              "event": "Окончил режиссерском факультет Белорусский театрально-художественный Института"
+            },
+            {
+              "date": "1979—1980 ",
+              "event": "Работал режиссером на белорусском телевидении"
+            },
+            {
+              "date": "1980—1982",
+              "event": "Работал в Русском драматическом театре им. М. Горького"
+            },
+            {
+              "date": "1985—1987",
+              "event": "Преподаватель кафедры «Мастерство актера и режиссуры» в Белорусском академии искусств"
+            },
+            {
+              "date": "1985-1998",
+              "event": "Режиссер Национального академического театра имени Я. Купалы"
+            },
+            {
+              "date": "1998-2009",
+              "event": "Режиссер Большого драматического театра им. Г. А. Товстоногова (Санкт-Петербург)"
+            },
+            {
+              "date": "2009-",
+              "event": "Режиссер Национального академического театра имени Я. Купалы"
+            }
+          ],
+          "en": [
+            {
+              "date": "1957",
+              "event": "Born in Raisin, Kharkiv region"
+            },
+            {
+              "date": "1979",
+              "event": "He graduated from the directing department of the Belarusian Theater and Art Institute"
+            },
+            {
+              "date": "1979—1980 ",
+              "event": "He worked as a director at the Belarusian TV"
+            },
+            {
+              "date": "1980—1982",
+              "event": "He worked in the Russian Drama Theater. Gorky"
+            },
+            {
+              "date": "1985—1987",
+              "event": "Teacher of \"Skill actor and directing\" at the Belarusian Academy of Arts"
+            },
+            {
+              "date": "1985-1998",
+              "event": "The director of the National Academic Theater of Yanka Kupala"
+            },
+            {
+              "date": "1998-2009",
+              "event": "Director of the Bolshoi Drama Theater. Tovstonogov (St. Petersburg)"
+            },
+            {
+              "date": "2009-",
+              "event": "The director of the National Academic Theater of Yanka Kupala"
+            }
+          ]
+      },
+      "workList": {
+          "by": [
+            {
+              "date": "1979",
+              "event": "Спектакль \"Начны дыліжанс\" (пастаноўка)"
+            },
+            {
+              "date": "1984",
+              "event": "Спектакль \"Жанчына з мора\" (пастаноўка)"
+            },
+            {
+              "date": "1989",
+              "event": "Спектакль \"Дракон\" (пастаноўка)"
+            },
+            {
+              "date": "1989",
+              "event": "Спектакль \"Эмігрант\" (пастаноўка)"
+            },
+            {
+              "date": "1990",
+              "event": "Спектакль \"Тутэйшыя\" (пастаноўка)"
+            },
+            {
+              "date": "1993",
+              "event": "Спектакль \"Ідылія\" (пастаноўка)"
+            },
+            {
+              "date": "1992",
+              "event": "Спектакль \"Дзіця з Віфлеему\" (пастаноўка)"
+            },
+            {
+              "date": "1995",
+              "event": "Опера \"Візіт дамы\" (пастаноўка)"
+            },
+            {
+              "date": "2001",
+              "event": "Опера \"Барыс Гадуноў\" (пастаноўка)"
+            },
+            {
+              "date": "2003",
+              "event": "Паставіў оперы \"Сродак Макрапулоса\" К. Чапека, \"ART\" Я. Рэза, \"Бедная Ліза\" М. Карамзіна, \"Боты на тоўстай падэшве\" П. Гладзіліна, \"Дотык\" П. Марбера, \"Вячэра з выдуркам\" Ф. Вэбера, \"Бульвар злачынстваў\" Э.-Э. Шміт (Тэатр імя Я. Вахтангава, Масква), \"Эмігранты\" С. Мрожака, \"Матылёк\" П. Гладзіліна, \"Чайка\" А. Чэхава (майстар-клас, Клермон-Феран, Францыя, 2003)"
+            },
+            {
+              "date": "2004",
+              "event": "\"Матылёк\" П. Гладзіліна"
+            },
+            {
+              "date": "2005",
+              "event": "\"Квартет\" Р. Харвуда"
+            },
+            {
+              "date": "2006",
+              "event": "\"Эмигранты\" С. Мрожака"
+            },
+            {
+              "date": "2007",
+              "event": "\"Ночь перед Рождеством\" М. В. Гогаль (2007)"
+            }
+          ],
+          "ru": [ 
+            {
+              "date": "1979",
+              "event": "Спектакль \"Ночной дилижанс\" (постановка)"
+            },
+            {
+              "date": "1984",
+              "event": "Спектакль \"Женщина с моря\" (постановка)"
+            },
+            {
+              "date": "1989",
+              "event": "Спектакль \"Дракон\" (постановка)"
+            },
+            {
+              "date": "1989",
+              "event": "Спектакль \"Эмигрант\" (постановка)"
+            },
+            {
+              "date": "1990",
+              "event": "Спектакль \"Здешние\" (постановка)"
+            },
+            {
+              "date": "1993",
+              "event": "Спектакль \"Идиллия\" (постановка)"
+            },
+            {
+              "date": "1992",
+              "event": "Спектакль \"Ребенок с Вифлеема\" (постановка)"
+            },
+            {
+              "date": "1995",
+              "event": "Опера \"Визит дамы\" (постановка)"
+            },
+            {
+              "date": "2001",
+              "event": "Опера \"Борис Годунов\" (постановка)"
+            },
+            {
+              "date": "2003",
+              "event": "Поставил оперы \"Средство Макрапулоса\" К. Чапека, \"ART\" Я. Реза, \"Бедная Лиза\" Н. Карамзина, \"Сапоги на толстой подошве\" П. Гладилина, \"Прикосновение\" П. Марбера, \"Ужин с выдурком\" Ф. Вебера , \"Бульвар преступлений\" Э.-Э. Шмидт (Театр имени Е. Вахтангова, Москва), \"Эмигранты\" С. Мрожака, \"Бабочка\" П. Гладилина, \"Чайка\" А. Чехова (мастер-класс, Клермон-Ферран, Франция, 2003)"
+            },
+            {
+              "date": "2004",
+              "event": "\"Бабочка\" П. Гладилина"
+            },
+            {
+              "date": "2005",
+              "event": "\"Квартет\" Р. Харвуд"
+            },
+            {
+              "date": "2006",
+              "event": "\"Эмигрант\" С. Мрожака"
+            },
+            {
+              "date": "2007",
+              "event": "\"Ночь перед Рождеством\" Н. В. Гоголь (2007)"
+            }
+          ],
+          "en": [          
+            {
+              "date": "1979",
+              "event": "Performance \"Night Stagecoach\" (staging)"
+            },
+            {
+              "date": "1984",
+              "event": "The play \"Lady from the Sea\" (staging)"
+            },
+            {
+              "date": "1989",
+              "event": "The play \"Dragon\" (staging)"
+            },
+            {
+              "date": "1989",
+              "event": "The play \"The Emigrant\" (staging)"
+            },
+            {
+              "date": "1990",
+              "event": "Performance \"Local\" (staging)"
+            },
+            {
+              "date": "1993",
+              "event": "Performance \"Idyll\" (staging)"
+            },
+            {
+              "date": "1992",
+              "event": "The play \"A child with Bethlehem\" (staging)"
+            },
+            {
+              "date": "1995",
+              "event": "Opera \"The visit of the ladies\" (staging)"
+            },
+            {
+              "date": "2001",
+              "event": "The opera \"Boris Godunov\" (staging)"
+            },
+            {
+              "date": "2003",
+              "event": "Staged opera \"The Medium Makrapulosa\" K. Capek, \"the ART\" J. Reza, \"Poor Liza\" Karamzin, \"Boots on a thick sole\" Gladilina P., \"The Touch\" by P. Marber, \"Dinner with crazy man\" F. Weber \"crime Boulevard\" E.-E. Schmidt (Vakhtangov Theater, Moscow), \"The Emigrants\" by S. Mrozhaka, \"Butterfly\" Gladilina P., \"The Seagull\" by Anton Chekhov (master class, Clermont-Ferrand, France, 2003)"
+            },
+            {
+              "date": "2004",
+              "event": "Butterfly P. Gladilina"
+            },
+            {
+              "date": "2005",
+              "event": "Quartet by R. Harwood"
+            },
+            {
+              "date": "2006",
+              "event": "Emigrant S. Mrozhaka"
+            },
+            {
+              "date": "2007",
+              "event": "The Night Before Christmas Nikolai Gogol (2007)"
+            }
+          ]
+      },
+      "images": [
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pinigin.JPG/200px-Pinigin.JPG",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pinigin.JPG/200px-Pinigin.JPG",
+        "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pinigin.JPG/200px-Pinigin.JPG"
+      ],
+      "video": "https://www.youtube.com/watch?v=YwOkBljMNpc",
+      "map": "49.191274, 37.278279"
     }
   ]
 }
