@@ -43,3 +43,21 @@ $fontColorMain: #fff;
     background: rgba(0, 0, 0, .3);
   }
 }
+
+.video {
+  margin-bottom: 40px;
+}
+.mapContainer {
+  margin: 0 auto;
+  max-width: 500px;
+  height: 300px;
+  }
+  .sidebarStyle {
+    display: inline-block;
+    margin: auto;
+    background-color: #404040;
+    color: #ffffff;
+    z-index: 1 !important;
+    padding: 6px;
+    font-weight: bold;
+    }

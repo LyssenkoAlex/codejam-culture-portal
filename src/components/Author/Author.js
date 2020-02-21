@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Timeline, TimelineItem} from 'vertical-timeline-component-for-react';
 import Slider from './Slider';
+import Map from './Map';
 import './main.scss'
 
 class Author extends Component {
@@ -21,7 +22,7 @@ class Author extends Component {
     if (data) {
       const lang = 'ru';
       const { data:{ directors } } = this.state;
-      const {name, yearsOfLife, photo, biography, workList, images, video} = directors[0];
+      const {name, yearsOfLife, photo, biography, workList, images, video, map} = directors[0];
       main = (
         <>
          <div className="author">
@@ -75,7 +76,7 @@ class Author extends Component {
               title={name}
             ></iframe>
          </div>
-         <div>map</div>
+         <Map coordinates={map}/>
         </>
       )
     } else {
