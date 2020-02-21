@@ -1,12 +1,14 @@
 import React from 'react';
-import Directors from "./components/Directors/Directors.jsx";
+import Navigation from "./components/Navigation/Navigation";
+import Main from "./components/Main/Main";
 
 
 
 function App() {
   return (
     <React.Fragment>
-    <Directors />
+    <Navigation />
+    <Main/>
     </React.Fragment>
   );
 }
