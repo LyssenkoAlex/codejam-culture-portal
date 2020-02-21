@@ -507,70 +507,70 @@
         ],
         "ru": [
           {
-             "Date": "1917",
-             "Event": "\"Последнее свидание\""
-           },
-           {
-             "Date": "1918",
-             "Event": "\"Невинная кровь\""
-           },
-           {
-             "Date": "1919",
-             "Event": "\"Безродный\""
-           },
-           {
-             "Date": "1920",
-             "Event": "\"Суд\""
-           },
-           {
-             "Date": "1921",
-             "Event": "\"Душегубы\""
-           },
-           {
-             "Date": "1923",
-             "Event": "\"Пан Суринта\""
-           },
-           {
-             "Date": "1927",
-             "Event": "\"Пинская мадонна\""
-           },
-           {
-             "Date": "1933",
-             "Event": "\"Белое оружие\""
-           }
+            "date": "1917",
+            "event": "\"Последнее свидание\""
+          },
+          {
+            "date": "1918",
+            "event": "\"Невинная кровь\""
+          },
+          {
+            "date": "1919",
+            "event": "\"Безродный\""
+          },
+          {
+            "date": "1920",
+            "event": "\"Суд\""
+          },
+          {
+            "date": "1921",
+            "event": "\"Душегубы\""
+          },
+          {
+            "date": "1923",
+            "event": "\"Пан Суринта\""
+          },
+          {
+            "date": "1927",
+            "event": "\"Пинская мадонна\""
+          },
+          {
+            "date": "1933",
+            "event": "\"Белое оружие\""
+          }
         ],
         "en": [
           {
-            "Date": "1917",
-            "Event": "\"The last date\""
+            "date": "1917",
+            "event": "\"The last date\""
             },
             {
-            "Date": "1918",
-            "Event": "\"innocent blood\""
+            "date": "1918",
+            "event": "\"innocent blood\""
             },
             {
-            "Date": "1919",
-            "Event": "\"Bezrodnyi\""
+            "date": "1919",
+            "event": "\"Bezrodnyi\""
             },
             {
-            "Date": "1920",
-            "Event": "\"The court\""
+            "date": "1920",
+            "event": "\"The court\""
             },
             {
-            "Date": "1921",
-            "Event": "\"murderer\""
+            "date": "1921",
+            "event": "\"murderer\""
             },
             {
-            "Date": "1923",
-            "Event": "\"Ban Surinta\""
+            "date": "1923",
+            "event": "\"Ban Surinta\""
             },
             {
-            "Date": "1927",
-            "Event": "\"Pinsk Madonna\""
+            "date": "1927",
+            "event": "\"Pinsk Madonna\""
             },
             {
-            "Date": "1933",
-            "Event": "\"white weapons\""
+            "date": "1933",
+            "event": "\"white weapons\""
             }
         ]
       },
