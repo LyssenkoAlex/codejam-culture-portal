@@ -1,0 +1,40 @@
+.header {
+  height: 80px;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  &__top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .lang {
+      position: absolute;
+      right: 20px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__nav {
+
+    // Временно !!!  убрать !!
+    & ul {
+      display: flex;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+    }
+
+  }
+}
+
+// Временно !!!  убрать !!
+// body {
+//   background-color: #ffffff !important;
+// }

@@ -1,14 +1,21 @@
 import React from 'react';
-import Navigation from "./components/Navigation/Navigation";
-import Main from "./components/Main/Main";
-
-
+import Author from './components/Author/Author';
+import Directors from "./components/Directors/Directors.jsx";
+import Header from './components/Header/Header.jsx';
+import Main from './components/Main/Main.jsx';
+import Team from './components/Team/Team';
+import Worklog from './components/Worklog/Worklog';
 
 function App() {
   return (
     <React.Fragment>
-    <Navigation />
-    <Main/>
+      <Header />
+      <Main>
+        <Author />
+        <Directors />
+        <Team />
+        <Worklog />
+      </Main>
     </React.Fragment>
   );
 }
