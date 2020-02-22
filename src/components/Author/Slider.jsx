@@ -6,13 +6,15 @@ import { Carousel } from 'react-responsive-carousel';
 export default function Slider(props) {
   const { images } = props;
   return (
-    <Carousel width="60%" emulateTouch={true}>
-      {images.map((img, index) => (
-        <div key={index}>
-          <img src={img} alt="one of works"/>
-        </div>
-      ))}
-    </Carousel>
+    <div className="gallery">
+      <Carousel width="60%" emulateTouch={true}>
+        {images.map((img, index) => (
+          <div key={index}>
+            <img src={img} alt="one of works" />
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 }
 
