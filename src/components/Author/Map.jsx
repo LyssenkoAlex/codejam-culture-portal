@@ -17,7 +17,6 @@ class Map extends Component {
   componentDidMount() {
     const { coordinates } = this.props;
     const coordinatesArr = coordinates.split(',');
-    console.log(coordinatesArr)
     const map = new mapboxgl.Map({
       container: this.mapContainer,
       style: 'mapbox://styles/mapbox/streets-v11',
@@ -37,9 +36,9 @@ class Map extends Component {
   render() {
     return (
       <div>
-        <div className='sidebarStyle'>
+        {/* <div className='sidebarStyle'>
           <div>Longitude: {this.state.lng} | Latitude: {this.state.lat} | Zoom: {this.state.zoom}</div>
-        </div>
+        </div> */}
         <div ref={el => this.mapContainer = el} className='mapContainer' />
       </div>
     )
