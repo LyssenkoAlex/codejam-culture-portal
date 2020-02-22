@@ -4,6 +4,7 @@ import Directors from "./components/Directors/Directors.jsx";
 import Header from './components/Header/Header.jsx';
 import Main from './components/Main/Main.jsx';
 import Team from './components/Team/Team';
+import Worklog from './components/Worklog/Worklog';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Author />
         <Directors />
         <Team />
+        <Worklog />
       </Main>
     </React.Fragment>
   );
