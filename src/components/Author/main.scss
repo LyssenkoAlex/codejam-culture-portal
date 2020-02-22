@@ -5,6 +5,11 @@ $fontColorMain: #fff;
   padding: 60px 20px;
   text-align: center;
   box-shadow: 0 0 10px 1px white;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 }
 .author {
   margin-bottom: 80px;
@@ -19,45 +24,68 @@ $fontColorMain: #fff;
     font-size: 22px;
   }
 }
-.biography{
+.biography {
   font-size: 20px;
+  &__header {
+    margin: 40px 0;
+  }
 }
 
 .works {
   margin-bottom: 40px;
+  &__header {
+    margin: 40px 0;
+  }
 }
+
 .works__item {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 10px;
   font-size: 20px;
   list-style: none;
   text-align: left;
   border-bottom: 1px solid $fontColorMain;
-  .works__item-date {
-    margin-right: 30px;
+  span {
+    padding: 4px 10px;
   }
 }
 
 .carousel.carousel-slider {
   margin: auto;
   .control-arrow {
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, 0.3);
   }
 }
 
 .video {
   margin-bottom: 40px;
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
 }
 .mapContainer {
   margin: 0 auto;
-  max-width: 500px;
-  height: 300px;
+  max-width: 560px;
+  height: 315px;
+}
+.sidebarStyle {
+  display: inline-block;
+  margin: auto;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}
+@media screen and (max-width: 770px) {
+  .video iframe,
+  .mapContainer {
+    width: 320px;
+    height: 200px;
   }
-  .sidebarStyle {
-    display: inline-block;
-    margin: auto;
-    background-color: #404040;
-    color: #ffffff;
-    z-index: 1 !important;
-    padding: 6px;
-    font-weight: bold;
-    }
+  .timeline--wrapper .title::before {
+    display: none;
+  }
+}

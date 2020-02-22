@@ -22,7 +22,7 @@ export const teamInfo = [
       en: 'Stanislav Iosifov',
       by: 'Станіслаў Язэпаў',
     },
-    photo: 'https://avatars3.githubusercontent.com/u/35593946?s=460&v=4',
+    photo: 'https://media-exp1.licdn.com/dms/image/C5603AQFGJ6V72PGo1Q/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=sq-XNVP3Jhv-KqqVfQxgnDU-54uk3W44EFoZJ3kBI6A',
     git: 'https://github.com/StanislavKharkiv',
     linkedIn: 'https://www.linkedin.com/in/stanislav-iosifov-a06271158/',
     role: {
@@ -72,6 +72,22 @@ export const teamInfo = [
     },
     photo: 'https://avatars0.githubusercontent.com/u/55347890?s=400&v=4',
     git: 'https://github.com/AKutrapali',
+    linkedIn: false,
+    role: {
+      ru: 'разработчик',
+      en: 'developer',
+      by: 'распрацоўшчык',
+    }, 
+  },
+  {
+    id: 6,
+    name: {
+      ru: 'Сергей Карюхин',
+      en: 'Sergej Karyuhin',
+      by: 'Сяргей Карухiн',
+    },
+    photo: 'https://avatars1.githubusercontent.com/u/46194418?s=400&v=4',
+    git: 'https://github.com/Sergej-Karyuhin',
     linkedIn: false,
     role: {
       ru: 'разработчик',
