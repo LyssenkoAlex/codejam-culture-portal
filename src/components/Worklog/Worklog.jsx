@@ -40,8 +40,8 @@ function Requirements() {
       <tr key={el.id}>
         <td>
           {(el.checked === '1') ?
-            <input type="checkbox" checked readOnly disabled></input> :
-            <input type="checkbox" readOnly disabled></input>}
+            <input type="checkbox" checked readOnly disabled/> :
+            <input type="checkbox" readOnly disabled/>}
         </td>
         <td>{el.score}</td>
         <td>{el.description}</td>

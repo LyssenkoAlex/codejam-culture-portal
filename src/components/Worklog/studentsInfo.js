@@ -35,7 +35,7 @@ export const studentsInfo = [
     task: 'Test',
     time: '24 hours',
   }
-]
+];
 
 
 

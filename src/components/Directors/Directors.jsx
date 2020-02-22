@@ -9,21 +9,15 @@ import {showDirector} from '../../redux/actions/actions';
 class Directors extends Component {
     render() {
         const directors = this.props.directors.map(item => (
-            <li key={item.id}>
-                    <span onClick={() => this.props.showDirector(item.id)}>
-                        <Link to={`/directorList/${item.id}`}> {item.name[this.props.language]}</Link>
-                    </span>
-            </li>
-
+            <img key={item.id} src={item.photo}>
+            </img>
         ));
+
         return (
-            <nav className='nav'>
-                <ul>
+            <nav className='container_dir'>
                     {directors}
-                </ul>
             </nav>
         )
-
     }
 }
 
