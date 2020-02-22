@@ -1,23 +1,14 @@
 import React from 'react';
-import Author from './components/Author/Author';
-import Directors from "./components/Directors/Directors.jsx";
 import Header from './components/Header/Header.jsx';
-import Main from './components/Main/Main.jsx';
-import Team from './components/Team/Team';
-import Worklog from './components/Worklog/Worklog';
+import Main from "./components/Main/Main.jsx";
 
 function App() {
-  return (
-    <React.Fragment>
-      <Header />
-      <Main>
-        <Author />
-        <Directors />
-        <Team />
-        <Worklog />
-      </Main>
-    </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            <Header/>
+            <Main/>
+        </React.Fragment>
+    );
 }
 
 export default App;

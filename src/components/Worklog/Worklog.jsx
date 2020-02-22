@@ -20,7 +20,7 @@ function Students() {
   <React.Fragment>
   <h1>Students</h1>
     <table>
-      <tr class="head">
+      <tr className="head">
         <td>Student</td>
         <td>Task</td>
         <td>Total time</td>
@@ -39,9 +39,9 @@ function Requirements() {
     return i.map(el => (
       <tr key={el.id}>
         <td>
-          {(el.checked == '1') ?
-            <input type="checkbox" checked readonly disabled></input> :
-            <input type="checkbox" readonly disabled></input>}
+          {(el.checked === '1') ?
+            <input type="checkbox" checked readOnly disabled></input> :
+            <input type="checkbox" readOnly disabled></input>}
         </td>
         <td>{el.score}</td>
         <td>{el.description}</td>
@@ -55,19 +55,19 @@ function Requirements() {
 
   return (
   <React.Fragment>
-      <table class="requirements-table">
-        <tr class="head">
-          <td colspan="3">Min scope (50)</td>
+      <table className="requirements-table">
+        <tr className="head">
+          <td colSpan="3">Min scope (50)</td>
         </tr>
         {MIN_LIST}
 
-        <tr class="head">
-          <td colspan="3">Normal scope (140)</td>
+        <tr className="head">
+          <td colSpan="3">Normal scope (140)</td>
         </tr>
         {NORMAL_LIST}
 
-        <tr class="head">
-          <td colspan="3">Extra scope (70)</td>
+        <tr className="head">
+          <td colSpan="3">Extra scope (70)</td>
         </tr>
         {EXTRA_LIST}
       </table>
