@@ -1,48 +1,35 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import {connect} from 'react-redux';
+
 import Biography from './Biography';
 import Works from './Works';
 import Slider from './Slider';
 import Map from './Map';
 import Video from './Video';
 import './main.scss'
+import {WORKS} from "../../utils/utils";
 
 class Author extends Component {
-  state = {
-    isLoad: false,
-    data: null
-  }
 
-  componentDidMount() {
-    import('../../data/data.json')
-      .then(res => {
-        this.setState({ data: res.default })
-      })
-  }
   render() {
-    const { data } = this.state
     let main;
-    if (data) {
-      const lang = 'ru';
-      const { data: { directors } } = this.state;
-      const { name, yearsOfLife, photo, biography, workList, images, video, map } = directors[0];
+      const {name, yearsOfLife, photo, images, video, map, biography , workList} = this.props.selectedDirector;
+
       main = (
         <>
           <div className="author">
-            <h2 className="author__header">{name[lang]}</h2>
-            <img className="author__img" src={photo} alt={name[lang]} />
+            <h2 className="author__header">{name[this.props.language]}</h2>
+            <img className="author__img" src={photo} alt={name[this.props.language]} />
             <p className="author__years">{yearsOfLife}</p>
           </div>
-          <Biography biography={biography[lang]} />
-          <Works header={'Works'} works={workList[lang]} />
+          <Biography biography={biography[this.props.language]} />
+          <Works header={WORKS[this.props.language]} works={workList[this.props.language]} />
           <Slider images={images} />
-          <Video video={video} title={name} />
+          <Video video={video} title={name[this.props.language]} />
           <Map coordinates={map} />
         </>
-      )
-    } else {
-      main = <h2>Loading . . .</h2>
-    }
-
+      );
     return (
       <section className="main">
         {main}
@@ -51,4 +38,17 @@ class Author extends Component {
   }
 }
 
-export default Author;
+const mapStateToProps = state => ({
+    selectedDirector: state.selectedDirector,
+    language: state.language
+});
+
+
+export default connect(mapStateToProps, null)(Author);
+
+Author.propTypes = {
+    selectedDirector: PropTypes.objectOf(PropTypes.any).isRequired,
+    language: PropTypes.string.isRequired,
+    workList: PropTypes.objectOf(PropTypes.any),
+};
+

@@ -20,6 +20,6 @@ function Works({header, works}) {
 Works.propTypes = {
   header: PropTypes.string,
   works: PropTypes.array.isRequired
-}
+};
 
 export default Works;

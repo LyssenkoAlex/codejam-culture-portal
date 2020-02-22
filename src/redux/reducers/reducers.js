@@ -5,11 +5,13 @@ import {
 import directorsData from '../../data/data';
 import {LANG} from "../../utils/utils";
 
+const randomDirector = Math.floor(Math.random() * 8);
+
 
 const initialState = {
     directors:directorsData.directors,
     directorsOfTheDay:0,
-    selectedDirector:directorsData.directors.filter((x) => x.id === 1),
+    selectedDirector:directorsData.directors.filter((x) => x.id === randomDirector)[0],
     language:LANG.RU.CODE
 };
 
