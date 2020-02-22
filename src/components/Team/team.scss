@@ -8,7 +8,8 @@ $cardColor: #222;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 50px;
-  text-decoration: underline;
+  border-bottom: 1px solid $cardBg;
+  border-top: 1px solid $cardBg;
 }
 .team__list {
   display: flex;
@@ -16,15 +17,23 @@ $cardColor: #222;
   justify-content: space-evenly;
 }
 .team-card {
-  margin: 20px;
-  min-width: 200px;
+  position: relative;
+  margin: 15px 2px;
+  min-width: 190px;
   background: $cardBg;
   color: $cardColor;
-  padding: 20px;
+  padding: 20px 10px;
+  box-sizing: border-box;
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 0 8px 1px #000;
-  transition: 6s;
+  transition: .6s;
+  @media screen and (max-width: 1200px) {
+    margin: 15px 30px;
+  }
+  @media screen and (max-width: 770px) {
+    margin: 10px 2px;
+  }
   &:hover {
     box-shadow: inset 0 0 1px 2px #111;
   }
