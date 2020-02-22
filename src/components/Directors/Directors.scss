@@ -13,3 +13,9 @@ nav {
     text-decoration: none;
   }
 }
+
+.container_dir {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:5px
+}
