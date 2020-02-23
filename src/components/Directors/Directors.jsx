@@ -16,7 +16,7 @@ function Directors(props) {
       let newValue = e.currentTarget.value
       setValue(() => newValue.toLowerCase())
     } else {
-      setValue(() => e.currentTarget.value)
+      setValue(() => '')
     }
   }
 
