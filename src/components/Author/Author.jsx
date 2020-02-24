@@ -9,6 +9,7 @@ import Map from './Map';
 import Video from './Video';
 import './main.scss'
 import {WORKS} from "../../utils/utils";
+import ScrollToTop from "../Directors/ScrollToTop";
 
 class Author extends Component {
 
@@ -18,6 +19,7 @@ class Author extends Component {
 
       main = (
         <>
+          <ScrollToTop />
           <div className="author">
             <h2 className="author__header">{name[this.props.language]}</h2>
             <img className="author__img" src={photo} alt={name[this.props.language]} />
