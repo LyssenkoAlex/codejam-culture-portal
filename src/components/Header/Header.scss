@@ -1,40 +1,23 @@
 .header {
-  height: 80px;
-  padding: 10px 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  margin-top: 10px;
+  padding: 10px 20px 10px 0;
+  box-shadow: 0 0 10px 1px white;
 
-  &__top {
-    position: relative;
-    display: flex;
-    justify-content: center;
-
-    h1 {
-      font-size: 25px;
-      text-align: center;
-    }
-
-    .lang {
-      position: absolute;
-      right: 20px;
-      width: 30px;
-      height: 30px;
-    }
+  .lang {
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }
 
   &__nav {
+    margin-right: 40px;
 
-    // Временно !!!  убрать !!
     & ul {
       display: flex;
       justify-content: space-around;
       margin: 0;
       padding: 0;
     }
-
   }
 }
-
-// Временно !!!  убрать !!
-// body {
-//   background-color: #ffffff !important;
-// }
