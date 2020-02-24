@@ -5,7 +5,6 @@ import './Directors.css';
 import {Link} from 'react-router-dom'
 import {showDirector} from '../../redux/actions/actions';
 import {HOME} from '../../utils/utils';
-//import {Route} from "react-router-dom";
 
 function Directors(props) {
 
@@ -16,16 +15,18 @@ function Directors(props) {
       let newValue = e.currentTarget.value
       setValue(() => newValue.toLowerCase())
     } else {
-      setValue(() => e.currentTarget.value)
+      setValue(() => '')
     }
   }
+
+   const setIdDirectors = (id) => {props.showDirector(id)}
 
   let authors = value ? props.directors.filter(d => (d.name[props.language].toLowerCase()).includes(value)) : props.directors
 
   let elements = authors.map((item, index) =>
 
     <li key={index} className = 'block_director'>
-      <Link to={HOME.path}>
+      <Link to={HOME.path} onClick={() => setIdDirectors(item.id)}>
         {() => props.showDirector(item.id)}
         <img src={item.photo}/>
         <p>{item.name[props.language]}</p>
@@ -43,15 +44,19 @@ function Directors(props) {
   )
 }
 
-const mapDispatchToProps = {
-  showDirector
+const mapDispatchToProps = (dispatch) => {
+  return {
+    showDirector: (id) => {
+      dispatch(showDirector(id));
+    }
+  }
 };
-
 
 const mapStateToProps = state => ({
   directors: state.directors,
   language: state.language
 });
+
 export default connect(mapStateToProps, mapDispatchToProps)(Directors);
 
 Directors.propTypes = {
