@@ -4,4 +4,12 @@
   gap: 5px;
 }
 
+@media (max-width: 991px) {
+  .container_dir {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+  }
+}
+
 /*# sourceMappingURL=Directors.css.map */
