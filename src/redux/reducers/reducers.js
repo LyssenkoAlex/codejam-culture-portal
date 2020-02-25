@@ -24,7 +24,7 @@ function directorsRootReducer(state = initialState, action) {
       return{
         ...state, selectedDirector: state.directors.filter(d => {
           return  d.id === action.id})[0]
-      }
+      };
     case CHANGE_LANGUAGE :
       return Object.assign({}, state, {language:LANG[action.langCode].CODE});
     default:
