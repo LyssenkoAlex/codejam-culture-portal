@@ -23,13 +23,14 @@ const useStyles = makeStyles({
 
 
 
-function createData( student, task, time) {
+function createDataStudent( student, task, time) {
     return {  student, task, time };
 }
 
 const rows = studentsInfo.map(el => (
-    createData(el.student, el.task, el.time )
+    createDataStudent(el.student, el.task, el.time )
 ));
+
 
 
 function Students() {
@@ -84,6 +85,7 @@ function Requirements() {
   return (
   <React.Fragment>
       <table className="requirements-table">
+          <tbody>
         <tr className="head">
           <td colSpan="3">Min scope (50)</td>
         </tr>
@@ -98,6 +100,7 @@ function Requirements() {
           <td colSpan="3">Extra scope (70)</td>
         </tr>
         {EXTRA_LIST}
+          </tbody>
       </table>
   </React.Fragment>
   );
