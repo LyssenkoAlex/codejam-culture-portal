@@ -5,7 +5,7 @@ import {
 import directorsData from '../../data/data';
 import {LANG} from "../../utils/utils";
 
-const randomDirector = Math.floor(Math.random() * 8);
+const randomDirector = Math.floor(new Date()/1000/3600/24) % directorsData.directors.length;
 
 
 const initialState = {
