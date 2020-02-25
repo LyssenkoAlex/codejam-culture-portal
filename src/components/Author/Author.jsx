@@ -28,7 +28,7 @@ class Author extends Component {
           <Biography biography={biography[this.props.language]} />
           <Works header={WORKS[this.props.language]} works={workList[this.props.language]} />
           <Slider images={images} />
-          <Video video={video} title={name[this.props.language]} />
+          { video ? <Video video={video} title={name[this.props.language]} /> : null }
           <Map coordinates={map} />
         </>
       );

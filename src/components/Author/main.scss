@@ -46,6 +46,9 @@ $fontColorMain: #fff;
   list-style: none;
   text-align: left;
   border-bottom: 1px solid $fontColorMain;
+  .works__item-event {
+    text-align: right;
+  }
   span {
     padding: 4px 10px;
   }
@@ -53,6 +56,9 @@ $fontColorMain: #fff;
 
 .carousel.carousel-slider {
   margin: auto;
+  @media screen and (max-width: 720px) {
+    width: 80% !important;
+  }
   .control-arrow {
     background: rgba(0, 0, 0, 0.3);
   }
