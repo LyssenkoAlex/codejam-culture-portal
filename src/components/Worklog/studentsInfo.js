@@ -36,10 +36,16 @@ export const studentsInfo = [
     time: '24 hours',
   },
   {
-    id: 3,
+    id: 3.1,
     student: 'Alexey Kostsevich',
-    task: 'Test',
-    time: '24 hours',
+    task: 'Page with a list of authors on the given topic with search widget',
+    time: '15 hours',
+  },
+  {
+    id: 3.1,
+    student: 'Alexey Kostsevich',
+    task: 'Table with hours and time for implementing functionality',
+    time: '0,4 hours',
   },
   {
     id: 4,
