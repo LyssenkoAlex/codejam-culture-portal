@@ -2,9 +2,9 @@ export const teamInfo = [
   {
     id: 1,
     name: {
-      ru: 'Лущенко Александр',
-      en: 'Lyssenko Alex',
-      by: 'Лущенко Аляксандр',
+      ru: 'Лысенко Александр',
+      en: 'Lyssenko Alexandr',
+      by: 'Лысенко Аляксандр',
     },
     photo: 'https://avatars3.githubusercontent.com/u/25707453?s=400&v=4',
     git: 'https://github.com/LyssenkoAlex',
@@ -13,7 +13,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 6,
@@ -93,6 +93,6 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
 ]

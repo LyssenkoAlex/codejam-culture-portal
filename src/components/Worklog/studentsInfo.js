@@ -1,5 +1,29 @@
 export const studentsInfo = [
   {
+    id: 1.1,
+    student: 'Alexandr Lyssenko',
+    task: 'Basic project structure',
+    time: '2 hours',
+  },
+  {
+    id: 1.2,
+    student: 'Alexandr Lyssenko',
+    task: 'Redux and basic actions implement',
+    time: '3 hours',
+  },
+  {
+    id: 1.3,
+    student: 'Alexandr Lyssenko',
+    task: 'Portal navigation via routing',
+    time: '5 hours',
+  },
+  {
+    id: 1.4,
+    student: 'Alexandr Lyssenko',
+    task: 'Implement material desing for header and directors',
+    time: '5 hours',
+  },
+  {
     id: 1,
     student: 'Alexandr Lyssenko',
     task: 'Test',
@@ -64,7 +88,7 @@ export const MIN = [
     score: '20',
     description: 'Portal has two languages',
   }
-]
+];
 
 export const NORMAL = [
   {
@@ -127,7 +151,7 @@ export const NORMAL = [
     score: '10',
     description: 'Portal has third language',
   }
-]
+];
 
 export const EXTRA = [
   {
@@ -166,4 +190,4 @@ export const EXTRA = [
     score: '20',
     description: 'Storybook/styleguidist/other react styleguide tool usage for the page with styles',
   }
-]
+];

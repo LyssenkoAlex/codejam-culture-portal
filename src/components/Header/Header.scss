@@ -1,23 +1,3 @@
-.header {
-  position: relative;
-  margin-top: 10px;
-  padding: 10px 20px 10px 0;
-  box-shadow: 0 0 10px 1px white;
-
-  .lang {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-
-  &__nav {
-    margin-right: 40px;
-
-    & ul {
-      display: flex;
-      justify-content: space-around;
-      margin: 0;
-      padding: 0;
-    }
-  }
+.header_props {
+  width: 1fr;
 }

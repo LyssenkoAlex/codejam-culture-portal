@@ -5,7 +5,7 @@ import {
 import directorsData from '../../data/data';
 import {LANG} from "../../utils/utils";
 
-const randomDirector = Math.floor(Math.random() * 8);
+const randomDirector = Math.floor(new Date()/1000/3600/24) % directorsData.directors.length;
 
 
 const initialState = {
@@ -24,7 +24,7 @@ function directorsRootReducer(state = initialState, action) {
       return{
         ...state, selectedDirector: state.directors.filter(d => {
           return  d.id === action.id})[0]
-      }
+      };
     case CHANGE_LANGUAGE :
       return Object.assign({}, state, {language:LANG[action.langCode].CODE});
     default:
