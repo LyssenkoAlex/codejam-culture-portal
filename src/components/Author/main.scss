@@ -1,10 +1,20 @@
 $fontColorMain: #fff;
+@mixin headers {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding: 5px;
+  color: $fontColorMain;
+  text-shadow: 0 1px 1px #000000;
+  border-bottom: 1px solid $fontColorMain;
+  border-top: 1px solid $fontColorMain;
+  text-transform: uppercase;
+  font-size: 26px;
+}
 
 .main {
   margin: 20px 0;
-  padding: 60px 20px;
+  padding: 10px 20px 50px;
   text-align: center;
-  box-shadow: 0 0 10px 1px white;
   * {
     margin: 0;
     padding: 0;
@@ -12,50 +22,66 @@ $fontColorMain: #fff;
   }
 }
 .author {
-  margin-bottom: 80px;
   .author__header {
-    margin-bottom: 40px;
+    @include headers();
+    box-shadow: 0 0 4px 1px #333;
+    margin-top: 50px;
   }
   .author__img {
     margin-bottom: 20px;
-    box-shadow: 0 0 4px 1px $fontColorMain;
+    box-shadow: 0 0 4px 1px black;
   }
   .author__years {
-    font-size: 22px;
+    font-size: 24px;
+    color: $fontColorMain;
+    text-shadow: 0 1px 1px #000;
   }
 }
 .biography {
   font-size: 20px;
   &__header {
-    margin: 40px 0;
+    @include headers();
   }
 }
 
 .works {
   margin-bottom: 40px;
   &__header {
-    margin: 40px 0;
+    @include headers();
   }
 }
 
-.works__item {
+.MuiTypography-root {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   list-style: none;
   text-align: left;
-  border-bottom: 1px solid $fontColorMain;
   .works__item-event {
     text-align: right;
   }
-  span {
-    padding: 4px 10px;
+  .works__item-date {
+    margin-right: 20px;
+    font-weight: bold;
   }
 }
-
+.works .MuiListItem-button {
+  background: rgba($fontColorMain, .9);
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0;
+  &:hover {
+    background: #404040;
+    color: $fontColorMain;
+  }
+}
+.gallery {
+  margin-bottom: 40px;
+}
 .carousel.carousel-slider {
   margin: auto;
+  box-shadow: 0 0 3px 1px #000;
   @media screen and (max-width: 720px) {
     width: 80% !important;
   }

@@ -7,7 +7,7 @@ export default function Slider(props) {
   const { images } = props;
   return (
     <div className="gallery">
-      <Carousel width="50%" emulateTouch={true}>
+      <Carousel width="40%" emulateTouch={true} dynamicHeight={true}>
         {images.map((img, index) => (
           <div key={index}>
             <img src={img} alt="one of works" />
