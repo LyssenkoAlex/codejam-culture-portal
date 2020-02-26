@@ -7,6 +7,11 @@
         "ru": "Лариса Помпеевна Александровская",
         "en": "Larysa Alexandrovskaya"
       },
+      "placeOfBirth": {
+        "by": "Мінск",
+        "ru": "Минск",
+        "en": "Minsk"
+      },
       "yearsOfLife": [
         "1904 - 1980"
       ],
