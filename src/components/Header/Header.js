@@ -36,7 +36,7 @@ export default function Header() {
                 <BottomNavigationAction label={TEAM[language]} icon={<PeopleIcon/>} component={Link} to={TEAM.path}/>
                 <BottomNavigationAction label={WORK_LOG[language]} icon={<FitnessCenterIcon/>} component={Link} to={WORK_LOG.path}/>
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-                    {LANG.RU.TITLE}
+                    {language.toUpperCase()}
                 </Button>
                 <Menu
                     id="simple-menu"
