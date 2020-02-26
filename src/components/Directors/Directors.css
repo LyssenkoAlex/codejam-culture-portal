@@ -1,14 +1,35 @@
 .container_dir {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MuiFormControl-root {
+  width: 500px;
+}
+
+.block_directors {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.block_director {
+  width: 270px;
+  margin: 30px;
+
 }
 
 @media (max-width: 991px) {
   .container_dir {
-    display: grid;
-    grid-template-columns: auto;
-    gap: 5px;
+    
+  }
+  .MuiFormControl-root {
+    width: 300px;
   }
 }
 
