@@ -8,6 +8,7 @@ export const WORKS = {ID:'WORKS', ru:'Работы', en:'Works', by:'Работ�
 export const DETAILS = {ID:'DETAILS', ru:'Детали', en:'Details', by:'Дэталi'};
 export const BIOGRAPHY = {ID: 'BIOGRAPHY', ru:'Биография', en: 'Biography', by: 'Біяграфія'}
 
+
 export const NAV_PAGES = [HOME, DIRECTORS, TEAM, STYLE, WORK_LOG];
 
 export const LANG = {
