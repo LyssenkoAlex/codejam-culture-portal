@@ -9,6 +9,8 @@ export const DETAILS = {ID:'DETAILS', ru:'Детали', en:'Details', by:'Дэ�
 export const BIOGRAPHY = {ID: 'BIOGRAPHY', ru:'Биография', en: 'Biography', by: 'Біяграфія'}
 export const DIRECTOR_SEARCH = {ID: 'DIRECTORSEARCH', ru:'Поиск режиссера', en: 'Director search', by: 'Пошук рэжыссера'}
 
+
+
 export const NAV_PAGES = [HOME, DIRECTORS, TEAM, STYLE, WORK_LOG];
 
 export const LANG = {
@@ -16,3 +18,5 @@ export const LANG = {
     ENG: {CODE: 'en', TITLE: 'EN'},
     BY: {CODE: 'by', TITLE: 'BE'}
 };
+
+

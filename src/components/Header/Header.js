@@ -12,7 +12,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import {useDispatch, useSelector} from "react-redux";
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
-
+import './Header.scss';
 
 export default function Header() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -28,9 +28,11 @@ export default function Header() {
     const language = useSelector(state => state.language);
     const dispatch = useDispatch();
 
+    
+
     return (
         <div>
-            <BottomNavigation showLabels className='header_props'>
+            <BottomNavigation showLabels className='header_props' >
                 <BottomNavigationAction label={HOME[language]} icon={<HomeIcon/>} component={Link} to={HOME.path}/>
                 <BottomNavigationAction label={DIRECTORS[language]} icon={<SupervisorAccountIcon/>} component={Link} to={DIRECTORS.path}/>
                 <BottomNavigationAction label={TEAM[language]} icon={<PeopleIcon/>} component={Link} to={TEAM.path}/>

@@ -6,16 +6,16 @@ import './style/style.scss';
 function App() {
     return (
         <React.Fragment>
-            <div className='container'>
+            <div className='container' >
+                <div className='background'>
+                </div>
                 <div className='header'>
                     <Header/>
                 </div>
-                <div className='left-side'/>
+                
                 <div className='content'>
                     <Main/>
                 </div>
-                <div className='aside'/>
-                <div className='footer'/>
             </div>
         </React.Fragment>
     );
