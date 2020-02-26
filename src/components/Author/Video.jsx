@@ -8,7 +8,7 @@ export default function Video({video, title}) {
         src={video}
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullscreen
+        allowFullScreen
         title={title}
       ></iframe>
     </div>

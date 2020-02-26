@@ -4,7 +4,9 @@ body {
   font-family: sans-serif;
   background-color: #E4F0FF;
 }
-
+main {
+  box-shadow: 0 0 5px 1px black;
+}
 .container {
   display: grid;
   grid-template-columns: 0.1fr 1fr 0.1fr;

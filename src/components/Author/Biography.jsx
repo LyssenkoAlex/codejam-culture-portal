@@ -2,10 +2,10 @@ import React from 'react';
 import {Timeline, TimelineItem} from 'vertical-timeline-component-for-react';
 import PropTypes from 'prop-types';
 
-function Biography({ biography }) {
+function Biography({header, biography}) {
   return (
     <div className="biography">
-      <h3 className="biography__header">Biography</h3>
+      <h3 className="biography__header">{header}</h3>
       <Timeline lineColor={'#cdf'}>
         {biography.map((el, index) => (
           <TimelineItem
@@ -29,6 +29,7 @@ function Biography({ biography }) {
 }
 
 Biography.propTypes = {
+  header: PropTypes.string,
   biography: PropTypes.array.isRequired
 }
 
