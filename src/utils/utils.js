@@ -7,7 +7,7 @@ export const THEATER_TITLE = {ID:'Theater directors of Belarus', ru:'Театр�
 export const WORKS = {ID:'WORKS', ru:'Работы', en:'Works', by:'Работы'};
 export const DETAILS = {ID:'DETAILS', ru:'Детали', en:'Details', by:'Дэталi'};
 export const BIOGRAPHY = {ID: 'BIOGRAPHY', ru:'Биография', en: 'Biography', by: 'Біяграфія'}
-
+export const DIRECTOR_SEARCH = {ID: 'DIRECTORSEARCH', ru:'Поиск режиссера', en: 'Director search', by: 'Пошук рэжыссера'}
 
 export const NAV_PAGES = [HOME, DIRECTORS, TEAM, STYLE, WORK_LOG];
 

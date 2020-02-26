@@ -3,7 +3,7 @@ import { useDispatch, useSelector} from 'react-redux';
 import './Directors.css';
 import {Link} from 'react-router-dom'
 import {showDirector} from '../../redux/actions/actions';
-import {DETAILS, HOME} from '../../utils/utils';
+import {DETAILS, HOME, DIRECTOR_SEARCH} from '../../utils/utils';
 import {makeStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
@@ -46,7 +46,9 @@ export default function Directors() {
         dispatch(showDirector(id))
     };
 
-    let authors = value ? directors.filter(d => (d.name[language].toLowerCase()).includes(value)) : directors;
+    let arrayAuthorsName = value ? directors.filter(d => (d.name[language].toLowerCase()).includes(value)) : directors;
+    let arrayAuthorsPlaceOfBirth = value ? directors.filter(d => (d.placeOfBirth[language].toLowerCase()).includes(value)) : [];
+    let authors = arrayAuthorsName.concat(arrayAuthorsPlaceOfBirth)
 
     let elements = authors.map((item, index) =>
 
@@ -78,7 +80,7 @@ export default function Directors() {
     return (
         <div className='container_dir'>
             <div>&nbsp;</div>
-            <TextField id="filled-search" label="Поиск режиссера" type="search" variant="filled" onChange={searchDirector}/>
+            <TextField id="filled-search" label={DIRECTOR_SEARCH[language]} type="search" variant="filled" onChange={searchDirector}/>
             <div>&nbsp;</div>
           {elements}
         </div>
