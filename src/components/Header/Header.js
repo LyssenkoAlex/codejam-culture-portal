@@ -11,8 +11,8 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {useDispatch, useSelector} from "react-redux";
 import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
-
+import {Link} from 'react-router-dom';
+import './Header.scss';
 
 export default function Header() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -20,23 +20,25 @@ export default function Header() {
         setAnchorEl(event.currentTarget);
     };
 
-    const handleClose = (id) => {
+    const handleClose = ({target}, id) => {
         setAnchorEl(null);
-        dispatch(changeLanguage(id));
+        if (target.tagName === 'LI') dispatch(changeLanguage(id));
     };
 
     const language = useSelector(state => state.language);
     const dispatch = useDispatch();
 
+    
+
     return (
-        <div>
-            <BottomNavigation showLabels className='header_props'>
+        <div className = 'header_content'>
+            <BottomNavigation showLabels className='header_props' >
                 <BottomNavigationAction label={HOME[language]} icon={<HomeIcon/>} component={Link} to={HOME.path}/>
                 <BottomNavigationAction label={DIRECTORS[language]} icon={<SupervisorAccountIcon/>} component={Link} to={DIRECTORS.path}/>
                 <BottomNavigationAction label={TEAM[language]} icon={<PeopleIcon/>} component={Link} to={TEAM.path}/>
                 <BottomNavigationAction label={WORK_LOG[language]} icon={<FitnessCenterIcon/>} component={Link} to={WORK_LOG.path}/>
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-                    {LANG.RU.TITLE}
+                    {language.toUpperCase()}
                 </Button>
                 <Menu
                     id="simple-menu"
@@ -44,9 +46,9 @@ export default function Header() {
                     keepMounted
                     open={Boolean(anchorEl)}
                     onClose={handleClose}>
-                    <MenuItem onClick={() => handleClose('RU')}>{LANG.RU.TITLE}</MenuItem>
-                    <MenuItem onClick={() => handleClose('BY')}>{LANG.BY.TITLE}</MenuItem>
-                    <MenuItem onClick={() => handleClose('ENG')}>{LANG.ENG.TITLE}</MenuItem>
+                    <MenuItem onClick={(e) => handleClose(e, 'RU')}>{LANG.RU.TITLE}</MenuItem>
+                    <MenuItem onClick={(e) => handleClose(e, 'BY')}>{LANG.BY.TITLE}</MenuItem>
+                    <MenuItem onClick={(e) => handleClose(e, 'ENG')}>{LANG.ENG.TITLE}</MenuItem>
                 </Menu>
             </BottomNavigation>
         </div>

@@ -12,14 +12,10 @@ body {
   grid-gap: 0;
   grid-template-areas: "header header header" "left-side content side" "footer footer footer";
   height: 100vh;
+  position: relative;
 }
 
-.header {
-  color: white;
-  font-size: 14px;
-  grid-area: header;
-  text-align: center;
-}
+
 
 .left-side {
   grid-area: left-side;
