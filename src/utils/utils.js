@@ -11,6 +11,8 @@ export const DIRECTOR_SEARCH = {ID: 'DIRECTORSEARCH', ru:'Поиск режис�
 export const DAYSAUTHOR = {ID: 'DAYSAUTHOR', ru:'Режиссер дня', en: 'Director of the day', by: 'Рэжысёр дня', path: '/daysAuthor'};
 export const AUTHOR = {ID: 'AUTHOR', path: '/author'};
 
+
+
 export const NAV_PAGES = [HOME, DIRECTORS, TEAM, STYLE, WORK_LOG];
 
 export const LANG = {
@@ -18,3 +20,5 @@ export const LANG = {
     ENG: {CODE: 'en', TITLE: 'EN'},
     BY: {CODE: 'by', TITLE: 'BE'}
 };
+
+

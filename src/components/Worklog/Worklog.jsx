@@ -83,7 +83,7 @@ function Requirements() {
   const EXTRA_LIST = groups(EXTRA);
 
   return (
-  <React.Fragment>
+  <React.Fragment className = "workLod_body">
       <table className="requirements-table">
           <tbody>
         <tr className="head">
