@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
-import { useDispatch, useSelector} from 'react-redux';
 import {DAYSAUTHOR} from '../../utils/utils'
 
 import './main.scss'

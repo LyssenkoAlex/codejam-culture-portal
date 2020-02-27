@@ -1,11 +1,11 @@
 $fontColorMain: #fff;
-$headerColor: #ffa600;
+$themeColor: #ffa600;
 
 @mixin headers {
   margin-top: 80px;
   margin-bottom: 40px;
   padding: 5px;
-  color: $headerColor;
+  color: $themeColor;
   text-shadow: 0 1px 1px #fff;
   border-bottom: 1px solid $fontColorMain;
   border-top: 1px solid $fontColorMain;
@@ -34,6 +34,7 @@ $headerColor: #ffa600;
   &__img {
     margin-bottom: 10px;
     box-shadow: 0 0 4px 1px black;
+    border: 1px solid $themeColor;
   }
 
   &__years {
@@ -89,6 +90,7 @@ $headerColor: #ffa600;
   margin-bottom: 5px;
   border-radius: 5px;
   box-shadow: 0 0 2px 0;
+  border: 1px solid $themeColor;
   &:hover {
     background: #404040;
     color: $fontColorMain;
@@ -96,10 +98,16 @@ $headerColor: #ffa600;
 }
 .gallery {
   margin-bottom: 40px;
+  .carousel .thumb.selected {
+    border: 3px solid $themeColor;
+  }
 }
 .carousel.carousel-slider {
   margin: auto;
   box-shadow: 0 0 3px 1px #000;
+  .slider-wrapper {
+    border: 2px solid $themeColor;
+  }
   @media screen and (max-width: 720px) {
     width: 80% !important;
   }
@@ -113,12 +121,14 @@ $headerColor: #ffa600;
   iframe {
     width: 560px;
     height: 315px;
+    box-shadow: 0 0 6px 1px black;
   }
 }
 .mapContainer {
   margin: 0 auto;
   max-width: 560px;
   height: 315px;
+  box-shadow: 0 0 6px 1px black;
 }
 .sidebarStyle {
   display: inline-block;
