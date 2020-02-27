@@ -5,6 +5,7 @@ import "./Title.scss"
 
 export default function Title() {
     const lang = useSelector(state => state.language);
+    
     return (
         <React.Fragment>
             <h1>{TITLE[lang]}</h1>

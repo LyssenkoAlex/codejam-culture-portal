@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
+import { useDispatch, useSelector} from 'react-redux';
 import {DAYSAUTHOR} from '../../utils/utils'
 
 import './main.scss'
 import ScrollToTop from "../Directors/ScrollToTop";
 
 class daysAuthor extends Component {
-    
     render() {
     let main;
+
+      // Нужно получить из initialState directorsOfTheDay (это объект с данными о режиссере дня).
       const {name, yearsOfLife, photo, description} = this.props.selectedDirector;
       const {language} = this.props;
+      
       main = (
         <>
           <ScrollToTop />
