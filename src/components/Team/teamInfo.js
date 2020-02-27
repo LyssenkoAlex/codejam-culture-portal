@@ -4,7 +4,7 @@ export const teamInfo = [
     name: {
       ru: 'Лысенко Александр',
       en: 'Lyssenko Alexandr',
-      by: 'Лысенко Аляксандр',
+      by: 'Лысенка Аляксандр',
     },
     photo: 'https://avatars3.githubusercontent.com/u/25707453?s=400&v=4',
     git: 'https://github.com/LyssenkoAlex',
