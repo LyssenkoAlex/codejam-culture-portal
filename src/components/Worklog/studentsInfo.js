@@ -48,10 +48,22 @@ export const studentsInfo = [
     time: '0,4 hours',
   },
   {
-    id: 4,
+    id: 4.1,
     student: 'Aleksandr Serikov',
-    task: 'Test',
-    time: '24 hours',
+    task: 'Create the basic structure of the project',
+    time: '0.5 hours',
+  },
+  {
+    id: 4.2,
+    student: 'Aleksandr Serikov',
+    task: 'Create navigation and menu of language',
+    time: '4 hours',
+  },
+  {
+    id: 4.3,
+    student: 'Aleksandr Serikov',
+    task: 'Fix menu of language',
+    time: '0.5 hours',
   },
   {
     id: 5,
