@@ -31,7 +31,7 @@ export default function Header() {
     
 
     return (
-        <div>
+        <div className = 'header_content'>
             <BottomNavigation showLabels className='header_props' >
                 <BottomNavigationAction label={HOME[language]} icon={<HomeIcon/>} component={Link} to={HOME.path}/>
                 <BottomNavigationAction label={DIRECTORS[language]} icon={<SupervisorAccountIcon/>} component={Link} to={DIRECTORS.path}/>
