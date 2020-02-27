@@ -10,7 +10,7 @@ const randomDirector = Math.floor(new Date()/1000/3600/24) % directorsData.direc
 
 const initialState = {
   directors:directorsData.directors,
-  directorsOfTheDay:0,
+  directorsOfTheDay:directorsData.directors[randomDirector],
   selectedDirector:directorsData.directors.filter((x) => x.id === randomDirector)[0],
   language:LANG.RU.CODE
 };

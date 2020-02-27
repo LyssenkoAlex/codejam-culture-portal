@@ -1,3 +1,18 @@
+.header_content {
+  width: 1100px;
+}
 .header_props {
   width: 1fr;
+  background-color: unset!important;
+}
+.MuiBottomNavigationAction-root {
+  color: #ffa600!important;
+}
+
+.MuiButton-root {
+  color: white!important;
+  border: 2px solid  #ffa600!important;
+}
+.MuiMenu-paper {
+  margin-left: 6px;
 }
