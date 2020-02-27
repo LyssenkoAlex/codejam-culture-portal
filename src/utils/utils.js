@@ -10,7 +10,7 @@ export const BIOGRAPHY = {ID: 'BIOGRAPHY', ru:'Биография', en: 'Biograp
 export const DIRECTOR_SEARCH = {ID: 'DIRECTORSEARCH', ru:'Поиск режиссера', en: 'Director search', by: 'Пошук рэжыссера'};
 export const DAYSAUTHOR = {ID: 'DAYSAUTHOR', ru:'Режиссер дня', en: 'Director of the day', by: 'Рэжысёр дня', path: '/daysAuthor'};
 export const AUTHOR = {ID: 'AUTHOR', path: '/author'};
-
+export const TITLE = {ID: 'TITLE', ru: 'Известные режиссеры Беларуси', en: 'Famous directors of Belarus', by: 'Вядомыя рэжысёры Беларусі'}
 
 
 export const NAV_PAGES = [HOME, DIRECTORS, TEAM, STYLE, WORK_LOG];
