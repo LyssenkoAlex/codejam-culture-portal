@@ -3,7 +3,7 @@ import { useDispatch, useSelector} from 'react-redux';
 import './Directors.css';
 import {Link} from 'react-router-dom'
 import {showDirector} from '../../redux/actions/actions';
-import {DETAILS, HOME, DIRECTOR_SEARCH} from '../../utils/utils';
+import {DETAILS, HOME, DIRECTOR_SEARCH, AUTHOR} from '../../utils/utils';
 import {makeStyles} from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
@@ -50,7 +50,7 @@ export default function Directors() {
 
   let elements = authors.map((item, index) =>
     <Card className="block_director" key={index}>
-      <CardActionArea onClick={() => setIdDirectors(item.id)} to={HOME.path} component={Link}>
+      <CardActionArea onClick={() => setIdDirectors(item.id)} to={AUTHOR.path} component={Link}>
         <CardMedia
           className={classes.media}
           image={item.photo}
