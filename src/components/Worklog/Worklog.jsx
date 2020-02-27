@@ -4,31 +4,60 @@ import {studentsInfo} from "./studentsInfo";
 import {MIN} from "./studentsInfo";
 import {NORMAL} from "./studentsInfo";
 import {EXTRA} from "./studentsInfo";
+import { makeStyles } from '@material-ui/core/styles';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
+
+
+
+const useStyles = makeStyles({
+    table: {
+        minWidth: '0.8fr',
+    },
+});
+
+
+
+function createDataStudent( student, task, time) {
+    return {  student, task, time };
+}
+
+const rows = studentsInfo.map(el => (
+    createDataStudent(el.student, el.task, el.time )
+));
 
 
 
 function Students() {
-  const studentsList = studentsInfo.map(el => (
-    <tr key={el.id}>
-      <td>{el.student}</td>
-      <td>{el.task}</td>
-      <td>{el.time}</td>
-    </tr>
-  ));
+    const classes = useStyles();
 
-  return (
-  <React.Fragment>
-  <h1>Students</h1>
-    <table>
-      <tr className="head">
-        <td>Student</td>
-        <td>Task</td>
-        <td>Total time</td>
-      </tr>
-      {studentsList}
-    </table>
-  </React.Fragment>
-  );
+    return (
+        <TableContainer component={Paper}>
+            <Table className={classes.table} aria-label="simple table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell align="left">Имя студента</TableCell>
+                        <TableCell align="left">Задание</TableCell>
+                        <TableCell align="left">Время</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {rows.map(row => (
+                        <TableRow key={row.student}>
+                            <TableCell align="left">{row.student}</TableCell>
+                            <TableCell align="left">{row.task}</TableCell>
+                            <TableCell align="left">{row.time}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </TableContainer>
+    );
 }
 
 
@@ -54,8 +83,9 @@ function Requirements() {
   const EXTRA_LIST = groups(EXTRA);
 
   return (
-  <React.Fragment>
+  <React.Fragment className = "workLod_body">
       <table className="requirements-table">
+          <tbody>
         <tr className="head">
           <td colSpan="3">Min scope (50)</td>
         </tr>
@@ -70,6 +100,7 @@ function Requirements() {
           <td colSpan="3">Extra scope (70)</td>
         </tr>
         {EXTRA_LIST}
+          </tbody>
       </table>
   </React.Fragment>
   );

@@ -2,6 +2,10 @@ html {
   font-family: sans-serif;
 }
 
+.workLod_body {
+  width: 100%;
+}
+
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);

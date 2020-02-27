@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #E4F0FF;
+}
+main {
+  box-shadow: 0 0 5px 1px black;
+}
+
+#root {
+  text-align: -webkit-center;
+}
+
+.container {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.background {
+  background-image: url("./../images/theater_background.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.header {
+  max-width: 1100px;
+  background-color: rgba(39, 26, 9, 0.95);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  position: fixed;
+  z-index: 102;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.left-side {
+  grid-area: left-side;
+  margin-left: 0.6rem;
+  background-color: #919ca6;
+}
+
+
+.content {
+  grid-area: content;
+  background-color: rgba(39, 26, 9, 0.75);
+  padding: 25px;
+  width: 100%;
+  margin-top: 65px;
+}
+
+.aside {
+  grid-area: side;
+  margin-right: 0.6rem;
+  background-color: #919ca6;
+}
+
+.footer {
+  grid-area: footer;
+  background-color:#5a5e62;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+ul li {
+  color: white;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .left-side,
+  .aside {
+    margin: 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+            "header"
+            "left-side"
+            "content"
+            "side"
+            "footer";
+    grid-template-rows:auto minmax(60px, auto) 1fr minmax(70px, auto) auto;
+  }
+}

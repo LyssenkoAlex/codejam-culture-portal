@@ -1,67 +1,81 @@
 import React, {useState} from 'react';
-import {connect} from 'react-redux';
-import PropTypes from 'prop-types';
+import { useDispatch, useSelector} from 'react-redux';
 import './Directors.css';
 import {Link} from 'react-router-dom'
 import {showDirector} from '../../redux/actions/actions';
-import {HOME} from '../../utils/utils';
+import {DIRECTOR_SEARCH, AUTHOR} from '../../utils/utils';
+import {makeStyles} from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import TextField from '@material-ui/core/TextField';
 
-function Directors(props) {
+const useStyles = makeStyles({
+root: {
+  maxWidth: 300,
+},
+media: {
+  height: 450,
+  width:'auto',
+},
+});
 
-  let [value, setValue] = useState('')
+export default function Directors() {
+  const classes = useStyles();
+  let [value, setValue] = useState('');
+  const directors = useSelector(state => state.directors);
+  const language = useSelector(state => state.language);
+  const dispatch = useDispatch();
 
   const searchDirector = (e) => {
     if (e.currentTarget.value) {
-      let newValue = e.currentTarget.value
+      let newValue = e.currentTarget.value;
       setValue(() => newValue.toLowerCase())
     } else {
       setValue(() => '')
     }
-  }
+  };
 
-   const setIdDirectors = (id) => {props.showDirector(id)}
+  const setIdDirectors = (id) => {
+    dispatch(showDirector(id))
+  };
 
-  let authors = value ? props.directors.filter(d => (d.name[props.language].toLowerCase()).includes(value)) : props.directors
+  let arrayAuthorsName = value ? directors.filter(d => (d.name[language].toLowerCase()).includes(value)) : directors;
+  let arrayAuthorsPlaceOfBirth = value ? directors.filter(d => (d.placeOfBirth[language].toLowerCase()).includes(value)) : [];
+  let authors = arrayAuthorsName.concat(arrayAuthorsPlaceOfBirth)
 
   let elements = authors.map((item, index) =>
-
-    <li key={index} className = 'block_director'>
-      <Link to={HOME.path} onClick={() => setIdDirectors(item.id)}>
-        {() => props.showDirector(item.id)}
-        <img src={item.photo}/>
-        <p>{item.name[props.language]}</p>
-      </Link>
-    </li>
-  )
+    <Card className="block_director" key={index}>
+      <CardActionArea onClick={() => setIdDirectors(item.id)} to={AUTHOR.path} component={Link}>
+        <CardMedia
+          className={classes.media}
+          image={item.photo}
+          title={item.name[language]}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            {item.name[language]}
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            {item.yearsOfLife}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  );
 
   return (
-    <div className = 'main_directors'>
-      <input onChange={searchDirector}/>
-      <ul className = 'block_directors'>
+    <div className='container_dir'>
+      <div>&nbsp;</div>
+      <TextField id="filled-textarea" multiline
+        variant="filled" label={DIRECTOR_SEARCH[language]} type="search" onChange={searchDirector}/>
+      <div>&nbsp;</div>
+      <div className = "block_directors">
         {elements}
-      </ul>
+      </div>
     </div>
   )
 }
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    showDirector: (id) => {
-      dispatch(showDirector(id));
-    }
-  }
-};
-
-const mapStateToProps = state => ({
-  directors: state.directors,
-  language: state.language
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Directors);
-
-Directors.propTypes = {
-  directors: PropTypes.arrayOf(PropTypes.any).isRequired,
-  language: PropTypes.string.isRequired,
-  showDirector: PropTypes.func.isRequired
-};
 

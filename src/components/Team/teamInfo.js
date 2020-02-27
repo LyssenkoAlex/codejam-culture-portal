@@ -2,9 +2,9 @@ export const teamInfo = [
   {
     id: 1,
     name: {
-      ru: 'Лущенко Александр',
-      en: 'Lyssenko Alex',
-      by: 'Лущенко Аляксандр',
+      ru: 'Лысенко Александр',
+      en: 'Lyssenko Alexandr',
+      by: 'Лысенко Аляксандр',
     },
     photo: 'https://avatars3.githubusercontent.com/u/25707453?s=400&v=4',
     git: 'https://github.com/LyssenkoAlex',
@@ -13,7 +13,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 3,
@@ -45,23 +45,23 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 4,
     name: {
-      ru: 'Александр Nij',
-      en: 'Alex Nij4life',
-      by: 'Александр Nij',
+      ru: 'Александр Сериков',
+      en: 'Aleksandr Serikov',
+      by: 'Аляксандр Серыкау́',
     },
-    photo: 'https://avatars0.githubusercontent.com/u/47698883?s=400&v=4',
+    photo: 'https://lh5.googleusercontent.com/TKrlscMyHsPuhsq3302L8EdqAck7Sw4f7GmN-2h2JCrRAZicr19PpJ1Yb44LXFcCXm3KC7_7Ojua8xyxJMqb=w959-h930',
     git: 'https://github.com/Nij4life',
-    linkedIn: false,
+    linkedIn: 'https://www.linkedin.com/mwlite/in/alexandr-serikov-99115a1a2',
     role: {
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
   {
     id: 6,
@@ -93,6 +93,6 @@ export const teamInfo = [
       ru: 'разработчик',
       en: 'developer',
       by: 'распрацоўшчык',
-    }, 
+    },
   },
 ]
