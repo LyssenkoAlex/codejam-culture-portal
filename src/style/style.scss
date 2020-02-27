@@ -34,13 +34,17 @@ main {
 }
 
 .header {
-  width: 100%;
+  max-width: 1100px;
   background-color: rgba(39, 26, 9, 0.95);
+  color: white;
   font-size: 14px;
-  grid-area: header;
   text-align: center;
+  display: flex;
+  position: fixed;
+  z-index: 102;
+  top: 0;
+  margin: 0 auto;
   padding: 0 25px;
-  
 }
 
 .left-side {
@@ -52,9 +56,10 @@ main {
 
 .content {
   grid-area: content;
-  background-color: rgba(39, 26, 9, 0.6);
+  background-color: rgba(39, 26, 9, 0.75);
   padding: 25px;
   width: 100%;
+  margin-top: 65px;
 }
 
 .aside {
