@@ -11,7 +11,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {useDispatch, useSelector} from "react-redux";
 import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Header.scss';
 
 export default function Header() {
@@ -20,9 +20,9 @@ export default function Header() {
         setAnchorEl(event.currentTarget);
     };
 
-    const handleClose = (id) => {
+    const handleClose = ({target}, id) => {
         setAnchorEl(null);
-        dispatch(changeLanguage(id));
+        if (target.tagName === 'LI') dispatch(changeLanguage(id));
     };
 
     const language = useSelector(state => state.language);
@@ -46,9 +46,9 @@ export default function Header() {
                     keepMounted
                     open={Boolean(anchorEl)}
                     onClose={handleClose}>
-                    <MenuItem onClick={() => handleClose('RU')}>{LANG.RU.TITLE}</MenuItem>
-                    <MenuItem onClick={() => handleClose('BY')}>{LANG.BY.TITLE}</MenuItem>
-                    <MenuItem onClick={() => handleClose('ENG')}>{LANG.ENG.TITLE}</MenuItem>
+                    <MenuItem onClick={(e) => handleClose(e, 'RU')}>{LANG.RU.TITLE}</MenuItem>
+                    <MenuItem onClick={(e) => handleClose(e, 'BY')}>{LANG.BY.TITLE}</MenuItem>
+                    <MenuItem onClick={(e) => handleClose(e, 'ENG')}>{LANG.ENG.TITLE}</MenuItem>
                 </Menu>
             </BottomNavigation>
         </div>
