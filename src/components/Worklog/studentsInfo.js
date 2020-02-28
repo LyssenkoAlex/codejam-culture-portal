@@ -68,8 +68,26 @@ export const studentsInfo = [
   {
     id: 5,
     student: 'Stanislav Iosifov',
-    task: 'Test',
-    time: '24 hours',
+    task: 'Creating director page(works, biography, photo, video, map)',
+    time: '15 hours',
+  },
+  {
+    id: 5.1,
+    student: 'Stanislav Iosifov',
+    task: 'Creating team page.',
+    time: '4 hours',
+  },
+  {
+    id: 5.2,
+    student: 'Stanislav Iosifov',
+    task: 'Code refactor',
+    time: '2 hours',
+  },
+  {
+    id: 5.3,
+    student: 'Stanislav Iosifov',
+    task: 'Adding and changing styles',
+    time: '4 hours',
   },
   {
     id: 6,
@@ -85,25 +103,29 @@ export const MIN = [
   {
     id: 1,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Main page + page with a list of authors + author`s page (only pages with content without widgets)',
   },
   {
     id: 2,
     checked: '0',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Page with team members + page with worklog',
   },
   {
     id: 3,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Page with list of authors contains search widget',
   },
   {
     id: 4,
     checked: '0',
-    score: '20',
+    score: 20,
+    achieved: 20,
     description: 'Portal has two languages',
   }
 ];
@@ -112,61 +134,72 @@ export const NORMAL = [
   {
     id: 1,
     checked: '1',
-    score: '20',
+    score: 20,
+    achieved:0,
     description: 'Portal has page with styleguide',
+
   },
   {
     id: 2,
     checked: '0',
-    score: '10',
+    score: 10,
+    achieved: 5,
     description: 'Mobile version is okey',
   },
   {
     id: 3,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 7,
     description: 'Ipad/tablet version is okey',
   },
   {
     id: 4,
     checked: '0',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Authors page contains timeline',
   },
   {
     id: 5,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Authors page contains video overlay',
   },
   {
     id: 6,
     checked: '0',
-    score: '20',
+    score: 20,
+    achieved: 20,
     description: 'Authors page contains photo gallery',
   },
   {
     id: 7,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Authors page contains map (geowidget)',
   },
   {
     id: 8,
     checked: '0',
-    score: '20',
+    score: 20,
+    achieved: 10,
     description: 'Design (typography, icons, colors, links + buttons + input are styled)',
   },
   {
     id: 9,
     checked: '1',
-    score: '20',
+    score: 20,
+    achieved: 15,
     description: 'Material-ui / bootstrap is used',
   },
   {
     id: 10,
     checked: '0',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Portal has third language',
   }
 ];
@@ -175,37 +208,76 @@ export const EXTRA = [
   {
     id: 1,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 10,
     description: 'Confidence of the project presentation',
   },
   {
     id: 2,
     checked: '0',
-    score: '10',
+    score: 10,
+    achieved: 0,
     description: 'Project is made using gatsbyjs',
   },
   {
     id: 3,
     checked: '1',
-    score: '10',
+    score: 10,
+    achieved: 0,
     description: 'Contentful / netlify cms is used for content management',
   },
   {
     id: 4,
     checked: '0',
-    score: '20',
+    score: 20,
+    achieved: 0,
     description: 'Animations / special effects like paralax',
   },
   {
     id: 5,
     checked: '1',
-    score: '20',
+    score: 20,
+    achieved: 5,
     description: 'Outstanding design',
   },
   {
     id: 6,
     checked: '0',
-    score: '20',
+    score: 20,
+    achieved: 0,
     description: 'Storybook/styleguidist/other react styleguide tool usage for the page with styles',
   }
+  ];
+
+export const FINES = [
+  {
+    id: 1,
+    checked: '1',
+    score: -10,
+    achieved: 0,
+    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+  },
+  {
+    id: 1,
+    checked: '1',
+    score: -10,
+    achieved: 0,
+    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+  },
+  {
+    id: 1,
+    checked: '1',
+    score: -10,
+    achieved: 0,
+    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+  },
+  {
+    id: 1,
+    checked: '1',
+    score: -10,
+    achieved: 0,
+    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+  }
 ];
+
+
