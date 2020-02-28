@@ -6,6 +6,8 @@ import {DAYSAUTHOR} from '../../utils/utils'
 import './main.scss'
 import ScrollToTop from "../Directors/ScrollToTop";
 
+import MainPage from "../MainPage/MainPage.jsx";
+
 class daysAuthor extends Component {
     render() {
     let main;
@@ -13,7 +15,7 @@ class daysAuthor extends Component {
       // Нужно получить из initialState directorsOfTheDay (это объект с данными о режиссере дня).
       const {name, yearsOfLife, photo, description} = this.props.selectedDirector;
       const {language} = this.props;
-      
+
       main = (
         <>
           <ScrollToTop />
@@ -27,9 +29,12 @@ class daysAuthor extends Component {
         </>
       );
     return (
-      <section className="main">
-        {main}
-      </section>
+      <React.Fragment>
+        <MainPage/>
+        <section className="main">
+          {main}
+        </section>
+      </React.Fragment>
     )
   }
 }
@@ -47,4 +52,3 @@ daysAuthor.propTypes = {
     language: PropTypes.string.isRequired,
     workList: PropTypes.objectOf(PropTypes.any),
 };
-
