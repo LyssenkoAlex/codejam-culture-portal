@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useDispatch, useSelector} from 'react-redux';
 import {showDirector} from '../../redux/actions/actions';
 import {DAYSAUTHOR, AUTHOR} from '../../utils/utils'
@@ -6,10 +6,12 @@ import {Link} from 'react-router-dom'
 import Title from "./../Title/Title"
 
 import './main.scss'
-import ScrollToTop from "../Directors/ScrollToTop";
 
 export default function DaysAuthor()  {
-    
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      });
+        
       const daysDirector = useSelector(state => state.directorsOfTheDay);
       const {id, name, yearsOfLife, photo, description} = daysDirector;
       const language = useSelector(state => state.language);
@@ -22,8 +24,11 @@ export default function DaysAuthor()  {
       let main = (
         <>
           <Title />
-          <ScrollToTop />
           <div className="author">
+            <Link to={AUTHOR.path}>
+              <img className="author__img" src={photo} alt={name[language]} onClick={() => setIdDirectors(id)} />
+            </Link>
+
             <h3 className="author__daysAuthor">{DAYSAUTHOR[language]}</h3>
             <img className="author__img" src={photo} alt={name[language]} onClick={() => setIdDirectors(id)} to={AUTHOR.path} component={Link}/>
             <h2 className="author__header">{name[language]}</h2>
