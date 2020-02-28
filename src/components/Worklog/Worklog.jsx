@@ -100,6 +100,9 @@ function Requirements() {
           <td colSpan="3">Extra scope (70)</td>
         </tr>
         {EXTRA_LIST}
+        <tr className="head">
+          <td colSpan="3">Total: 240 points</td>
+        </tr>
           </tbody>
       </table>
   </React.Fragment>

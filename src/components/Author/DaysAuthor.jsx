@@ -34,8 +34,10 @@ export default function DaysAuthor()  {
       );
       
     return (
-      <section className="main">
-        {main}
-      </section>
+      <React.Fragment>
+        <section className="main">
+          {main}
+        </section>
+      </React.Fragment>
     )
 }
