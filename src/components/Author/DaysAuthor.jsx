@@ -24,8 +24,8 @@ export default function DaysAuthor()  {
           <Title />
           <ScrollToTop />
           <div className="author">
-            <img className="author__img" src={photo} alt={name[language]} onClick={() => setIdDirectors(id)} to={AUTHOR.path} component={Link}/>
             <h3 className="author__daysAuthor">{DAYSAUTHOR[language]}</h3>
+            <img className="author__img" src={photo} alt={name[language]} onClick={() => setIdDirectors(id)} to={AUTHOR.path} component={Link}/>
             <h2 className="author__header">{name[language]}</h2>
             <p className="author__years">{yearsOfLife}</p>
             <p className="author__description">{description[language]}</p>

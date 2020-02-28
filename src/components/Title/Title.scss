@@ -1,11 +1,20 @@
 .title {
   padding: 30px 20px;
   text-align: center;
+  color: #ffa600;
+
+  &-description {
+    margin-top: 20px;
+    display: inline-block;
+    text-align:justify;
+    width:500px;
+    font-size: 12px;
+  }
 } 
 .title h1 {
   font-family: 'gabriola', serif;
   position: relative;
-  color: #ffa600;
+  //color: #ffa600;
   font-size: 50px;
   font-weight: normal;
   padding: 8px 20px 7px 20px;
@@ -24,4 +33,16 @@
   left: -20px;
   border: 4px solid #ffa600;
   box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+  .title-description{
+    width:400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .title-description{
+    width:300px;
+  }
 }
