@@ -35,7 +35,7 @@ class Map extends Component {
 
   render() {
     return (
-      <div>
+      <div className="map">
         <div ref={el => this.mapContainer = el} className='mapContainer' />
       </div>
     )
