@@ -68,8 +68,26 @@ export const studentsInfo = [
   {
     id: 5,
     student: 'Stanislav Iosifov',
-    task: 'Test',
-    time: '24 hours',
+    task: 'Creating director page(works, biography, photo, video, map)',
+    time: '15 hours',
+  },
+  {
+    id: 5.1,
+    student: 'Stanislav Iosifov',
+    task: 'Creating team page.',
+    time: '4 hours',
+  },
+  {
+    id: 5.2,
+    student: 'Stanislav Iosifov',
+    task: 'Code refactor',
+    time: '2 hours',
+  },
+  {
+    id: 5.3,
+    student: 'Stanislav Iosifov',
+    task: 'Adding and changing styles',
+    time: '4 hours',
   },
   {
     id: 6,
