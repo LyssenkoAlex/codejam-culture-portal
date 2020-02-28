@@ -6,8 +6,6 @@ import {DAYSAUTHOR} from '../../utils/utils'
 import './main.scss'
 import ScrollToTop from "../Directors/ScrollToTop";
 
-import MainPage from "../MainPage/MainPage.jsx";
-
 class daysAuthor extends Component {
     render() {
     let main;
@@ -30,7 +28,6 @@ class daysAuthor extends Component {
       );
     return (
       <React.Fragment>
-        <MainPage/>
         <section className="main">
           {main}
         </section>
