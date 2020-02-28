@@ -9,17 +9,18 @@ import Map from './Map';
 import Video from './Video';
 import './main.scss'
 import {WORKS, BIOGRAPHY} from "../../utils/utils";
-import ScrollToTop from "../Directors/ScrollToTop";
 
 class Author extends Component {
-
+  componentDidMount () {
+    window.scrollTo(0, 0);
+  }
   render() {
     let main;
       const {name, yearsOfLife, photo, images, video, map, biography , workList} = this.props.selectedDirector;
       const {language} = this.props;
       main = (
         <>
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
           <div className="author">
             <h2 className="author__header">{name[language]}</h2>
             <img className="author__img" src={photo} alt={name[language]} />
