@@ -1,15 +1,17 @@
 .header_content {
   width: 1100px;
+  display: flex;
+  padding: 5px 10px;
 }
 
 .header_props {
   width: 1fr;
   background-color: unset!important;
+  flex-grow: 1;
 }
 .MuiBottomNavigationAction-root {
   color: #ffa600!important;
   justify-content: space-evenly !important;
-
   &:hover {
     background-color: rgba($color: #6e4510, $alpha: 0.5);
   }
