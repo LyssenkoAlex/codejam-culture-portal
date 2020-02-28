@@ -3,7 +3,6 @@ import Header from './components/Header/Header';
 import Main from "./components/Main/Main.jsx";
 import Title from "./components/Title/Title.jsx"
 import './style/style.scss';
-import MainPage from "./components/MainPage/MainPage.jsx";
 
 function App() {
     return (
@@ -18,7 +17,6 @@ function App() {
                 <div className='content'>
                     <Title/>
                     <Main/>
-                    <MainPage/>
                 </div>
             </div>
         </React.Fragment>
