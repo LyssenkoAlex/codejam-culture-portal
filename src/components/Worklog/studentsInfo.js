@@ -24,18 +24,6 @@ export const studentsInfo = [
     time: '5 hours',
   },
   {
-    id: 1,
-    student: 'Alexandr Lyssenko',
-    task: 'Test',
-    time: '24 hours',
-  },
-  {
-    id: 2,
-    student: 'Himzheuski Vitali',
-    task: 'Test',
-    time: '24 hours',
-  },
-  {
     id: 3.1,
     student: 'Alexey Kostsevich',
     task: 'Page with a list of authors on the given topic with search widget',
@@ -90,11 +78,29 @@ export const studentsInfo = [
     time: '4 hours',
   },
   {
-    id: 6,
+    id: 6.1,
     student: 'Siarhei Karukhin',
-    task: 'Test',
-    time: '24 hours',
-  }
+    task: 'Create Skype and Telegram groups, organization of the first call',
+    time: '1 hours',
+  },
+  {
+    id: 6.2,
+    student: 'Siarhei Karukhin',
+    task: 'Create worklog page',
+    time: '4 hours',
+  },
+  {
+    id: 6.3,
+    student: 'Siarhei Karukhin',
+    task: 'Start to do page with a list of directors (not implemented)',
+    time: '2 hours',
+  },
+  {
+    id: 6.4,
+    student: 'Siarhei Karukhin',
+    task: 'Create slider for the main page (not implemented)',
+    time: '2 hours',
+  },
 ];
 
 
