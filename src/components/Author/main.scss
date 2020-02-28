@@ -34,6 +34,9 @@ $themeColor: #ffa600;
   &__img {
     margin-bottom: 10px;
     box-shadow: 0 0 4px 1px black;
+    &:hover{
+      cursor: pointer;
+    }
     border: 1px solid $themeColor;
   }
 

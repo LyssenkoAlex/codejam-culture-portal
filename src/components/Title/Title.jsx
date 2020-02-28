@@ -8,7 +8,9 @@ export default function Title() {
     
     return (
         <React.Fragment>
-            <h1>{TITLE[lang]}</h1>
+            <div className = "title">
+                <h1>{TITLE[lang]}</h1>
+            </div>
         </React.Fragment>
     )
 }
