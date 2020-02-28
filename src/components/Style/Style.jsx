@@ -1,15 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
+import './style.css';
 
-class Style extends Component {
-    render() {
-        const style = 'style';
-
-        return (
-            <h1>
-                {style}
-            </h1>
-        );
-    }
+function Style() {
+    return (
+      <React.Fragment>
+        <div>
+          <h2 class="title">Стили</h2>
+          <ul class="list">
+            <li>В проекте используется Material-UI.</li>
+            <li>Проект полностью соответствует концепции Responsive Web Design.</li>
+            <li>Проект соответствует основным требованиям типографского дизайна.</li>
+          </ul>
+        </div>
+      </React.Fragment>
+    );
 }
 
 export default Style;

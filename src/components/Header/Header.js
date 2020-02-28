@@ -1,5 +1,5 @@
 import React from 'react';
-import { HOME, DIRECTORS, TEAM, WORK_LOG, LANG } from '../../utils/utils';
+import { HOME, DIRECTORS, TEAM, WORK_LOG, STYLE, LANG } from '../../utils/utils';
 import { changeLanguage } from '../../redux/actions/actions';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
@@ -37,6 +37,7 @@ export default function Header() {
                 <BottomNavigationAction label={DIRECTORS[language]} icon={<SupervisorAccountIcon />} component={Link} to={DIRECTORS.path} />
                 <BottomNavigationAction label={TEAM[language]} icon={<PeopleIcon />} component={Link} to={TEAM.path} />
                 <BottomNavigationAction label={WORK_LOG[language]} icon={<FitnessCenterIcon />} component={Link} to={WORK_LOG.path} />
+                <BottomNavigationAction label={STYLE[language]} icon={<FitnessCenterIcon />} component={Link} to={STYLE.path} />
             </BottomNavigation>
             <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                 {language.toUpperCase()}
@@ -54,5 +55,3 @@ export default function Header() {
         </div>
     );
 }
-
-
