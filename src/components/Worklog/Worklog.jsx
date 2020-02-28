@@ -37,6 +37,8 @@ function Students() {
     const classes = useStyles();
 
     return (
+      <React.Fragment>
+        <h2 class="title">Таблица со студентами/заданием/временем для реализационной функциональности</h2>
         <TableContainer component={Paper}>
             <Table className={classes.table} aria-label="simple table">
                 <TableHead>
@@ -57,6 +59,7 @@ function Students() {
                 </TableBody>
             </Table>
         </TableContainer>
+      </React.Fragment>
     );
 }
 
@@ -84,6 +87,7 @@ function Requirements() {
 
   return (
   <React.Fragment>
+      <h2 class="title">Самооценка с флажками и списком всех требований</h2>
       <table className="requirements-table">
           <tbody>
         <tr className="head">
@@ -111,11 +115,26 @@ function Requirements() {
 
 
 
+function Difficulties() {
+    return (
+      <React.Fragment>
+        <h2 class="title">Основные 1-3 трудности для команды при внедрении</h2>
+        <ul class="difficulties-list">
+          <li>"Двойная" работа. Из-за первоначальной несработанности - два человека выполняли одну и ту же задачу.</li>
+          <li>Мерж без пула. Возникали моменты, когда перед мержем не подтягивались актуальные изменения.</li>
+        </ul>
+      </React.Fragment>
+    );
+}
+
+
+
 function Worklog() {
   return (
   <React.Fragment>
    <Students />
    <Requirements />
+   <Difficulties />
   </React.Fragment>
   );
 }
