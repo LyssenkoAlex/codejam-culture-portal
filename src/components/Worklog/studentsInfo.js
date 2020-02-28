@@ -101,6 +101,30 @@ export const studentsInfo = [
     task: 'Create slider for the main page (not implemented)',
     time: '2 hours',
   },
+  {
+    id: 7.1,
+    student: 'Vitali Himzheuski',
+    task: 'Collection of information about Directors, translation into three languages',
+    time: '4 hours',
+  },
+  {
+    id: 7.2,
+    student: 'Vitali Himzheuski',
+    task: 'Create data.json and put there information about Directors',
+    time: '2 hours',
+  },
+  {
+    id: 7.3,
+    student: 'Vitali Himzheuski',
+    task: 'The main page (title, description, director of the day)',
+    time: '3 hours',
+  },
+  {
+    id: 7.4,
+    student: 'Vitali Himzheuski',
+    task: 'Translate menu',
+    time: '0.25 hours',
+  },
 ];
 
 
