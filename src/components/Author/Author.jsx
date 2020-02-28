@@ -20,7 +20,6 @@ class Author extends Component {
       const {language} = this.props;
       main = (
         <>
-          {/* <ScrollToTop /> */}
           <div className="author">
             <h2 className="author__header">{name[language]}</h2>
             <img className="author__img" src={photo} alt={name[language]} />

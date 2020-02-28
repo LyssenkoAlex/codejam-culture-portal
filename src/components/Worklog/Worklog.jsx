@@ -47,8 +47,8 @@ function Students() {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {rows.map(row => (
-                        <TableRow key={row.student}>
+                    {rows.map((row, i) => (
+                        <TableRow key={i}>
                             <TableCell align="left">{row.student}</TableCell>
                             <TableCell align="left">{row.task}</TableCell>
                             <TableCell align="left">{row.time}</TableCell>
@@ -83,7 +83,7 @@ function Requirements() {
   const EXTRA_LIST = groups(EXTRA);
 
   return (
-  <React.Fragment className = "workLod_body">
+  <React.Fragment>
       <table className="requirements-table">
           <tbody>
         <tr className="head">
