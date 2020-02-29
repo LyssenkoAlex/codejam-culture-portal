@@ -93,7 +93,7 @@ export const studentsInfo = [
     id: 6.2,
     student: 'Siarhei Karukhin',
     task: 'Create worklog page',
-    time: '4 hours',
+    time: '5 hours',
   },
   {
     id: 6.3,
@@ -106,6 +106,12 @@ export const studentsInfo = [
     student: 'Siarhei Karukhin',
     task: 'Create slider for the main page (not implemented)',
     time: '2 hours',
+  },
+  {
+    id: 6.5,
+    student: 'Siarhei Karukhin',
+    task: 'Create style page',
+    time: '1 hours',
   },
   {
     id: 7.1,
@@ -335,5 +341,3 @@ export const PROBLEMS = [
   },
 
 ];
-
-
