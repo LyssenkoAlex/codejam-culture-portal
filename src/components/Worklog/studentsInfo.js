@@ -3,13 +3,13 @@ export const studentsInfo = [
     id: 1.1,
     student: 'Alexandr Lyssenko',
     task: 'Basic project structure',
-    time: '2 hours',
+    time: '4 hours',
   },
   {
     id: 1.2,
     student: 'Alexandr Lyssenko',
     task: 'Redux and basic actions implement',
-    time: '3 hours',
+    time: '6 hours',
   },
   {
     id: 1.3,
@@ -20,7 +20,13 @@ export const studentsInfo = [
   {
     id: 1.4,
     student: 'Alexandr Lyssenko',
-    task: 'Implement material desing for header and directors',
+    task: 'Implement material design for header and directors',
+    time: '5 hours',
+  },
+  {
+    id: 1.5,
+    student: 'Alexandr Lyssenko',
+    task: 'Worklog page design',
     time: '5 hours',
   },
   {
@@ -165,7 +171,7 @@ export const NORMAL = [
     id: 1,
     checked: '1',
     score: 20,
-    achieved:0,
+    achieved:5,
     description: 'Portal has page with styleguide',
 
   },
@@ -222,7 +228,7 @@ export const NORMAL = [
     id: 9,
     checked: '1',
     score: 20,
-    achieved: 15,
+    achieved: 20,
     description: 'Material-ui / bootstrap is used',
   },
   {
@@ -246,7 +252,7 @@ export const EXTRA = [
     id: 2,
     checked: '0',
     score: 10,
-    achieved: 0,
+    achieved: 10,
     description: 'Project is made using gatsbyjs',
   },
   {
@@ -267,7 +273,7 @@ export const EXTRA = [
     id: 5,
     checked: '1',
     score: 20,
-    achieved: 5,
+    achieved: 10,
     description: 'Outstanding design',
   },
   {
@@ -282,31 +288,31 @@ export const EXTRA = [
 export const FINES = [
   {
     id: 1,
-    checked: '1',
+    checked: '0',
     score: -10,
     achieved: 0,
     description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
   },
   {
     id: 1,
-    checked: '1',
-    score: -10,
+    checked: '0',
+    score: -50,
     achieved: 0,
-    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+    description: 'up to -50 points for violations stage2-tasks-requirements',
   },
   {
     id: 1,
-    checked: '1',
-    score: -10,
+    checked: '0',
+    score: -40,
     achieved: 0,
-    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+    description: ' if there is no worklog for team',
   },
   {
     id: 1,
-    checked: '1',
-    score: -10,
+    checked: '0',
+    score: -20,
     achieved: 0,
-    description: 'if there are less than 5 commits from each active team member. Everyone should merge their own PRs',
+    description: 'too primitive (ugly for 2020) design / UX',
   }
 ];
 

@@ -3,7 +3,7 @@ import './Worklog.css';
 
 import
 {
-    studentsInfo, MIN, EXTRA, NORMAL, FINES
+    studentsInfo, MIN, EXTRA, NORMAL, FINES, PROBLEMS
 }
     from
         "./studentsInfo";
@@ -33,6 +33,11 @@ const useStyles = makeStyles({
         color: 'white',
         'font-size': 'inherit',
         border: '2px solid #ffa600',
+    },
+
+    title:{
+        color: 'white',
+        'font-size': 'inherit',
     },
 
     checkBox: {
@@ -164,11 +169,44 @@ function Requirements() {
     );
 }
 
+function Problems() {
+    const classes = useStyles();
+
+    return (
+        <div>
+            <Typography className={classes.title} variant="h6" id="tableTitle">
+                Problems
+            </Typography>
+
+            <Table className={classes.table} aria-label="simple table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell align="left" className={classes.header}>#</TableCell>
+                        <TableCell align="left" className={classes.header}>Описание</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+
+                    {PROBLEMS.map((row, id) => (
+                        <TableRow key={`student_${id}`} className={classes.row}>
+                            <TableCell align="left" className={classes.cell}>{row.id}</TableCell>
+                            <TableCell align="left" className={classes.cell}>{row.desc}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </div>
+    );
+}
+
+
+
 function Worklog() {
     return (
         <React.Fragment>
             <Students/>
             <Requirements/>
+            <Problems/>
         </React.Fragment>
     );
 }
