@@ -1,14 +1,77 @@
 
 
 .container_dir {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap:5px
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75vh;
+}
+
+.MuiFormControl-root {
+  width: 500px;
+}
+
+.block_directors {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.block_director {
+  width: 265px;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: 0.4s;
+}
+
+.MuiCardContent-root {
+  border-top: 2px solid white;
+  color: white;
+  background-color: rgba(39, 26, 9, 0.6)!important;
+  transition: 0.4s;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: white!important;
+}
+
+.MuiPaper-root {
+  background-color:unset!important;
+}
+.MuiFormLabel-root {
+  color: #ffa600!important;
+}
+
+.MuiFilledInput-root {
+  background-color: rgba(39, 26, 9, 0.6)!important;
+}
+
+.MuiInputBase-input {
+  color: aliceblue!important;
+}
+
+.MuiFilledInput-underline:after {
+  border-bottom: 2px solid #ffa600!important;
+}
+
+.block_director:hover {
+  border: 2px solid #ffa600;
+  .MuiCardContent-root {
+    border-top: 2px solid #ffa600;
+    background-color: rgba(39, 26, 9, 0.0)!important;
+    color: white;
+  }
 }
 
 
 @media (max-width: 991px) {
-
-  
-
+  .MuiFormControl-root {
+    width: 300px;
+  }
 }
+
