@@ -31,13 +31,11 @@ const useStyles = makeStyles({
     },
     cell: {
         color: 'white',
-        'font-size': 'inherit',
         border: '2px solid #ffa600',
     },
 
     title: {
         color: 'white',
-        'font-size': 'inherit',
     },
 
     checkBox: {
@@ -75,18 +73,42 @@ function Students() {
             <Table className={classes.table} aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell align="left" className={classes.header}>Имя студента</TableCell>
-                        <TableCell align="left" className={classes.header}>Задание</TableCell>
-                        <TableCell align="left" className={classes.header}>Время</TableCell>
+                        <TableCell align="left" className={classes.header}>
+
+                                Имя студента
+
+                        </TableCell>
+                        <TableCell align="left" className={classes.header}>
+
+                                Задание
+
+                        </TableCell>
+                        <TableCell align="left" className={classes.header}>
+
+                                Время
+
+                        </TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
 
                     {studentsInfo.map((row, id) => (
                         <TableRow key={`student_${id}`} className={classes.row}>
-                            <TableCell align="left" className={classes.cell}>{row.student}</TableCell>
-                            <TableCell align="left" className={classes.cell}>{row.task}</TableCell>
-                            <TableCell align="left" className={classes.cell}>{row.time}</TableCell>
+                            <TableCell align="left" className={classes.cell}>
+                                <Typography variant="subtitle1" gutterBottom>
+                                    {row.student}
+                                </Typography>
+                            </TableCell>
+                            <TableCell align="left" className={classes.cell}>
+                                <Typography variant="subtitle1" gutterBottom>
+                                    {row.task}
+                                </Typography>
+                            </TableCell>
+                            <TableCell align="left" className={classes.cell}>
+                                <Typography variant="subtitle1" gutterBottom>
+                                    {row.time}
+                                </Typography>
+                            </TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
@@ -116,17 +138,27 @@ function Requirements() {
                                 </TableRow>
                             </TableHead>
                             <TableBody>
-
                                 {block.data.map((row, id) => {
                                     return (
                                         <TableRow key={`row_${id}`} className={classes.row}>
                                             <TableCell padding='checkbox' className={classes.cell}>
                                                 <GreenCheckbox checked={row.checked === '1'}/>
                                             </TableCell>
-                                            <TableCell align="left" className={classes.cell}>{row.id}</TableCell>
-                                            <TableCell align="left" className={classes.cell}>{row.score}</TableCell>
-                                            <TableCell align="left"
-                                                       className={classes.cell}>{row.description}</TableCell>
+                                            <TableCell align="left" className={classes.cell}>
+                                                <Typography variant="subtitle1" gutterBottom>
+                                                    {row.id}
+                                                </Typography>
+                                            </TableCell>
+                                            <TableCell align="left" className={classes.cell}>
+                                                <Typography variant="subtitle1" gutterBottom>
+                                                    {row.score}
+                                                </Typography>
+                                            </TableCell>
+                                            <TableCell align="left" className={classes.cell}>
+                                                <Typography variant="body2" gutterBottom>
+                                                    {row.description}
+                                                </Typography>
+                                            </TableCell>
                                         </TableRow>
                                     )
                                 })}
@@ -136,7 +168,7 @@ function Requirements() {
                                 <TableRow className={classes.row}>
                                     <TableCell colSpan={2} className={classes.cell}>Total Score</TableCell>
                                     <TableCell className={classes.cell}
-                                               align="right">{`Score is ${block.data.reduce((k, m) => k + m.achieved, 0)} out of 
+                                               align="left">{`Score is ${block.data.reduce((k, m) => k + m.achieved, 0)} out of
                                         ${block.data.reduce((k, m) => k + m.score, 0)}
                                     `}
                                     </TableCell>
