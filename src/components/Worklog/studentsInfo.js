@@ -177,7 +177,7 @@ export const NORMAL = [
     id: 1,
     checked: '1',
     score: 20,
-    achieved: 20,
+    achieved: 10,
     description: 'Portal has page with styleguide',
 
   },
@@ -257,8 +257,8 @@ export const EXTRA = [
   {
     id: 2,
     checked: '1',
-    score: 0,
-    achieved: 10,
+    score: 10,
+    achieved: 0,
     description: 'Project is made using gatsbyjs',
   },
   {
@@ -278,8 +278,8 @@ export const EXTRA = [
   {
     id: 5,
     checked: '1',
-    score: 15,
-    achieved: 20,
+    score: 20,
+    achieved: 15,
     description: 'Outstanding design',
   },
   {
