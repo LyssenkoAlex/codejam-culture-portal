@@ -34,13 +34,13 @@ export const teamInfo = [
   {
     id: 3,
     name: {
-      ru: 'Jimmba',
-      en: 'Jimmba',
-      by: 'Jimmba',
+      ru: 'Виталий Гимжевский',
+      en: 'Vitali Himzheuski',
+      by: 'Вiталiй Гiмжэўскi',
     },
-    photo: 'https://avatars0.githubusercontent.com/u/32487200?s=400&v=4',
+    photo: 'https://media-exp1.licdn.com/dms/image/C4D03AQEmyW7Wq7j4KQ/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=oVQFnE_jO0AD3sCuMtIFIW8DhoYnfJ6IrOFgAUVkJ1w',
     git: 'https://github.com/Jimmba',
-    linkedIn: false,
+    linkedIn: 'https://www.linkedin.com/in/jimmba/',
     role: {
       ru: 'разработчик',
       en: 'developer',

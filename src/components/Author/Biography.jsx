@@ -11,8 +11,8 @@ function Biography({header, biography}) {
           <TimelineItem
             key={index}
             dateText={el.date}
-            style={{ color: '#ddd' }}
-            dateInnerStyle={{ background: '#900', color: '#fff' }}
+            style={{ color: '#ffa600' }}
+            dateInnerStyle={{ background: '#ffa600', color: '#fff', textShadow: '0 1px 1px black', fontSize: '20px' }}
             bodyContainerStyle={{
               background: '#ddd',
               padding: '20px',

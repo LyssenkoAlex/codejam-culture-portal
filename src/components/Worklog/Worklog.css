@@ -48,3 +48,13 @@ caption {
 input {
   width: auto;
 }
+
+.title {
+  color: #ffa600;
+}
+
+.difficulties-list {
+  padding-bottom: 30px;
+  text-align: left;
+  line-height: 2;
+}

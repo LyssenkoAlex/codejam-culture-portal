@@ -24,18 +24,6 @@ export const studentsInfo = [
     time: '5 hours',
   },
   {
-    id: 1,
-    student: 'Alexandr Lyssenko',
-    task: 'Test',
-    time: '24 hours',
-  },
-  {
-    id: 2,
-    student: 'Himzheuski Vitali',
-    task: 'Test',
-    time: '24 hours',
-  },
-  {
     id: 3.1,
     student: 'Alexey Kostsevich',
     task: 'Page with a list of authors on the given topic with search widget',
@@ -70,6 +58,27 @@ export const studentsInfo = [
     student: 'Stanislav Iosifov',
     task: 'Creating director page(works, biography, photo, video, map)',
     time: '15 hours',
+<<<<<<< HEAD
+  },
+  {
+    id: 5.1,
+    student: 'Stanislav Iosifov',
+    task: 'Creating team page.',
+    time: '4 hours',
+  },
+  {
+    id: 5.2,
+    student: 'Stanislav Iosifov',
+    task: 'Code refactor',
+    time: '2 hours',
+  },
+  {
+    id: 5.3,
+    student: 'Stanislav Iosifov',
+    task: 'Adding and changing styles',
+    time: '4 hours',
+=======
+>>>>>>> 022b905f195a7d6c9b5175104a6da9624c4091e2
   },
   {
     id: 5.1,
@@ -90,11 +99,53 @@ export const studentsInfo = [
     time: '4 hours',
   },
   {
-    id: 6,
+    id: 6.1,
     student: 'Siarhei Karukhin',
-    task: 'Test',
-    time: '24 hours',
-  }
+    task: 'Create Skype and Telegram groups, organization of the first call',
+    time: '1 hours',
+  },
+  {
+    id: 6.2,
+    student: 'Siarhei Karukhin',
+    task: 'Create worklog page',
+    time: '4 hours',
+  },
+  {
+    id: 6.3,
+    student: 'Siarhei Karukhin',
+    task: 'Start to do page with a list of directors (not implemented)',
+    time: '2 hours',
+  },
+  {
+    id: 6.4,
+    student: 'Siarhei Karukhin',
+    task: 'Create slider for the main page (not implemented)',
+    time: '2 hours',
+  },
+  {
+    id: 7.1,
+    student: 'Vitali Himzheuski',
+    task: 'Collection of information about Directors, translation into three languages',
+    time: '4 hours',
+  },
+  {
+    id: 7.2,
+    student: 'Vitali Himzheuski',
+    task: 'Create data.json and put there information about Directors',
+    time: '2 hours',
+  },
+  {
+    id: 7.3,
+    student: 'Vitali Himzheuski',
+    task: 'The main page (title, description, director of the day)',
+    time: '3 hours',
+  },
+  {
+    id: 7.4,
+    student: 'Vitali Himzheuski',
+    task: 'Translate menu',
+    time: '0.25 hours',
+  },
 ];
 
 

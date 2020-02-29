@@ -1,5 +1,6 @@
 $cardBg: #fff;
 $cardColor: #222;
+$themeColor: #ffa600;
 
 .team {
   padding: 20px;
@@ -12,7 +13,7 @@ $cardColor: #222;
 .team__header {
   margin-bottom: 20px;
   padding: 4px;
-  color: $cardBg;
+  color: $themeColor;
   text-shadow: 0 1px 1px $cardColor;
   border-bottom: 1px solid $cardBg;
   border-top: 1px solid $cardBg;
@@ -40,12 +41,13 @@ $cardColor: #222;
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 0 8px 1px #000;
-  transition: .6s;
+  transition: 0.4s;
+  border: 2px solid $cardBg;
   @media screen and (max-width: 770px) {
     margin: 10px 10px;
   }
   &:hover {
-    box-shadow: inset 0 0 1px 2px #111;
+    border: 2px solid $themeColor;
   }
   .team-card__img {
     width: 120px;
@@ -66,9 +68,9 @@ $cardColor: #222;
     justify-content: space-evenly;
     img {
       width: 40px;
-      transition: .5s;
+      transition: 0.5s;
       &:hover {
-       transform: scale(1.1);
+        transform: scale(1.1);
       }
     }
   }

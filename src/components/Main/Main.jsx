@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import {HOME, DIRECTORS, TEAM, STYLE, WORK_LOG, AUTHOR} from '../../utils/utils';
 import Team from "../Team/Team";
 import Directors from "../Directors/Directors";
-import Style from "../Style/Style.jsx";
+import Style from "../Style/Style";
 import Worklog from "../Worklog/Worklog.jsx";
 import Author from "../Author/Author";
 import daysAuthor from "../Author/DaysAuthor";

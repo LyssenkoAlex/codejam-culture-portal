@@ -41,6 +41,8 @@ function Students() {
     const classes = useStyles();
 
     return (
+      <React.Fragment>
+        <h2 class="title">Таблица со студентами/заданием/временем для реализационной функциональности</h2>
         <TableContainer component={Paper}>
             <Table className={classes.table} aria-label="simple table">
                 <TableHead>
@@ -51,8 +53,8 @@ function Students() {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {studentsInfo.map((row, id) => (
-                        <TableRow key={`student_${id}`}>
+                    {rows.map((row, i) => (
+                        <TableRow key={i}>
                             <TableCell align="left">{row.student}</TableCell>
                             <TableCell align="left">{row.task}</TableCell>
                             <TableCell align="left">{row.time}</TableCell>
@@ -61,6 +63,7 @@ function Students() {
                 </TableBody>
             </Table>
         </TableContainer>
+      </React.Fragment>
     );
 }
 
@@ -68,6 +71,7 @@ function Students() {
 function Requirements() {
     const classes = useStyles();
 
+<<<<<<< HEAD
     return (
         <TableContainer component={Paper}>
             {taskData.map((block, blockId) => {
@@ -134,19 +138,90 @@ function Requirements() {
                     </TableBody>
                 </Table>
             </TableContainer>
+=======
+  function groups(i) {
+    return i.map(el => (
+      <tr key={el.id}>
+        <td>
+          {(el.checked === '1') ?
+            <input type="checkbox" checked readOnly disabled/> :
+            <input type="checkbox" readOnly disabled/>}
+        </td>
+        <td>{el.score}</td>
+        <td>{el.description}</td>
+      </tr>
+    ));
+  }
+
+  const MIN_LIST = groups(MIN);
+  const NORMAL_LIST = groups(NORMAL);
+  const EXTRA_LIST = groups(EXTRA);
+
+  return (
+  <React.Fragment>
+      <h2 class="title">Самооценка с флажками и списком всех требований</h2>
+      <table className="requirements-table">
+          <tbody>
+        <tr className="head">
+          <td colSpan="3">Min scope (50)</td>
+        </tr>
+        {MIN_LIST}
+
+        <tr className="head">
+          <td colSpan="3">Normal scope (140)</td>
+        </tr>
+        {NORMAL_LIST}
+
+        <tr className="head">
+          <td colSpan="3">Extra scope (70)</td>
+        </tr>
+        {EXTRA_LIST}
+        <tr className="head">
+          <td colSpan="3">Total: 240 points</td>
+        </tr>
+          </tbody>
+      </table>
+  </React.Fragment>
+  );
+}
+>>>>>>> 022b905f195a7d6c9b5175104a6da9624c4091e2
 
         </TableContainer>
     );
 }
 
 
+function Difficulties() {
+    return (
+      <React.Fragment>
+        <h2 class="title">Основные 1-3 трудности для команды при внедрении</h2>
+        <ul class="difficulties-list">
+          <li>"Двойная" работа. Из-за первоначальной несработанности - два человека выполняли одну и ту же задачу.</li>
+          <li>Мерж без пула. Возникали моменты, когда перед мержем не подтягивались актуальные изменения.</li>
+        </ul>
+      </React.Fragment>
+    );
+}
+
+
+
 function Worklog() {
+<<<<<<< HEAD
     return (
         <React.Fragment>
             <Students/>
             <Requirements/>
         </React.Fragment>
     );
+=======
+  return (
+  <React.Fragment>
+   <Students />
+   <Requirements />
+   <Difficulties />
+  </React.Fragment>
+  );
+>>>>>>> 022b905f195a7d6c9b5175104a6da9624c4091e2
 }
 
 
