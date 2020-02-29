@@ -8,10 +8,10 @@ https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codejam-culture
 https://mystifying-mayer-7c7388.netlify.com/
 
 
-## Self evaluation 230/265
+## Self evaluation 205/265
 ### Minima Score
     Main page + page with a list of authors + author`s page (only pages with content without widgets - 10/10
-    Page with team members + page with worklog' -  10 / 10
+    Page with team members + page with worklog' -  10/10
     Page with list of authors contains search widget', 10/10
     description: 'Portal has two languages', 20/20
   
