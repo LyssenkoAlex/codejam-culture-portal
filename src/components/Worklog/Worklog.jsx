@@ -74,19 +74,13 @@ function Students() {
                 <TableHead>
                     <TableRow>
                         <TableCell align="left" className={classes.header}>
-
-                                Имя студента
-
+                            Имя студента
                         </TableCell>
                         <TableCell align="left" className={classes.header}>
-
-                                Задание
-
+                            Задание
                         </TableCell>
                         <TableCell align="left" className={classes.header}>
-
-                                Время
-
+                            Время
                         </TableCell>
                     </TableRow>
                 </TableHead>
