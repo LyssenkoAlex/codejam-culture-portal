@@ -257,7 +257,7 @@ export const EXTRA = [
   {
     id: 2,
     checked: '1',
-    score: 10,
+    score: 0,
     achieved: 10,
     description: 'Project is made using gatsbyjs',
   },
@@ -278,7 +278,7 @@ export const EXTRA = [
   {
     id: 5,
     checked: '1',
-    score: 20,
+    score: 15,
     achieved: 20,
     description: 'Outstanding design',
   },
