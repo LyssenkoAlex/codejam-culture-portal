@@ -9,6 +9,7 @@
   background-color: unset!important;
   flex-grow: 1;
 }
+
 .MuiBottomNavigationAction-root {
   color: #ffa600!important;
   justify-content: space-evenly !important;
@@ -16,6 +17,7 @@
     background-color: rgba($color: #6e4510, $alpha: 0.5);
   }
 }
+
 .MuiButton-text {
   margin-right: 10px!important;
 }
@@ -31,19 +33,29 @@
 @media (max-width: 940px) {
   .MuiBottomNavigationAction-root {
     max-width: 100px !important;
+    min-width: 50px !important;
   }
 }
 
 @media (max-width: 600px) {
   .MuiBottomNavigationAction-root {
-    max-width: 80px !important;
+    max-width: 70px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .MuiBottomNavigationAction-root {
+    max-width: 70px !important;
   }
 }
 
 @media (max-width: 500px) {
   .MuiBottomNavigationAction-root {
-    max-width: 60px !important;
-    min-width: 50px !important;
+    max-width: 45px !important;
+    min-width: 25px !important;
+  }
+  .MuiBottomNavigationAction-label{
+    font-size: 0.6rem !important;
   }
 }
 

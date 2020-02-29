@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { useDispatch, useSelector} from 'react-redux';
-import './Directors.css';
+import './Directors.scss';
 import {Link} from 'react-router-dom'
 import {showDirector} from '../../redux/actions/actions';
 import {DIRECTOR_SEARCH, AUTHOR} from '../../utils/utils';
@@ -50,6 +50,7 @@ export default function Directors() {
     <Card className="block_director" key={index}>
       <CardActionArea onClick={() => setIdDirectors(item.id)} to={AUTHOR.path} component={Link}>
         <CardMedia
+          style={{height: "350px"}}
           className={classes.media}
           image={item.photo}
           title={item.name[language]}
