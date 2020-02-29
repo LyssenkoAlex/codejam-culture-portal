@@ -24,18 +24,18 @@ const useStyles = makeStyles({
         border: '2px solid #ffa600',
 
     },
-    row:{
+    row: {
         backgroundColor: 'transparent',
-        color:'white',
+        color: 'white',
 
     },
-    cell:{
+    cell: {
         color: 'white',
         'font-size': 'inherit',
         border: '2px solid #ffa600',
     },
 
-    title:{
+    title: {
         color: 'white',
         'font-size': 'inherit',
     },
@@ -62,7 +62,10 @@ const GreenCheckbox = withStyles({
     checked: {},
 })(props => <Checkbox color="default" {...props} />);
 
-const taskData = [{data: MIN, title: 'Min scope'}, {data: NORMAL, title: 'Normal scope'}, {data: EXTRA, title: 'Extra scope'}, {data: FINES, title: 'Fines'}];
+const taskData = [{data: MIN, title: 'Min scope'}, {data: NORMAL, title: 'Normal scope'}, {
+    data: EXTRA,
+    title: 'Extra scope'
+}, {data: FINES, title: 'Fines'}];
 
 function Students() {
     const classes = useStyles();
@@ -122,7 +125,8 @@ function Requirements() {
                                             </TableCell>
                                             <TableCell align="left" className={classes.cell}>{row.id}</TableCell>
                                             <TableCell align="left" className={classes.cell}>{row.score}</TableCell>
-                                            <TableCell align="left" className={classes.cell}>{row.description}</TableCell>
+                                            <TableCell align="left"
+                                                       className={classes.cell}>{row.description}</TableCell>
                                         </TableRow>
                                     )
                                 })}
@@ -132,7 +136,7 @@ function Requirements() {
                                 <TableRow className={classes.row}>
                                     <TableCell colSpan={2} className={classes.cell}>Total Score</TableCell>
                                     <TableCell className={classes.cell}
-                                        align="right">{`Score is ${block.data.reduce((k, m) => k + m.achieved, 0)} out of 
+                                               align="right">{`Score is ${block.data.reduce((k, m) => k + m.achieved, 0)} out of 
                                         ${block.data.reduce((k, m) => k + m.score, 0)}
                                     `}
                                     </TableCell>
@@ -155,12 +159,26 @@ function Requirements() {
                     </TableHead>
                     <TableBody>
                         {taskData.map((block, id) => (
-                            <TableRow key={`student_${id}`} className={classes.row}>
+                            <TableRow key={`totoals_${id}`} className={classes.row}>
                                 <TableCell align="left" className={classes.cell}>{block.title}</TableCell>
-                                <TableCell align="left" className={classes.cell}>{block.data.reduce((k, m) => k + m.score, 0)}</TableCell>
-                                <TableCell align="left" className={classes.cell}>{block.data.reduce((k, m) => k + m.achieved, 0)}</TableCell>
+                                <TableCell align="left"
+                                           className={classes.cell}>{block.data.reduce((k, m) => k + m.score, 0)}</TableCell>
+                                <TableCell align="left"
+                                           className={classes.cell}>{block.data.reduce((k, m) => k + m.achieved, 0)}</TableCell>
                             </TableRow>
                         ))}
+                        <TableRow key={`totoals_sum`} className={classes.row}>
+                            <TableCell align="left" className={classes.cell}>Totals</TableCell>
+                            <TableCell align="left" className={classes.cell}>
+                                {
+                                    taskData.filter((x) => x.title !== 'Fines').reduce((total, block) => block.data.reduce((x, y) => total = total + y.score, 0), 0)
+                                }</TableCell>
+                            <TableCell align="left" className={classes.cell}>
+                                {
+                                    taskData.reduce((total, block) => block.data.reduce((x, y) => total = total + y.achieved, 0), 0)
+                                }</TableCell>
+                        </TableRow>
+
                     </TableBody>
                 </Table>
             </div>
@@ -198,7 +216,6 @@ function Problems() {
         </div>
     );
 }
-
 
 
 function Worklog() {
