@@ -24,13 +24,27 @@ const useStyles = makeStyles({
     table: {
         minWidth: '0.6fr',
         border: '2px solid #ffa600',
-        opacity: '0.97',
-        background: 'rgba(39, 26, 9, 0.75)',
 
     },
+    row:{
+        backgroundColor: 'transparent',
+        color:'white',
+
+    },
+    cell:{
+        color: 'white',
+        'font-size': 'inherit',
+        border: '2px solid #ffa600',
+    },
+
     checkBox: {
         color: green[600]
+    },
+    header: {
+        backgroundColor: 'white',
     }
+
+
 });
 
 
@@ -50,34 +64,34 @@ function Students() {
     const classes = useStyles();
 
     return (
-        <TableContainer component={Paper}>
+        <div>
             <Table className={classes.table} aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell align="left">Имя студента</TableCell>
-                        <TableCell align="left">Задание</TableCell>
-                        <TableCell align="left">Время</TableCell>
+                        <TableCell align="left" className={classes.header}>Имя студента</TableCell>
+                        <TableCell align="left" className={classes.header}>Задание</TableCell>
+                        <TableCell align="left" className={classes.header}>Время</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
 
                     {studentsInfo.map((row, id) => (
-                        <TableRow key={`student_${id}`}>
-                            <TableCell align="left">{row.student}</TableCell>
-                            <TableCell align="left">{row.task}</TableCell>
-                            <TableCell align="left">{row.time}</TableCell>
+                        <TableRow key={`student_${id}`} className={classes.row}>
+                            <TableCell align="left" className={classes.cell}>{row.student}</TableCell>
+                            <TableCell align="left" className={classes.cell}>{row.task}</TableCell>
+                            <TableCell align="left" className={classes.cell}>{row.time}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
             </Table>
-        </TableContainer>
+        </div>
     );
 }
 
 function Requirements() {
     const classes = useStyles();
     return (
-        <TableContainer component={Paper}>
+        <div>
             {taskData.map((block, blockId) => {
                 return (
                     <div key={`block_${blockId}`}>
@@ -87,33 +101,33 @@ function Requirements() {
                         <Table className={classes.table} aria-label="simple table" key={`table_${blockId}`}>
 
                             <TableHead>
-                                <TableRow>
-                                    <TableCell align="left">checked</TableCell>
-                                    <TableCell align="left">id</TableCell>
-                                    <TableCell align="left">score</TableCell>
-                                    <TableCell align="left">description</TableCell>
+                                <TableRow className={classes.row}>
+                                    <TableCell align="left" className={classes.header}>Checked</TableCell>
+                                    <TableCell align="left" className={classes.header}>Id</TableCell>
+                                    <TableCell align="left" className={classes.header}>Score</TableCell>
+                                    <TableCell align="left" className={classes.header}>Description</TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
 
                                 {block.data.map((row, id) => {
                                     return (
-                                        <TableRow key={`row_${id}`}>
-                                            <TableCell padding='checkbox'>
+                                        <TableRow key={`row_${id}`} className={classes.row}>
+                                            <TableCell padding='checkbox' className={classes.cell}>
                                                 <GreenCheckbox checked={row.checked === '1'}/>
                                             </TableCell>
-                                            <TableCell align="left">{row.id}</TableCell>
-                                            <TableCell align="left">{row.score}</TableCell>
-                                            <TableCell align="left">{row.description}</TableCell>
+                                            <TableCell align="left" className={classes.cell}>{row.id}</TableCell>
+                                            <TableCell align="left" className={classes.cell}>{row.score}</TableCell>
+                                            <TableCell align="left" className={classes.cell}>{row.description}</TableCell>
                                         </TableRow>
                                     )
                                 })}
-                                <TableRow>
-                                    <TableCell rowSpan={3}/>
+                                <TableRow className={classes.row}>
+                                    <TableCell rowSpan={3} className={classes.cell}/>
                                 </TableRow>
-                                <TableRow>
-                                    <TableCell colSpan={2}>Total Score</TableCell>
-                                    <TableCell
+                                <TableRow className={classes.row}>
+                                    <TableCell colSpan={2} className={classes.cell}>Total Score</TableCell>
+                                    <TableCell className={classes.cell}
                                         align="right">{`Score is ${block.data.reduce((k, m) => k + m.achieved, 0)} out of 
                                         ${block.data.reduce((k, m) => k + m.score, 0)}
                                     `}
@@ -123,7 +137,7 @@ function Requirements() {
                         </Table>
                     </div>)
             })}
-            <TableContainer component={Paper}>
+            <div>
                 <Table className={classes.table} aria-label="simple table">
                     <TableHead>
                         <TableRow>
@@ -142,9 +156,9 @@ function Requirements() {
                         ))}
                     </TableBody>
                 </Table>
-            </TableContainer>
+            </div>
 
-        </TableContainer>
+        </div>
     );
 }
 
