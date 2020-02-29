@@ -1,17 +1,24 @@
+@font-face {
+  font-family: gabriola;
+  src: url(./gabriola.ttf);
+}
+
 .title {
-  padding: 30px 20px;
+  padding: 30px 10px;
   text-align: center;
   color: #ffa600;
 
   &-description {
-    margin-top: 20px;
+    margin-top: 30px;
     display: inline-block;
     text-align:justify;
-    max-width:500px;
+    max-width: 730px;
     font-size: 12px;
   }
   p {
     text-indent: 20px;
+    font-family: 'garibola', serif;
+    font-size: 18px;
   }
 } 
 .title h1 {
@@ -37,21 +44,67 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 650px) {
-  .title-description{
-    width:400px;
+@media screen and (max-width: 650px) {
+  .title p {
+    font-size: 16px;
+  }
+  // .title-description{
+  //   width:400px;
+  // }
+}
+
+@media screen and (max-width: 550px) {
+  .title p {
+    font-size: 14px;
+  }
+  
+  // .title-description{
+  //   width:300px;
+  // }
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    padding: 20px 10px;
+  
+    h1 {
+      font-size: 40px;
+    }
   }
 }
 
-@media (max-width: 550px) {
-  .title-description{
-    width:300px;
+@media screen and (max-width: 400px) {
+  .title {
+    padding: 10px 10px;
+    h1 {
+      font-size: 28px;
+    }
+    
+    p {
+      font-size: 12px;
+    }
+    
+    &-description{
+      width:280px;
+      font-size: 10px;
+    }
   }
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 350px) {
+  .title {
+   
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title h1 {
+    font-size: 20px;
+  }
   .title-description{
-    width:200px;
-    font-size: 10px;
+    width:250px;
   }
 }

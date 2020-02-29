@@ -68,4 +68,8 @@
   .MuiBottomNavigationAction-label{
     display: none;
   }
+  
+  .MuiBottomNavigationAction-root {
+    padding: 0 !important;
+  }
 }
