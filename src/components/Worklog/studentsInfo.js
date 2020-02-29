@@ -151,7 +151,7 @@ export const MIN = [
   },
   {
     id: 2,
-    checked: '0',
+    checked: '1',
     score: 10,
     achieved: 10,
     description: 'Page with team members + page with worklog',
@@ -165,7 +165,7 @@ export const MIN = [
   },
   {
     id: 4,
-    checked: '0',
+    checked: '1',
     score: 20,
     achieved: 20,
     description: 'Portal has two languages',
@@ -177,27 +177,27 @@ export const NORMAL = [
     id: 1,
     checked: '1',
     score: 20,
-    achieved:5,
+    achieved: 20,
     description: 'Portal has page with styleguide',
 
   },
   {
     id: 2,
-    checked: '0',
+    checked: '1',
     score: 10,
-    achieved: 5,
+    achieved: 10,
     description: 'Mobile version is okey',
   },
   {
     id: 3,
     checked: '1',
     score: 10,
-    achieved: 7,
+    achieved: 10,
     description: 'Ipad/tablet version is okey',
   },
   {
     id: 4,
-    checked: '0',
+    checked: '1',
     score: 10,
     achieved: 10,
     description: 'Authors page contains timeline',
@@ -211,7 +211,7 @@ export const NORMAL = [
   },
   {
     id: 6,
-    checked: '0',
+    checked: '1',
     score: 20,
     achieved: 20,
     description: 'Authors page contains photo gallery',
@@ -225,9 +225,9 @@ export const NORMAL = [
   },
   {
     id: 8,
-    checked: '0',
+    checked: '1',
     score: 20,
-    achieved: 10,
+    achieved: 20,
     description: 'Design (typography, icons, colors, links + buttons + input are styled)',
   },
   {
@@ -239,7 +239,7 @@ export const NORMAL = [
   },
   {
     id: 10,
-    checked: '0',
+    checked: '1',
     score: 10,
     achieved: 10,
     description: 'Portal has third language',
@@ -256,14 +256,14 @@ export const EXTRA = [
   },
   {
     id: 2,
-    checked: '0',
+    checked: '1',
     score: 10,
     achieved: 10,
     description: 'Project is made using gatsbyjs',
   },
   {
     id: 3,
-    checked: '1',
+    checked: '0',
     score: 10,
     achieved: 0,
     description: 'Contentful / netlify cms is used for content management',
@@ -279,7 +279,7 @@ export const EXTRA = [
     id: 5,
     checked: '1',
     score: 20,
-    achieved: 10,
+    achieved: 20,
     description: 'Outstanding design',
   },
   {
