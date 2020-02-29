@@ -7,6 +7,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import PeopleIcon from '@material-ui/icons/People';
 import FitnessCenterIcon from '@material-ui/icons/FitnessCenter';
+import StyleIcon from '@material-ui/icons/Style';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { useDispatch, useSelector } from "react-redux";
@@ -37,7 +38,7 @@ export default function Header() {
                 <BottomNavigationAction label={DIRECTORS[language]} icon={<SupervisorAccountIcon />} component={Link} to={DIRECTORS.path} />
                 <BottomNavigationAction label={TEAM[language]} icon={<PeopleIcon />} component={Link} to={TEAM.path} />
                 <BottomNavigationAction label={WORK_LOG[language]} icon={<FitnessCenterIcon />} component={Link} to={WORK_LOG.path} />
-                <BottomNavigationAction label={STYLE[language]} icon={<FitnessCenterIcon />} component={Link} to={STYLE.path} />
+                <BottomNavigationAction label={STYLE[language]} icon={<StyleIcon />} component={Link} to={STYLE.path} />
             </BottomNavigation>
             <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                 {language.toUpperCase()}
