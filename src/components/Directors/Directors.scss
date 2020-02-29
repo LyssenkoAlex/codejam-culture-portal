@@ -26,29 +26,29 @@
   margin: 30px;
   border-radius: 5px;
   border: 2px solid white;
-  transition: 0.4s;
+  background-color: rgba(39, 26, 9, 0.6)!important;
+  
 }
 
 .MuiCardContent-root {
   border-top: 2px solid white;
   color: white;
-  background-color: rgba(39, 26, 9, 0.6)!important;
-  transition: 0.4s;
 }
 
 .MuiTypography-colorTextSecondary {
   color: white!important;
 }
 
-.MuiPaper-root {
-  background-color:unset!important;
-}
 .MuiFormLabel-root {
   color: #ffa600!important;
 }
 
 .MuiFilledInput-root {
   background-color: rgba(39, 26, 9, 0.6)!important;
+}
+
+.MuiFilledInput-root:hover {
+  background-color: rgba(104, 64, 12, 0.822)!important;
 }
 
 .MuiInputBase-input {
@@ -60,10 +60,11 @@
 }
 
 .block_director:hover {
+  transition: 0.5s;
+  background-color: rgba(104, 64, 12, 0.822)!important;
   border: 2px solid #ffa600;
   .MuiCardContent-root {
     border-top: 2px solid #ffa600;
-    background-color: rgba(39, 26, 9, 0.0)!important;
     color: white;
   }
 }
