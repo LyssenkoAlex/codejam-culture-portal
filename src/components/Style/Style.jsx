@@ -5,8 +5,8 @@ function Style() {
     return (
       <React.Fragment>
         <div>
-          <h2 class="title">Стили</h2>
-          <ul class="list">
+          <h2 className="title">Стили</h2>
+          <ul className="list">
             <li>В проекте используется Material-UI.</li>
             <li>Проект полностью соответствует концепции Responsive Web Design.</li>
             <li>Проект соответствует основным требованиям типографского дизайна.</li>

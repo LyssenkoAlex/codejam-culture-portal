@@ -50,6 +50,7 @@ export default function Directors() {
     <Card className="block_director" key={index}>
       <CardActionArea onClick={() => setIdDirectors(item.id)} to={AUTHOR.path} component={Link}>
         <CardMedia
+          style={{height: "350px"}}
           className={classes.media}
           image={item.photo}
           title={item.name[language]}
