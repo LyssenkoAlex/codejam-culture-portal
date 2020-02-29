@@ -12,10 +12,8 @@ import {withStyles} from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
 import {Checkbox} from "@material-ui/core";
 import {green} from '@material-ui/core/colors';
 import Typography from '@material-ui/core/Typography';
@@ -41,7 +39,8 @@ const useStyles = makeStyles({
         color: green[600]
     },
     header: {
-        backgroundColor: 'white',
+        backgroundColor: '#ffa600',
+        border: '2px solid #ffa600',
     }
 
 
@@ -138,20 +137,23 @@ function Requirements() {
                     </div>)
             })}
             <div>
+                <Typography className={classes.title} variant="h6" id="tableTitle">
+                    Totals
+                </Typography>
                 <Table className={classes.table} aria-label="simple table">
                     <TableHead>
                         <TableRow>
-                            <TableCell align="left">Category</TableCell>
-                            <TableCell align="left">Score</TableCell>
-                            <TableCell align="left">Achieved</TableCell>
+                            <TableCell align="left" className={classes.header}>Category</TableCell>
+                            <TableCell align="left" className={classes.header}>Score</TableCell>
+                            <TableCell align="left" className={classes.header}>Achieved</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
                         {taskData.map((block, id) => (
-                            <TableRow key={`student_${id}`}>
-                                <TableCell align="left">{block.title}</TableCell>
-                                <TableCell align="left">{block.data.reduce((k, m) => k + m.score, 0)}</TableCell>
-                                <TableCell align="left">{block.data.reduce((k, m) => k + m.achieved, 0)}}</TableCell>
+                            <TableRow key={`student_${id}`} className={classes.row}>
+                                <TableCell align="left" className={classes.cell}>{block.title}</TableCell>
+                                <TableCell align="left" className={classes.cell}>{block.data.reduce((k, m) => k + m.score, 0)}</TableCell>
+                                <TableCell align="left" className={classes.cell}>{block.data.reduce((k, m) => k + m.achieved, 0)}</TableCell>
                             </TableRow>
                         ))}
                     </TableBody>
