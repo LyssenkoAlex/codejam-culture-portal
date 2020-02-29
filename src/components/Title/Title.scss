@@ -48,3 +48,10 @@
     width:300px;
   }
 }
+
+@media (max-width: 400px) {
+  .title-description{
+    width:200px;
+    font-size: 10px;
+  }
+}
