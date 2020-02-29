@@ -71,74 +71,6 @@ function Students() {
 function Requirements() {
     const classes = useStyles();
 
-<<<<<<< HEAD
-    return (
-        <TableContainer component={Paper}>
-            {taskData.map((block, blockId) => {
-                return (
-                    <div key={`block_${blockId}`}>
-                        <Typography className={classes.title} variant="h6" id="tableTitle">
-                            {block.title}
-                        </Typography>
-                        <Table className={classes.table} aria-label="simple table" key={`table_${blockId}`}>
-
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell align="left">checked</TableCell>
-                                    <TableCell align="left">id</TableCell>
-                                    <TableCell align="left">score</TableCell>
-                                    <TableCell align="left">description</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-
-                                {block.data.map((row, id) => {
-                                    return (
-                                        <TableRow key={`row_${id}`}>
-                                            <TableCell padding='checkbox'>
-                                                <GreenCheckbox checked={row.checked === '1'}/>
-                                            </TableCell>
-                                            <TableCell align="left">{row.id}</TableCell>
-                                            <TableCell align="left">{row.score}</TableCell>
-                                            <TableCell align="left">{row.description}</TableCell>
-                                        </TableRow>
-                                    )
-                                })}
-                                <TableRow>
-                                    <TableCell rowSpan={3} />
-                                </TableRow>
-                                <TableRow>
-                                    <TableCell colSpan={2}>Total Score</TableCell>
-                                    <TableCell align="right">{`Score is ${block.data.reduce((k, m) => k + m.achieved, 0)} out of 
-                                        ${block.data.reduce((k, m) => k + m.score, 0)}
-                                    `}
-                                    </TableCell>
-                                </TableRow>
-                            </TableBody>
-                        </Table>
-                    </div>)
-            })}
-            <TableContainer component={Paper}>
-                <Table className={classes.table} aria-label="simple table">
-                    <TableHead>
-                        <TableRow>
-                            <TableCell align="left">Category</TableCell>
-                            <TableCell align="left">Score</TableCell>
-                            <TableCell align="left">Achieved</TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {taskData.map((block, id) => (
-                            <TableRow key={`student_${id}`}>
-                                <TableCell align="left">{block.title}</TableCell>
-                                <TableCell align="left">{block.data.reduce((k, m) => k + m.score, 0)}</TableCell>
-                                <TableCell align="left">{block.data.reduce((k, m) => k + m.achieved, 0)}}</TableCell>
-                            </TableRow>
-                        ))}
-                    </TableBody>
-                </Table>
-            </TableContainer>
-=======
   function groups(i) {
     return i.map(el => (
       <tr key={el.id}>
@@ -184,7 +116,6 @@ function Requirements() {
   </React.Fragment>
   );
 }
->>>>>>> 022b905f195a7d6c9b5175104a6da9624c4091e2
 
         </TableContainer>
     );
@@ -206,14 +137,6 @@ function Difficulties() {
 
 
 function Worklog() {
-<<<<<<< HEAD
-    return (
-        <React.Fragment>
-            <Students/>
-            <Requirements/>
-        </React.Fragment>
-    );
-=======
   return (
   <React.Fragment>
    <Students />
@@ -221,7 +144,6 @@ function Worklog() {
    <Difficulties />
   </React.Fragment>
   );
->>>>>>> 022b905f195a7d6c9b5175104a6da9624c4091e2
 }
 
 
