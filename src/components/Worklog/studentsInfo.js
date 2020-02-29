@@ -257,7 +257,7 @@ export const EXTRA = [
   {
     id: 2,
     checked: '1',
-    score: 10,
+    score: 0,
     achieved: 10,
     description: 'Project is made using gatsbyjs',
   },
@@ -266,19 +266,19 @@ export const EXTRA = [
     checked: '0',
     score: 10,
     achieved: 0,
-    description: 'Contentful / netlify cms is used for content management',
+    description: 'Contentful or netlify cms is used for content management',
   },
   {
     id: 4,
     checked: '0',
     score: 20,
     achieved: 0,
-    description: 'Animations / special effects like paralax',
+    description: 'Animations or special effects like paralax',
   },
   {
     id: 5,
     checked: '1',
-    score: 20,
+    score: 15,
     achieved: 20,
     description: 'Outstanding design',
   },
@@ -287,7 +287,7 @@ export const EXTRA = [
     checked: '0',
     score: 20,
     achieved: 0,
-    description: 'Storybook/styleguidist/other react styleguide tool usage for the page with styles',
+    description: 'Storybook or styleguidist or other react styleguide tool usage for the page with styles',
   }
   ];
 
