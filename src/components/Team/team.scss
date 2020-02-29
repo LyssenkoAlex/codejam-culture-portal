@@ -35,8 +35,8 @@ $themeColor: #ffa600;
 .team-card {
   margin: 20px;
   width: 200px;
-  background: $cardBg;
-  color: $cardColor;
+  background-color: rgba(39, 26, 9, 0.4);
+  color: white;
   padding: 20px 10px;
   border-radius: 5px;
   text-align: center;
@@ -48,11 +48,16 @@ $themeColor: #ffa600;
   }
   &:hover {
     border: 2px solid $themeColor;
+    background-color: rgba(39, 26, 9, 0.0);
+    .team-card__img {
+      border: 2px solid $themeColor;
+    }
   }
   .team-card__img {
     width: 120px;
     margin-bottom: 15px;
     border-radius: 50%;
+    border: 2px solid $cardBg;
   }
   .team-card__name {
     font-weight: bold;
@@ -60,7 +65,7 @@ $themeColor: #ffa600;
   }
   .team-card__role {
     text-transform: uppercase;
-    color: lightslategrey;
+    color: $themeColor;
     margin-bottom: 20px;
   }
   .team-card__social {
