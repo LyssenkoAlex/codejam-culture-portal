@@ -153,11 +153,30 @@ $themeColor: #ffa600;
   .mapContainer {
     width: inherit;
     height: inherit;
-    // position: absolute;
-    // left: 50%;
-    // transform: translateX(-50%);
   }
   .timeline--wrapper .title::before {
     display: none;
+  }
+
+  .author {
+    &__description {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .author {
+    &__description {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .author {
+    &__description {
+      font-size: 12px;
+    }
   }
 }
